@@ -31,7 +31,6 @@ public class LMSHomePage {
 			{
 				//Click on the Holiday List link
 				driver.findElement(holidayList).click();
-
 			}
 
 }

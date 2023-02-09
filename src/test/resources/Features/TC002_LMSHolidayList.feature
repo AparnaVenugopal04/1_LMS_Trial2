@@ -13,4 +13,5 @@ Feature: Navigate to Holiday List on LMS and validate the count of Public Holida
    Scenario: User is able to validate the count of Public Holidays on LMS
     Given user clicks on Holidays link on the page
    	Then office holiday list window is displayed
-		
+		And user validates count of Public Holidays is less than or equal to ten
+    

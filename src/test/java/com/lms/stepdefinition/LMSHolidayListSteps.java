@@ -24,26 +24,30 @@ public class LMSHolidayListSteps {
 
 		List<Map<String, String>> credList = dataTable.asMaps();
 		String url = credList.get(0).get("url");
-		
+
 		DriverProperties.getDriver().get(url);
 
 	}
 
 	@Given("user clicks on Holidays link on the page")
-	public void user_clicks_on_holidays_link_on_the_page() 
-	{
+	public void user_clicks_on_holidays_link_on_the_page() {
 		homePage.openHolidayList();
 	}
 
 	@Then("office holiday list window is displayed")
-	public void office_holiday_list_window_is_displayed() throws InterruptedException
-	{
+	public void office_holiday_list_window_is_displayed() throws InterruptedException {
 		String actualWinTitle = holidayList.getWindowTitle();
 		System.out.println("actualWinTitle");
 		// Compare the window title with the expected title
 		String expectedWinTitle = "Office Holiday list";
 		Assert.assertEquals(expectedWinTitle, actualWinTitle);
 		System.out.println("HolidayList is displayed- Test Success");
+	}
+
+	@Then("user validates count of Public Holidays is less than or equal to ten")
+	public void user_validates_count_of_public_holidays_is_less_than_or_equal_to_ten() 
+	{
+		holidayList.countOfPublicHolidays();
 	}
 
 }
