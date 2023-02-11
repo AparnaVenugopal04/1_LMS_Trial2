@@ -10,9 +10,10 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions
 		(
 		features = {"src/test/resources/Features/"},				   
-		glue= {"com.lms.stepdefinition","com.lms.common"}
-		)
-
+		glue= {"com.lms.stepdefinition","com.lms.common"},
+		plugin = {"pretty","com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
+		monochrome = true
+				)
 
 public class LMSTestRunner {
 
