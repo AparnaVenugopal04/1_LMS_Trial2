@@ -1,5 +1,6 @@
 package com.lms.pages;
 
+import java.io.IOException;
 import java.time.Duration;
 import java.util.List;
 
@@ -11,13 +12,18 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import com.lms.common.DriverProperties;
+import com.lms.common.ExcelReportGenerator;
 import com.lms.stepdefinition.LMSHomePageSteps;
 
 public class LMSHolidayListPage {
 
 	private WebDriver driver;
 	private static final Logger logger = LogManager.getLogger(LMSHolidayListPage.class);
+	private ExcelReportGenerator report = new ExcelReportGenerator();
 
+	
+	
 	// Constructor of the page class
 	public LMSHolidayListPage(WebDriver driver) {
 		this.driver = driver;
@@ -48,7 +54,7 @@ public class LMSHolidayListPage {
 		int rowSize = rowElements.size();
 		logger.info("No of rows in the table is: " + rowSize);
 
-		// Get all the row elements
+		// Get all the column elements
 		List<WebElement> colElements = driver
 				.findElements(By.xpath("//*[@id=\"display-holidaylist-form\"]/table/tbody/tr[1]/td"));
 
@@ -64,21 +70,58 @@ public class LMSHolidayListPage {
 								.xpath("//*[@id=\"display-holidaylist-form\"]/table/tbody/tr[" + i + "]/td[" + j + "]"))
 						.getText() + "  ";
 
-				logger.info(cellContent);
-				
+				// logger.info(cellContent);
+
 				if (cellContent.contains("Public Holiday")) {
 					// Increment the counter
 					counter++;
-					logger.info("Counter" + counter);
 				}
-				
-				}
+
 			}
+		}
 		// Check if the count of public holidays is greater than or equal to 10
 		if (counter >= 10) {
 			logger.info("Number of public holidays:" + counter);
 		}
 
-}
+	}
 
+	// Method to get the table headers
+	public List<WebElement> getTableHeader() {
+
+		logger.info("Get the values of the table header");
+		// Get the headers
+		List<WebElement> tableHeaders = driver
+				.findElements(By.xpath("//*[@id=\"display-holidaylist-form\"]/table/thead/tr[1]/th"));
+
+		return tableHeaders;
+	}
+
+	// Method to get the table rows
+	public List<WebElement> getTableRows() {
+
+		// Get all the row elements
+		List<WebElement> rowElements = driver
+				.findElements(By.xpath("//*[@id=\"display-holidaylist-form\"]/table/tbody/tr"));
+		return rowElements;
+	}
+
+	// Method to get the table columns
+	public List<WebElement> getTableColumns() {
+
+		// Get all the row elements
+		List<WebElement> colElements = driver
+				.findElements(By.xpath("//*[@id=\"display-holidaylist-form\"]/table/tbody/tr[1]/td"));
+
+		return colElements;
+	}
+
+	
+		
+	// Method to count the Public Holidays
+	public void generateHolidayReport() throws IOException 
+	{
+		report.generateHoldiayExcelReport(getTableHeader(), getTableRows(), getTableColumns());
+
+	}
 }

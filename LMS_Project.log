@@ -1,1105 +1,641 @@
-2023-02-11 22:06:18,485 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] Test HomePage PASSED
-2023-02-11 22:06:22,054 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] Test started
-2023-02-11 22:06:41,614 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] Test HolidayList PASSED
-2023-02-11 22:06:46,087 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] Count of Public Holdiays is less than ten- PASSED
-2023-02-11 22:25:10,433 [INFO ] com.lms.common.DriverProperties [main] Initiated Edge driver
-2023-02-11 22:25:10,593 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] TestCase 1 : Execution started
-2023-02-11 22:25:25,042 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] Entered the url for LMS :https://lms.ey.net/
-2023-02-11 22:25:25,065 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] LMS HomePage is displayed
-2023-02-11 22:25:25,065 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] LMS HomePage title is :LMS | Leave Management System- HomeTest Case Pass
-2023-02-11 22:25:28,545 [INFO ] com.lms.common.DriverProperties [main] Initiated Edge driver
-2023-02-11 22:25:28,681 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] TestCase 2 : Execution started
-2023-02-11 22:25:44,381 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] Entered the url for LMS :https://lms.ey.net/
-2023-02-11 22:25:44,461 [INFO ] com.lms.pages.LMSHomePage [main] User click on the Holiday link
-2023-02-11 22:25:49,496 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] LMS Holiday List is displayed
-2023-02-11 22:25:49,496 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] LMS Holiday List page title is :Office Holiday list
-2023-02-11 22:25:53,806 [INFO ] com.lms.pages.LMSHolidayListPage [main] Count of Public Holdiays is less than ten - Pass
-2023-02-11 22:25:53,806 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] Count of Public Holdiays is less than ten- PASSED
-2023-02-11 22:31:28,482 [INFO ] com.lms.common.DriverProperties [main] Initiated Edge driver
-2023-02-11 22:31:28,633 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] *********************************
-2023-02-11 22:31:28,633 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] TestCase 1 : Execution started
-2023-02-11 22:31:41,800 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] Entered the url for LMS :https://lms.ey.net/
-2023-02-11 22:31:41,819 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] LMS HomePage is displayed
-2023-02-11 22:31:41,820 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] LMS HomePage title is :LMS | Leave Management System- HomeTest Case Pass
-2023-02-11 22:31:41,824 [INFO ] com.lms.common.ApplicationHooks [main] *************************************************
-2023-02-11 22:31:42,294 [INFO ] com.lms.common.ApplicationHooks [main] Closing the browser after test execution
-2023-02-11 22:31:45,141 [INFO ] com.lms.common.DriverProperties [main] Initiated Edge driver
-2023-02-11 22:31:45,281 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] TestCase 2 : Execution started
-2023-02-11 22:31:59,993 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] Entered the url for LMS :https://lms.ey.net/
-2023-02-11 22:32:00,088 [INFO ] com.lms.pages.LMSHomePage [main] User click on the Holiday link
-2023-02-11 22:32:05,147 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] LMS Holiday List is displayed
-2023-02-11 22:32:05,147 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] LMS Holiday List page title is :Office Holiday list
-2023-02-11 22:32:09,373 [INFO ] com.lms.pages.LMSHolidayListPage [main] Count of Public Holdiays is less than ten - Pass
-2023-02-11 22:32:09,374 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] Count of Public Holdiays is less than ten- PASSED
-2023-02-11 22:32:09,374 [INFO ] com.lms.common.ApplicationHooks [main] *************************************************
-2023-02-11 22:32:09,956 [INFO ] com.lms.common.ApplicationHooks [main] Closing the browser after test execution
-2023-02-11 22:39:55,724 [INFO ] com.lms.common.DriverProperties [main] Initiated Edge driver
-2023-02-11 22:39:55,869 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] *********************************
-2023-02-11 22:39:55,870 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] TestCase 1 : Execution started
-2023-02-11 22:40:11,813 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] Entered the url for LMS :https://lms.ey.net/
-2023-02-11 22:40:11,831 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] LMS HomePage title is :LMS | Leave Management System- Home
-2023-02-11 22:40:11,831 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] LMS HomePage is displayed -Test Case Pass
-2023-02-11 22:40:12,339 [INFO ] com.lms.common.ApplicationHooks [main] Closing the browser after test execution
-2023-02-11 22:40:12,340 [INFO ] com.lms.common.ApplicationHooks [main] *************************************************
-2023-02-11 22:40:15,199 [INFO ] com.lms.common.DriverProperties [main] Initiated Edge driver
-2023-02-11 22:40:15,340 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] TestCase 2 : Execution started
-2023-02-11 22:40:30,352 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] Entered the url for LMS :https://lms.ey.net/
-2023-02-11 22:40:30,430 [INFO ] com.lms.pages.LMSHomePage [main] User clicks on the Holiday link
-2023-02-11 22:40:35,471 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] LMS Holiday List is displayed
-2023-02-11 22:40:35,472 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] LMS Holiday List page title is :Office Holiday list
-2023-02-11 22:40:35,474 [INFO ] com.lms.pages.LMSHolidayListPage [main] Validate whether the count of public holidays is less than 10
-2023-02-11 22:40:35,497 [INFO ] com.lms.pages.LMSHolidayListPage [main] No of rows in the table is: 39
-2023-02-11 22:40:35,511 [INFO ] com.lms.pages.LMSHolidayListPage [main] No of columns in the table is: 4
-2023-02-11 22:40:35,539 [INFO ] com.lms.pages.LMSHolidayListPage [main] 15-Jan-2023  
-2023-02-11 22:40:35,567 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sunday  
-2023-02-11 22:40:35,596 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sankranti /Pongal  
-2023-02-11 22:40:35,623 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 22:40:35,649 [INFO ] com.lms.pages.LMSHolidayListPage [main] 26-Jan-2023  
-2023-02-11 22:40:35,676 [INFO ] com.lms.pages.LMSHolidayListPage [main] Thursday  
-2023-02-11 22:40:35,702 [INFO ] com.lms.pages.LMSHolidayListPage [main] Republic Day  
-2023-02-11 22:40:35,729 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
-2023-02-11 22:40:35,755 [INFO ] com.lms.pages.LMSHolidayListPage [main] 18-Feb-2023  
-2023-02-11 22:40:35,781 [INFO ] com.lms.pages.LMSHolidayListPage [main] Saturday  
-2023-02-11 22:40:35,807 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sivarathri  
-2023-02-11 22:40:35,832 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 22:40:35,858 [INFO ] com.lms.pages.LMSHolidayListPage [main] 07-Mar-2023  
-2023-02-11 22:40:35,883 [INFO ] com.lms.pages.LMSHolidayListPage [main] Tuesday  
-2023-02-11 22:40:35,909 [INFO ] com.lms.pages.LMSHolidayListPage [main] Holi/ Shab-e-Barat  
-2023-02-11 22:40:35,936 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 22:40:35,962 [INFO ] com.lms.pages.LMSHolidayListPage [main] 22-Mar-2023  
-2023-02-11 22:40:35,988 [INFO ] com.lms.pages.LMSHolidayListPage [main] Wednesday  
-2023-02-11 22:40:36,013 [INFO ] com.lms.pages.LMSHolidayListPage [main] Ugadi  
-2023-02-11 22:40:36,040 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 22:40:36,065 [INFO ] com.lms.pages.LMSHolidayListPage [main] 30-Mar-2023  
-2023-02-11 22:40:36,093 [INFO ] com.lms.pages.LMSHolidayListPage [main] Thursday  
-2023-02-11 22:40:36,119 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sri Rama Navami  
-2023-02-11 22:40:36,150 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 22:40:36,176 [INFO ] com.lms.pages.LMSHolidayListPage [main] 03-Apr-2023  
-2023-02-11 22:40:36,202 [INFO ] com.lms.pages.LMSHolidayListPage [main] Monday  
-2023-02-11 22:40:36,228 [INFO ] com.lms.pages.LMSHolidayListPage [main] Mahaveer Jayanti (Karnataka)  
-2023-02-11 22:40:36,254 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 22:40:36,279 [INFO ] com.lms.pages.LMSHolidayListPage [main] 04-Apr-2023  
-2023-02-11 22:40:36,304 [INFO ] com.lms.pages.LMSHolidayListPage [main] Tuesday  
-2023-02-11 22:40:36,331 [INFO ] com.lms.pages.LMSHolidayListPage [main] Mahavir Jayanti (Tamil Nadu, Kolkata & UP)  
-2023-02-11 22:40:36,358 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 22:40:36,383 [INFO ] com.lms.pages.LMSHolidayListPage [main] 05-Apr-2023  
-2023-02-11 22:40:36,411 [INFO ] com.lms.pages.LMSHolidayListPage [main] Wednesday  
-2023-02-11 22:40:36,437 [INFO ] com.lms.pages.LMSHolidayListPage [main] Babu Jajivan Ram's Birthday  
-2023-02-11 22:40:36,464 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 22:40:36,490 [INFO ] com.lms.pages.LMSHolidayListPage [main] 07-Apr-2023  
-2023-02-11 22:40:36,515 [INFO ] com.lms.pages.LMSHolidayListPage [main] Friday  
-2023-02-11 22:40:36,542 [INFO ] com.lms.pages.LMSHolidayListPage [main] Good Friday  
-2023-02-11 22:40:36,567 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
-2023-02-11 22:40:36,594 [INFO ] com.lms.pages.LMSHolidayListPage [main] 09-Apr-2023  
-2023-02-11 22:40:36,618 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sunday  
-2023-02-11 22:40:36,649 [INFO ] com.lms.pages.LMSHolidayListPage [main] Easter  
-2023-02-11 22:40:36,674 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 22:40:36,702 [INFO ] com.lms.pages.LMSHolidayListPage [main] 14-Apr-2023  
-2023-02-11 22:40:36,730 [INFO ] com.lms.pages.LMSHolidayListPage [main] Friday  
-2023-02-11 22:40:36,759 [INFO ] com.lms.pages.LMSHolidayListPage [main] Vaisakhi / Tamil New Year / Dr. B. R. Ambedkar Jayanthi  
-2023-02-11 22:40:36,786 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 22:40:36,814 [INFO ] com.lms.pages.LMSHolidayListPage [main] 15-Apr-2023  
-2023-02-11 22:40:36,840 [INFO ] com.lms.pages.LMSHolidayListPage [main] Saturday  
-2023-02-11 22:40:36,867 [INFO ] com.lms.pages.LMSHolidayListPage [main] Vishu  
-2023-02-11 22:40:36,893 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 22:40:36,918 [INFO ] com.lms.pages.LMSHolidayListPage [main] 18-Apr-2023  
-2023-02-11 22:40:36,944 [INFO ] com.lms.pages.LMSHolidayListPage [main] Tuesday  
-2023-02-11 22:40:36,970 [INFO ] com.lms.pages.LMSHolidayListPage [main] Shab-e-Quadar  
-2023-02-11 22:40:36,998 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 22:40:37,024 [INFO ] com.lms.pages.LMSHolidayListPage [main] 21-Apr-2023  
-2023-02-11 22:40:37,050 [INFO ] com.lms.pages.LMSHolidayListPage [main] Friday  
-2023-02-11 22:40:37,080 [INFO ] com.lms.pages.LMSHolidayListPage [main] Id-Ul-Fitr* (Ramzan)  
-2023-02-11 22:40:37,113 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
-2023-02-11 22:40:37,138 [INFO ] com.lms.pages.LMSHolidayListPage [main] 21-Apr-2023  
-2023-02-11 22:40:37,164 [INFO ] com.lms.pages.LMSHolidayListPage [main] Friday  
-2023-02-11 22:40:37,190 [INFO ] com.lms.pages.LMSHolidayListPage [main] Jumat-ul-Vida  
-2023-02-11 22:40:37,218 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 22:40:37,243 [INFO ] com.lms.pages.LMSHolidayListPage [main] 01-May-2023  
-2023-02-11 22:40:37,268 [INFO ] com.lms.pages.LMSHolidayListPage [main] Monday  
-2023-02-11 22:40:37,294 [INFO ] com.lms.pages.LMSHolidayListPage [main] May Day/Maharastra Day  
-2023-02-11 22:40:37,321 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
-2023-02-11 22:40:37,347 [INFO ] com.lms.pages.LMSHolidayListPage [main] 05-May-2023  
-2023-02-11 22:40:37,374 [INFO ] com.lms.pages.LMSHolidayListPage [main] Friday  
-2023-02-11 22:40:37,399 [INFO ] com.lms.pages.LMSHolidayListPage [main] Budh Purnima  
-2023-02-11 22:40:37,426 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 22:40:37,454 [INFO ] com.lms.pages.LMSHolidayListPage [main] 28-Jun-2023  
-2023-02-11 22:40:37,481 [INFO ] com.lms.pages.LMSHolidayListPage [main] Wednesday  
-2023-02-11 22:40:37,507 [INFO ] com.lms.pages.LMSHolidayListPage [main] Id-Ul-Ad’ha (Bakrid)*  
-2023-02-11 22:40:37,535 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
-2023-02-11 22:40:37,563 [INFO ] com.lms.pages.LMSHolidayListPage [main] 28-Jul-2023  
-2023-02-11 22:40:37,590 [INFO ] com.lms.pages.LMSHolidayListPage [main] Friday  
-2023-02-11 22:40:37,619 [INFO ] com.lms.pages.LMSHolidayListPage [main] Muharram  
-2023-02-11 22:40:37,651 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 22:40:37,677 [INFO ] com.lms.pages.LMSHolidayListPage [main] 15-Aug-2023  
-2023-02-11 22:40:37,703 [INFO ] com.lms.pages.LMSHolidayListPage [main] Tuesday  
-2023-02-11 22:40:37,730 [INFO ] com.lms.pages.LMSHolidayListPage [main] Independence Day  
-2023-02-11 22:40:37,757 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
-2023-02-11 22:40:37,783 [INFO ] com.lms.pages.LMSHolidayListPage [main] 25-Aug-2023  
-2023-02-11 22:40:37,811 [INFO ] com.lms.pages.LMSHolidayListPage [main] Friday  
-2023-02-11 22:40:37,837 [INFO ] com.lms.pages.LMSHolidayListPage [main] Varamahalakshmi Brata  
-2023-02-11 22:40:37,864 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 22:40:37,891 [INFO ] com.lms.pages.LMSHolidayListPage [main] 28-Aug-2023  
-2023-02-11 22:40:37,917 [INFO ] com.lms.pages.LMSHolidayListPage [main] Monday  
-2023-02-11 22:40:37,945 [INFO ] com.lms.pages.LMSHolidayListPage [main] First Onam  
-2023-02-11 22:40:37,970 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
-2023-02-11 22:40:37,998 [INFO ] com.lms.pages.LMSHolidayListPage [main] 29-Aug-2023  
-2023-02-11 22:40:38,023 [INFO ] com.lms.pages.LMSHolidayListPage [main] Tuesday  
-2023-02-11 22:40:38,049 [INFO ] com.lms.pages.LMSHolidayListPage [main] Thiruvonam  
-2023-02-11 22:40:38,076 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
-2023-02-11 22:40:38,103 [INFO ] com.lms.pages.LMSHolidayListPage [main] 31-Aug-2023  
-2023-02-11 22:40:38,130 [INFO ] com.lms.pages.LMSHolidayListPage [main] Thursday  
-2023-02-11 22:40:38,156 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sree Narayana Guru Jayanthi / Rakhi Bandhan  
-2023-02-11 22:40:38,181 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 22:40:38,206 [INFO ] com.lms.pages.LMSHolidayListPage [main] 06-Sep-2023  
-2023-02-11 22:40:38,233 [INFO ] com.lms.pages.LMSHolidayListPage [main] Wednesday  
-2023-02-11 22:40:38,258 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sri Krishna Asthami / Janmastami  
-2023-02-11 22:40:38,284 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 22:40:38,309 [INFO ] com.lms.pages.LMSHolidayListPage [main] 19-Sep-2023  
-2023-02-11 22:40:38,335 [INFO ] com.lms.pages.LMSHolidayListPage [main] Tuesday  
-2023-02-11 22:40:38,361 [INFO ] com.lms.pages.LMSHolidayListPage [main] Ganesh Chaturthi  
-2023-02-11 22:40:38,387 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 22:40:38,415 [INFO ] com.lms.pages.LMSHolidayListPage [main] 22-Sep-2023  
-2023-02-11 22:40:38,441 [INFO ] com.lms.pages.LMSHolidayListPage [main] Friday  
-2023-02-11 22:40:38,465 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sree Narayana Guru Samadhi Day  
-2023-02-11 22:40:38,490 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 22:40:38,517 [INFO ] com.lms.pages.LMSHolidayListPage [main] 27-Sep-2023  
-2023-02-11 22:40:38,545 [INFO ] com.lms.pages.LMSHolidayListPage [main] Wednesday  
-2023-02-11 22:40:38,569 [INFO ] com.lms.pages.LMSHolidayListPage [main] Milad-i-Sherif* (Birthday of Prophet Muhammed)  
-2023-02-11 22:40:38,595 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 22:40:38,622 [INFO ] com.lms.pages.LMSHolidayListPage [main] 28-Sep-2023  
-2023-02-11 22:40:38,648 [INFO ] com.lms.pages.LMSHolidayListPage [main] Thursday  
-2023-02-11 22:40:38,674 [INFO ] com.lms.pages.LMSHolidayListPage [main] Eid Miladun Nabi  
-2023-02-11 22:40:38,701 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 22:40:38,727 [INFO ] com.lms.pages.LMSHolidayListPage [main] 02-Oct-2023  
-2023-02-11 22:40:38,753 [INFO ] com.lms.pages.LMSHolidayListPage [main] Monday  
-2023-02-11 22:40:38,778 [INFO ] com.lms.pages.LMSHolidayListPage [main] Gandhi Jayanthi  
-2023-02-11 22:40:38,804 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
-2023-02-11 22:40:38,836 [INFO ] com.lms.pages.LMSHolidayListPage [main] 23-Oct-2023  
-2023-02-11 22:40:38,863 [INFO ] com.lms.pages.LMSHolidayListPage [main] Monday  
-2023-02-11 22:40:38,888 [INFO ] com.lms.pages.LMSHolidayListPage [main] Ayutha puja / Durga Puja/ Navami  
-2023-02-11 22:40:38,914 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
-2023-02-11 22:40:38,941 [INFO ] com.lms.pages.LMSHolidayListPage [main] 24-Oct-2023  
-2023-02-11 22:40:38,966 [INFO ] com.lms.pages.LMSHolidayListPage [main] Tuesday  
-2023-02-11 22:40:38,993 [INFO ] com.lms.pages.LMSHolidayListPage [main] Durga Puja Dasami /Bijay Dasami /Vijayadasami  
-2023-02-11 22:40:39,019 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 22:40:39,047 [INFO ] com.lms.pages.LMSHolidayListPage [main] 12-Nov-2023  
-2023-02-11 22:40:39,073 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sunday  
-2023-02-11 22:40:39,099 [INFO ] com.lms.pages.LMSHolidayListPage [main] Deepavali/ Naraka Chaturdashi  
-2023-02-11 22:40:39,124 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 22:40:39,151 [INFO ] com.lms.pages.LMSHolidayListPage [main] 13-Nov-2023  
-2023-02-11 22:40:39,179 [INFO ] com.lms.pages.LMSHolidayListPage [main] Monday  
-2023-02-11 22:40:39,205 [INFO ] com.lms.pages.LMSHolidayListPage [main] Gowardhan Puja  
-2023-02-11 22:40:39,231 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 22:40:39,257 [INFO ] com.lms.pages.LMSHolidayListPage [main] 14-Nov-2023  
-2023-02-11 22:40:39,283 [INFO ] com.lms.pages.LMSHolidayListPage [main] Tuesday  
-2023-02-11 22:40:39,313 [INFO ] com.lms.pages.LMSHolidayListPage [main] Balipadyami, Deepavali  
-2023-02-11 22:40:39,340 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 22:40:39,366 [INFO ] com.lms.pages.LMSHolidayListPage [main] 15-Nov-2023  
-2023-02-11 22:40:39,394 [INFO ] com.lms.pages.LMSHolidayListPage [main] Wednesday  
-2023-02-11 22:40:39,419 [INFO ] com.lms.pages.LMSHolidayListPage [main] Bhratridwitiya /Bhai Duj  
-2023-02-11 22:40:39,446 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 22:40:39,472 [INFO ] com.lms.pages.LMSHolidayListPage [main] 27-Nov-2023  
-2023-02-11 22:40:39,498 [INFO ] com.lms.pages.LMSHolidayListPage [main] Monday  
-2023-02-11 22:40:39,525 [INFO ] com.lms.pages.LMSHolidayListPage [main] Kartik Purnima/ Gurunanak Jayanti  
-2023-02-11 22:40:39,552 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 22:40:39,578 [INFO ] com.lms.pages.LMSHolidayListPage [main] 25-Dec-2023  
-2023-02-11 22:40:39,603 [INFO ] com.lms.pages.LMSHolidayListPage [main] Monday  
-2023-02-11 22:40:39,630 [INFO ] com.lms.pages.LMSHolidayListPage [main] Christmas  
-2023-02-11 22:40:39,656 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
-2023-02-11 22:40:39,657 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 22:40:39,657 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] Count of Public Holdiays is less than ten- Test Case Passed
-2023-02-11 22:40:40,225 [INFO ] com.lms.common.ApplicationHooks [main] Closing the browser after test execution
-2023-02-11 22:40:40,225 [INFO ] com.lms.common.ApplicationHooks [main] *************************************************
-2023-02-11 23:08:29,228 [INFO ] com.lms.common.DriverProperties [main] Initiated Edge driver
-2023-02-11 23:08:29,393 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] *********************************
-2023-02-11 23:08:29,394 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] TestCase 1 : Execution started
-2023-02-11 23:08:43,996 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] Entered the url for LMS :https://lms.ey.net/
-2023-02-11 23:08:44,014 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] LMS HomePage title is :LMS | Leave Management System- Home
-2023-02-11 23:08:44,014 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] LMS HomePage is displayed -Test Case Pass
-2023-02-11 23:08:44,531 [INFO ] com.lms.common.ApplicationHooks [main] Closing the browser after test execution
-2023-02-11 23:08:44,531 [INFO ] com.lms.common.ApplicationHooks [main] *************************************************
-2023-02-11 23:08:47,485 [INFO ] com.lms.common.DriverProperties [main] Initiated Edge driver
-2023-02-11 23:08:47,621 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] TestCase 2 : Execution started
-2023-02-11 23:09:02,586 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] Entered the url for LMS :https://lms.ey.net/
-2023-02-11 23:09:02,680 [INFO ] com.lms.pages.LMSHomePage [main] User clicks on the Holiday link
-2023-02-11 23:09:07,726 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] LMS Holiday List is displayed
-2023-02-11 23:09:07,727 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] LMS Holiday List page title is :Office Holiday list
-2023-02-11 23:09:07,728 [INFO ] com.lms.pages.LMSHolidayListPage [main] Validate whether the count of public holidays is less than 10
-2023-02-11 23:09:07,751 [INFO ] com.lms.pages.LMSHolidayListPage [main] No of rows in the table is: 39
-2023-02-11 23:09:07,766 [INFO ] com.lms.pages.LMSHolidayListPage [main] No of columns in the table is: 4
-2023-02-11 23:09:07,795 [INFO ] com.lms.pages.LMSHolidayListPage [main] 15-Jan-2023  
-2023-02-11 23:09:07,796 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:07,827 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sunday  
-2023-02-11 23:09:07,827 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:07,856 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sankranti /Pongal  
-2023-02-11 23:09:07,856 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:07,886 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:09:07,887 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:07,920 [INFO ] com.lms.pages.LMSHolidayListPage [main] 26-Jan-2023  
-2023-02-11 23:09:07,920 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:07,947 [INFO ] com.lms.pages.LMSHolidayListPage [main] Thursday  
-2023-02-11 23:09:07,947 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:07,972 [INFO ] com.lms.pages.LMSHolidayListPage [main] Republic Day  
-2023-02-11 23:09:07,972 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:07,999 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
-2023-02-11 23:09:07,999 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:08,025 [INFO ] com.lms.pages.LMSHolidayListPage [main] 18-Feb-2023  
-2023-02-11 23:09:08,025 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:08,052 [INFO ] com.lms.pages.LMSHolidayListPage [main] Saturday  
-2023-02-11 23:09:08,052 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:08,081 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sivarathri  
-2023-02-11 23:09:08,081 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:08,108 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:09:08,108 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:08,135 [INFO ] com.lms.pages.LMSHolidayListPage [main] 07-Mar-2023  
-2023-02-11 23:09:08,135 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:08,162 [INFO ] com.lms.pages.LMSHolidayListPage [main] Tuesday  
-2023-02-11 23:09:08,162 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:08,189 [INFO ] com.lms.pages.LMSHolidayListPage [main] Holi/ Shab-e-Barat  
-2023-02-11 23:09:08,189 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:08,216 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:09:08,216 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:08,242 [INFO ] com.lms.pages.LMSHolidayListPage [main] 22-Mar-2023  
-2023-02-11 23:09:08,242 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:08,269 [INFO ] com.lms.pages.LMSHolidayListPage [main] Wednesday  
-2023-02-11 23:09:08,269 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:08,295 [INFO ] com.lms.pages.LMSHolidayListPage [main] Ugadi  
-2023-02-11 23:09:08,296 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:08,323 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:09:08,324 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:08,349 [INFO ] com.lms.pages.LMSHolidayListPage [main] 30-Mar-2023  
-2023-02-11 23:09:08,350 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:08,375 [INFO ] com.lms.pages.LMSHolidayListPage [main] Thursday  
-2023-02-11 23:09:08,376 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:08,403 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sri Rama Navami  
-2023-02-11 23:09:08,403 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:08,433 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:09:08,433 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:08,461 [INFO ] com.lms.pages.LMSHolidayListPage [main] 03-Apr-2023  
-2023-02-11 23:09:08,461 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:08,487 [INFO ] com.lms.pages.LMSHolidayListPage [main] Monday  
-2023-02-11 23:09:08,487 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:08,514 [INFO ] com.lms.pages.LMSHolidayListPage [main] Mahaveer Jayanti (Karnataka)  
-2023-02-11 23:09:08,515 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:08,543 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:09:08,543 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:08,570 [INFO ] com.lms.pages.LMSHolidayListPage [main] 04-Apr-2023  
-2023-02-11 23:09:08,570 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:08,597 [INFO ] com.lms.pages.LMSHolidayListPage [main] Tuesday  
-2023-02-11 23:09:08,597 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:08,625 [INFO ] com.lms.pages.LMSHolidayListPage [main] Mahavir Jayanti (Tamil Nadu, Kolkata & UP)  
-2023-02-11 23:09:08,625 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:08,652 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:09:08,653 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:08,680 [INFO ] com.lms.pages.LMSHolidayListPage [main] 05-Apr-2023  
-2023-02-11 23:09:08,680 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:08,706 [INFO ] com.lms.pages.LMSHolidayListPage [main] Wednesday  
-2023-02-11 23:09:08,706 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:08,734 [INFO ] com.lms.pages.LMSHolidayListPage [main] Babu Jajivan Ram's Birthday  
-2023-02-11 23:09:08,734 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:08,764 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:09:08,764 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:08,789 [INFO ] com.lms.pages.LMSHolidayListPage [main] 07-Apr-2023  
-2023-02-11 23:09:08,789 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:08,815 [INFO ] com.lms.pages.LMSHolidayListPage [main] Friday  
-2023-02-11 23:09:08,815 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:08,841 [INFO ] com.lms.pages.LMSHolidayListPage [main] Good Friday  
-2023-02-11 23:09:08,841 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:08,868 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
-2023-02-11 23:09:08,868 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:08,897 [INFO ] com.lms.pages.LMSHolidayListPage [main] 09-Apr-2023  
-2023-02-11 23:09:08,898 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:08,923 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sunday  
-2023-02-11 23:09:08,923 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:08,951 [INFO ] com.lms.pages.LMSHolidayListPage [main] Easter  
-2023-02-11 23:09:08,951 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:08,982 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:09:08,982 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:09,008 [INFO ] com.lms.pages.LMSHolidayListPage [main] 14-Apr-2023  
-2023-02-11 23:09:09,008 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:09,034 [INFO ] com.lms.pages.LMSHolidayListPage [main] Friday  
-2023-02-11 23:09:09,035 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:09,062 [INFO ] com.lms.pages.LMSHolidayListPage [main] Vaisakhi / Tamil New Year / Dr. B. R. Ambedkar Jayanthi  
-2023-02-11 23:09:09,062 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:09,090 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:09:09,090 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:09,116 [INFO ] com.lms.pages.LMSHolidayListPage [main] 15-Apr-2023  
-2023-02-11 23:09:09,116 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:09,144 [INFO ] com.lms.pages.LMSHolidayListPage [main] Saturday  
-2023-02-11 23:09:09,144 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:09,169 [INFO ] com.lms.pages.LMSHolidayListPage [main] Vishu  
-2023-02-11 23:09:09,169 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:09,197 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:09:09,197 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:09,224 [INFO ] com.lms.pages.LMSHolidayListPage [main] 18-Apr-2023  
-2023-02-11 23:09:09,224 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:09,251 [INFO ] com.lms.pages.LMSHolidayListPage [main] Tuesday  
-2023-02-11 23:09:09,251 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:09,278 [INFO ] com.lms.pages.LMSHolidayListPage [main] Shab-e-Quadar  
-2023-02-11 23:09:09,278 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:09,306 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:09:09,306 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:09,333 [INFO ] com.lms.pages.LMSHolidayListPage [main] 21-Apr-2023  
-2023-02-11 23:09:09,333 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:09,359 [INFO ] com.lms.pages.LMSHolidayListPage [main] Friday  
-2023-02-11 23:09:09,359 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:09,385 [INFO ] com.lms.pages.LMSHolidayListPage [main] Id-Ul-Fitr* (Ramzan)  
-2023-02-11 23:09:09,385 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:09,412 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
-2023-02-11 23:09:09,412 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:09,440 [INFO ] com.lms.pages.LMSHolidayListPage [main] 21-Apr-2023  
-2023-02-11 23:09:09,441 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:09,467 [INFO ] com.lms.pages.LMSHolidayListPage [main] Friday  
-2023-02-11 23:09:09,467 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:09,496 [INFO ] com.lms.pages.LMSHolidayListPage [main] Jumat-ul-Vida  
-2023-02-11 23:09:09,496 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:09,525 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:09:09,525 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:09,552 [INFO ] com.lms.pages.LMSHolidayListPage [main] 01-May-2023  
-2023-02-11 23:09:09,552 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:09,578 [INFO ] com.lms.pages.LMSHolidayListPage [main] Monday  
-2023-02-11 23:09:09,578 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:09,605 [INFO ] com.lms.pages.LMSHolidayListPage [main] May Day/Maharastra Day  
-2023-02-11 23:09:09,605 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:09,633 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
-2023-02-11 23:09:09,633 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:09,662 [INFO ] com.lms.pages.LMSHolidayListPage [main] 05-May-2023  
-2023-02-11 23:09:09,662 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:09,690 [INFO ] com.lms.pages.LMSHolidayListPage [main] Friday  
-2023-02-11 23:09:09,690 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:09,717 [INFO ] com.lms.pages.LMSHolidayListPage [main] Budh Purnima  
-2023-02-11 23:09:09,717 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:09,744 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:09:09,744 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:09,770 [INFO ] com.lms.pages.LMSHolidayListPage [main] 28-Jun-2023  
-2023-02-11 23:09:09,770 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:09,796 [INFO ] com.lms.pages.LMSHolidayListPage [main] Wednesday  
-2023-02-11 23:09:09,796 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:09,825 [INFO ] com.lms.pages.LMSHolidayListPage [main] Id-Ul-Ad’ha (Bakrid)*  
-2023-02-11 23:09:09,825 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:09,861 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
-2023-02-11 23:09:09,861 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:09,889 [INFO ] com.lms.pages.LMSHolidayListPage [main] 28-Jul-2023  
-2023-02-11 23:09:09,889 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:09,915 [INFO ] com.lms.pages.LMSHolidayListPage [main] Friday  
-2023-02-11 23:09:09,915 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:09,942 [INFO ] com.lms.pages.LMSHolidayListPage [main] Muharram  
-2023-02-11 23:09:09,942 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:09,969 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:09:09,969 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:09,996 [INFO ] com.lms.pages.LMSHolidayListPage [main] 15-Aug-2023  
-2023-02-11 23:09:09,996 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:10,024 [INFO ] com.lms.pages.LMSHolidayListPage [main] Tuesday  
-2023-02-11 23:09:10,024 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:10,053 [INFO ] com.lms.pages.LMSHolidayListPage [main] Independence Day  
-2023-02-11 23:09:10,053 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:10,080 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
-2023-02-11 23:09:10,080 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:10,107 [INFO ] com.lms.pages.LMSHolidayListPage [main] 25-Aug-2023  
-2023-02-11 23:09:10,107 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:10,134 [INFO ] com.lms.pages.LMSHolidayListPage [main] Friday  
-2023-02-11 23:09:10,134 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:10,162 [INFO ] com.lms.pages.LMSHolidayListPage [main] Varamahalakshmi Brata  
-2023-02-11 23:09:10,162 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:10,189 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:09:10,189 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:10,218 [INFO ] com.lms.pages.LMSHolidayListPage [main] 28-Aug-2023  
-2023-02-11 23:09:10,218 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:10,243 [INFO ] com.lms.pages.LMSHolidayListPage [main] Monday  
-2023-02-11 23:09:10,243 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:10,273 [INFO ] com.lms.pages.LMSHolidayListPage [main] First Onam  
-2023-02-11 23:09:10,273 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:10,303 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
-2023-02-11 23:09:10,303 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:10,331 [INFO ] com.lms.pages.LMSHolidayListPage [main] 29-Aug-2023  
-2023-02-11 23:09:10,331 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:10,359 [INFO ] com.lms.pages.LMSHolidayListPage [main] Tuesday  
-2023-02-11 23:09:10,360 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:10,388 [INFO ] com.lms.pages.LMSHolidayListPage [main] Thiruvonam  
-2023-02-11 23:09:10,388 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:10,415 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
-2023-02-11 23:09:10,415 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:10,444 [INFO ] com.lms.pages.LMSHolidayListPage [main] 31-Aug-2023  
-2023-02-11 23:09:10,444 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:10,470 [INFO ] com.lms.pages.LMSHolidayListPage [main] Thursday  
-2023-02-11 23:09:10,470 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:10,496 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sree Narayana Guru Jayanthi / Rakhi Bandhan  
-2023-02-11 23:09:10,496 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:10,522 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:09:10,522 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:10,548 [INFO ] com.lms.pages.LMSHolidayListPage [main] 06-Sep-2023  
-2023-02-11 23:09:10,548 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:10,576 [INFO ] com.lms.pages.LMSHolidayListPage [main] Wednesday  
-2023-02-11 23:09:10,576 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:10,601 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sri Krishna Asthami / Janmastami  
-2023-02-11 23:09:10,601 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:10,627 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:09:10,627 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:10,655 [INFO ] com.lms.pages.LMSHolidayListPage [main] 19-Sep-2023  
-2023-02-11 23:09:10,655 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:10,683 [INFO ] com.lms.pages.LMSHolidayListPage [main] Tuesday  
-2023-02-11 23:09:10,683 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:10,709 [INFO ] com.lms.pages.LMSHolidayListPage [main] Ganesh Chaturthi  
-2023-02-11 23:09:10,710 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:10,738 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:09:10,739 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:10,766 [INFO ] com.lms.pages.LMSHolidayListPage [main] 22-Sep-2023  
-2023-02-11 23:09:10,766 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:10,794 [INFO ] com.lms.pages.LMSHolidayListPage [main] Friday  
-2023-02-11 23:09:10,794 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:10,819 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sree Narayana Guru Samadhi Day  
-2023-02-11 23:09:10,819 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:10,845 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:09:10,846 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:10,871 [INFO ] com.lms.pages.LMSHolidayListPage [main] 27-Sep-2023  
-2023-02-11 23:09:10,872 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:10,899 [INFO ] com.lms.pages.LMSHolidayListPage [main] Wednesday  
-2023-02-11 23:09:10,899 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:10,924 [INFO ] com.lms.pages.LMSHolidayListPage [main] Milad-i-Sherif* (Birthday of Prophet Muhammed)  
-2023-02-11 23:09:10,925 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:10,951 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:09:10,952 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:10,977 [INFO ] com.lms.pages.LMSHolidayListPage [main] 28-Sep-2023  
-2023-02-11 23:09:10,978 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:11,003 [INFO ] com.lms.pages.LMSHolidayListPage [main] Thursday  
-2023-02-11 23:09:11,003 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:11,031 [INFO ] com.lms.pages.LMSHolidayListPage [main] Eid Miladun Nabi  
-2023-02-11 23:09:11,031 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:11,058 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:09:11,058 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:11,084 [INFO ] com.lms.pages.LMSHolidayListPage [main] 02-Oct-2023  
-2023-02-11 23:09:11,084 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:11,111 [INFO ] com.lms.pages.LMSHolidayListPage [main] Monday  
-2023-02-11 23:09:11,111 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:11,138 [INFO ] com.lms.pages.LMSHolidayListPage [main] Gandhi Jayanthi  
-2023-02-11 23:09:11,138 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:11,164 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
-2023-02-11 23:09:11,164 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:11,189 [INFO ] com.lms.pages.LMSHolidayListPage [main] 23-Oct-2023  
-2023-02-11 23:09:11,189 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:11,215 [INFO ] com.lms.pages.LMSHolidayListPage [main] Monday  
-2023-02-11 23:09:11,215 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:11,243 [INFO ] com.lms.pages.LMSHolidayListPage [main] Ayutha puja / Durga Puja/ Navami  
-2023-02-11 23:09:11,243 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:11,269 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
-2023-02-11 23:09:11,270 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:11,296 [INFO ] com.lms.pages.LMSHolidayListPage [main] 24-Oct-2023  
-2023-02-11 23:09:11,296 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:11,322 [INFO ] com.lms.pages.LMSHolidayListPage [main] Tuesday  
-2023-02-11 23:09:11,322 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:11,350 [INFO ] com.lms.pages.LMSHolidayListPage [main] Durga Puja Dasami /Bijay Dasami /Vijayadasami  
-2023-02-11 23:09:11,350 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:11,380 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:09:11,380 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:11,407 [INFO ] com.lms.pages.LMSHolidayListPage [main] 12-Nov-2023  
-2023-02-11 23:09:11,407 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:11,432 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sunday  
-2023-02-11 23:09:11,432 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:11,459 [INFO ] com.lms.pages.LMSHolidayListPage [main] Deepavali/ Naraka Chaturdashi  
-2023-02-11 23:09:11,459 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:11,488 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:09:11,488 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:11,514 [INFO ] com.lms.pages.LMSHolidayListPage [main] 13-Nov-2023  
-2023-02-11 23:09:11,514 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:11,541 [INFO ] com.lms.pages.LMSHolidayListPage [main] Monday  
-2023-02-11 23:09:11,541 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:11,571 [INFO ] com.lms.pages.LMSHolidayListPage [main] Gowardhan Puja  
-2023-02-11 23:09:11,571 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:11,598 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:09:11,598 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:11,624 [INFO ] com.lms.pages.LMSHolidayListPage [main] 14-Nov-2023  
-2023-02-11 23:09:11,624 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:11,694 [INFO ] com.lms.pages.LMSHolidayListPage [main] Tuesday  
-2023-02-11 23:09:11,694 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:11,720 [INFO ] com.lms.pages.LMSHolidayListPage [main] Balipadyami, Deepavali  
-2023-02-11 23:09:11,720 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:11,746 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:09:11,746 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:11,773 [INFO ] com.lms.pages.LMSHolidayListPage [main] 15-Nov-2023  
-2023-02-11 23:09:11,774 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:11,799 [INFO ] com.lms.pages.LMSHolidayListPage [main] Wednesday  
-2023-02-11 23:09:11,800 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:11,826 [INFO ] com.lms.pages.LMSHolidayListPage [main] Bhratridwitiya /Bhai Duj  
-2023-02-11 23:09:11,826 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:11,854 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:09:11,855 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:11,882 [INFO ] com.lms.pages.LMSHolidayListPage [main] 27-Nov-2023  
-2023-02-11 23:09:11,882 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:11,908 [INFO ] com.lms.pages.LMSHolidayListPage [main] Monday  
-2023-02-11 23:09:11,909 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:11,935 [INFO ] com.lms.pages.LMSHolidayListPage [main] Kartik Purnima/ Gurunanak Jayanti  
-2023-02-11 23:09:11,935 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:11,961 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:09:11,961 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:11,989 [INFO ] com.lms.pages.LMSHolidayListPage [main] 25-Dec-2023  
-2023-02-11 23:09:11,989 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:12,016 [INFO ] com.lms.pages.LMSHolidayListPage [main] Monday  
-2023-02-11 23:09:12,016 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:12,045 [INFO ] com.lms.pages.LMSHolidayListPage [main] Christmas  
-2023-02-11 23:09:12,045 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:12,071 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
-2023-02-11 23:09:12,071 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:09:12,071 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] Count of Public Holdiays is less than ten- Test Case Passed
-2023-02-11 23:09:12,660 [INFO ] com.lms.common.ApplicationHooks [main] Closing the browser after test execution
-2023-02-11 23:09:12,660 [INFO ] com.lms.common.ApplicationHooks [main] *************************************************
-2023-02-11 23:10:43,296 [INFO ] com.lms.common.DriverProperties [main] Initiated Edge driver
-2023-02-11 23:10:43,483 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] *********************************
-2023-02-11 23:10:43,484 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] TestCase 1 : Execution started
-2023-02-11 23:10:58,651 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] Entered the url for LMS :https://lms.ey.net/
-2023-02-11 23:10:58,674 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] LMS HomePage title is :LMS | Leave Management System- Home
-2023-02-11 23:10:58,674 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] LMS HomePage is displayed -Test Case Pass
-2023-02-11 23:11:03,797 [INFO ] com.lms.common.ApplicationHooks [main] Closing the browser after test execution
-2023-02-11 23:11:03,798 [INFO ] com.lms.common.ApplicationHooks [main] *************************************************
-2023-02-11 23:11:07,068 [INFO ] com.lms.common.DriverProperties [main] Initiated Edge driver
-2023-02-11 23:11:07,224 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] TestCase 2 : Execution started
-2023-02-11 23:11:21,801 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] Entered the url for LMS :https://lms.ey.net/
-2023-02-11 23:11:21,872 [INFO ] com.lms.pages.LMSHomePage [main] User clicks on the Holiday link
-2023-02-11 23:11:26,943 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] LMS Holiday List is displayed
-2023-02-11 23:11:26,944 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] LMS Holiday List page title is :Office Holiday list
-2023-02-11 23:11:26,945 [INFO ] com.lms.pages.LMSHolidayListPage [main] Validate whether the count of public holidays is less than 10
-2023-02-11 23:11:26,965 [INFO ] com.lms.pages.LMSHolidayListPage [main] No of rows in the table is: 39
-2023-02-11 23:11:26,980 [INFO ] com.lms.pages.LMSHolidayListPage [main] No of columns in the table is: 4
-2023-02-11 23:11:27,007 [INFO ] com.lms.pages.LMSHolidayListPage [main] 15-Jan-2023  
-2023-02-11 23:11:38,395 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:11:38,435 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sunday  
-2023-02-11 23:11:43,555 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:11:43,596 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sankranti /Pongal  
-2023-02-11 23:11:44,391 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:11:44,424 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:11:45,360 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:11:45,396 [INFO ] com.lms.pages.LMSHolidayListPage [main] 26-Jan-2023  
-2023-02-11 23:11:47,727 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:11:47,771 [INFO ] com.lms.pages.LMSHolidayListPage [main] Thursday  
-2023-02-11 23:11:48,728 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:11:48,761 [INFO ] com.lms.pages.LMSHolidayListPage [main] Republic Day  
-2023-02-11 23:11:50,166 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:11:50,202 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
-2023-02-11 23:12:01,055 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:12:01,093 [INFO ] com.lms.pages.LMSHolidayListPage [main] 18-Feb-2023  
-2023-02-11 23:13:34,030 [INFO ] com.lms.common.DriverProperties [main] Initiated Edge driver
-2023-02-11 23:13:34,180 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] *********************************
-2023-02-11 23:13:34,180 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] TestCase 1 : Execution started
-2023-02-11 23:14:40,405 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] Entered the url for LMS :https://lms.ey.net/
-2023-02-11 23:14:41,079 [INFO ] com.lms.common.ApplicationHooks [main] Closing the browser after test execution
-2023-02-11 23:14:41,079 [INFO ] com.lms.common.ApplicationHooks [main] *************************************************
-2023-02-11 23:14:44,182 [INFO ] com.lms.common.DriverProperties [main] Initiated Edge driver
-2023-02-11 23:14:44,327 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] TestCase 2 : Execution started
-2023-02-11 23:14:58,315 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] Entered the url for LMS :https://lms.ey.net/
-2023-02-11 23:14:58,390 [INFO ] com.lms.pages.LMSHomePage [main] User clicks on the Holiday link
-2023-02-11 23:15:03,431 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] LMS Holiday List is displayed
-2023-02-11 23:15:03,432 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] LMS Holiday List page title is :Office Holiday list
-2023-02-11 23:15:03,433 [INFO ] com.lms.pages.LMSHolidayListPage [main] Validate whether the count of public holidays is less than 10
-2023-02-11 23:15:03,457 [INFO ] com.lms.pages.LMSHolidayListPage [main] No of rows in the table is: 39
-2023-02-11 23:15:03,472 [INFO ] com.lms.pages.LMSHolidayListPage [main] No of columns in the table is: 4
-2023-02-11 23:15:03,502 [INFO ] com.lms.pages.LMSHolidayListPage [main] 15-Jan-2023  
-2023-02-11 23:15:03,502 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:15:03,528 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sunday  
-2023-02-11 23:15:03,528 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:15:03,555 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sankranti /Pongal  
-2023-02-11 23:15:03,555 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:15:03,581 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:15:03,582 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:15:03,609 [INFO ] com.lms.pages.LMSHolidayListPage [main] 26-Jan-2023  
-2023-02-11 23:15:03,609 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:15:03,636 [INFO ] com.lms.pages.LMSHolidayListPage [main] Thursday  
-2023-02-11 23:15:03,636 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:15:03,682 [INFO ] com.lms.pages.LMSHolidayListPage [main] Republic Day  
-2023-02-11 23:15:03,683 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:0
-2023-02-11 23:15:03,714 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
-2023-02-11 23:15:03,714 [INFO ] com.lms.pages.LMSHolidayListPage [main] Counter1
-2023-02-11 23:15:03,714 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:1
-2023-02-11 23:15:03,743 [INFO ] com.lms.pages.LMSHolidayListPage [main] 18-Feb-2023  
-2023-02-11 23:15:03,743 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:1
-2023-02-11 23:15:03,771 [INFO ] com.lms.pages.LMSHolidayListPage [main] Saturday  
-2023-02-11 23:15:03,771 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:1
-2023-02-11 23:15:03,802 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sivarathri  
-2023-02-11 23:15:03,802 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:1
-2023-02-11 23:15:03,831 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:15:03,831 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:1
-2023-02-11 23:15:03,859 [INFO ] com.lms.pages.LMSHolidayListPage [main] 07-Mar-2023  
-2023-02-11 23:15:03,860 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:1
-2023-02-11 23:15:03,888 [INFO ] com.lms.pages.LMSHolidayListPage [main] Tuesday  
-2023-02-11 23:15:03,888 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:1
-2023-02-11 23:15:03,915 [INFO ] com.lms.pages.LMSHolidayListPage [main] Holi/ Shab-e-Barat  
-2023-02-11 23:15:03,915 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:1
-2023-02-11 23:15:03,946 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:15:03,947 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:1
-2023-02-11 23:15:03,973 [INFO ] com.lms.pages.LMSHolidayListPage [main] 22-Mar-2023  
-2023-02-11 23:15:03,973 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:1
-2023-02-11 23:15:04,001 [INFO ] com.lms.pages.LMSHolidayListPage [main] Wednesday  
-2023-02-11 23:15:04,002 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:1
-2023-02-11 23:15:04,027 [INFO ] com.lms.pages.LMSHolidayListPage [main] Ugadi  
-2023-02-11 23:15:04,027 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:1
-2023-02-11 23:15:04,057 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:15:04,057 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:1
-2023-02-11 23:15:04,083 [INFO ] com.lms.pages.LMSHolidayListPage [main] 30-Mar-2023  
-2023-02-11 23:15:04,083 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:1
-2023-02-11 23:15:04,110 [INFO ] com.lms.pages.LMSHolidayListPage [main] Thursday  
-2023-02-11 23:15:04,110 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:1
-2023-02-11 23:15:04,137 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sri Rama Navami  
-2023-02-11 23:15:04,137 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:1
-2023-02-11 23:15:04,180 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:15:04,180 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:1
-2023-02-11 23:15:04,208 [INFO ] com.lms.pages.LMSHolidayListPage [main] 03-Apr-2023  
-2023-02-11 23:15:04,208 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:1
-2023-02-11 23:15:04,235 [INFO ] com.lms.pages.LMSHolidayListPage [main] Monday  
-2023-02-11 23:15:04,235 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:1
-2023-02-11 23:15:04,262 [INFO ] com.lms.pages.LMSHolidayListPage [main] Mahaveer Jayanti (Karnataka)  
-2023-02-11 23:15:04,262 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:1
-2023-02-11 23:15:04,291 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:15:04,291 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:1
-2023-02-11 23:15:04,318 [INFO ] com.lms.pages.LMSHolidayListPage [main] 04-Apr-2023  
-2023-02-11 23:15:04,318 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:1
-2023-02-11 23:15:04,343 [INFO ] com.lms.pages.LMSHolidayListPage [main] Tuesday  
-2023-02-11 23:15:04,343 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:1
-2023-02-11 23:15:04,371 [INFO ] com.lms.pages.LMSHolidayListPage [main] Mahavir Jayanti (Tamil Nadu, Kolkata & UP)  
-2023-02-11 23:15:04,371 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:1
-2023-02-11 23:15:04,400 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:15:04,400 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:1
-2023-02-11 23:15:04,427 [INFO ] com.lms.pages.LMSHolidayListPage [main] 05-Apr-2023  
-2023-02-11 23:15:04,427 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:1
-2023-02-11 23:15:04,454 [INFO ] com.lms.pages.LMSHolidayListPage [main] Wednesday  
-2023-02-11 23:15:04,454 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:1
-2023-02-11 23:15:04,480 [INFO ] com.lms.pages.LMSHolidayListPage [main] Babu Jajivan Ram's Birthday  
-2023-02-11 23:15:04,481 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:1
-2023-02-11 23:15:04,511 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:15:04,511 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:1
-2023-02-11 23:15:04,540 [INFO ] com.lms.pages.LMSHolidayListPage [main] 07-Apr-2023  
-2023-02-11 23:15:04,540 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:1
-2023-02-11 23:15:04,566 [INFO ] com.lms.pages.LMSHolidayListPage [main] Friday  
-2023-02-11 23:15:04,566 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:1
-2023-02-11 23:15:04,591 [INFO ] com.lms.pages.LMSHolidayListPage [main] Good Friday  
-2023-02-11 23:15:04,591 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:1
-2023-02-11 23:15:04,621 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
-2023-02-11 23:15:04,621 [INFO ] com.lms.pages.LMSHolidayListPage [main] Counter2
-2023-02-11 23:15:04,621 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:2
-2023-02-11 23:15:04,649 [INFO ] com.lms.pages.LMSHolidayListPage [main] 09-Apr-2023  
-2023-02-11 23:15:04,649 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:2
-2023-02-11 23:15:04,675 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sunday  
-2023-02-11 23:15:04,675 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:2
-2023-02-11 23:15:04,704 [INFO ] com.lms.pages.LMSHolidayListPage [main] Easter  
-2023-02-11 23:15:04,704 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:2
-2023-02-11 23:15:04,730 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:15:04,731 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:2
-2023-02-11 23:15:04,757 [INFO ] com.lms.pages.LMSHolidayListPage [main] 14-Apr-2023  
-2023-02-11 23:15:04,757 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:2
-2023-02-11 23:15:04,783 [INFO ] com.lms.pages.LMSHolidayListPage [main] Friday  
-2023-02-11 23:15:04,783 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:2
-2023-02-11 23:15:04,811 [INFO ] com.lms.pages.LMSHolidayListPage [main] Vaisakhi / Tamil New Year / Dr. B. R. Ambedkar Jayanthi  
-2023-02-11 23:15:04,812 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:2
-2023-02-11 23:15:04,841 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:15:04,841 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:2
-2023-02-11 23:15:04,868 [INFO ] com.lms.pages.LMSHolidayListPage [main] 15-Apr-2023  
-2023-02-11 23:15:04,868 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:2
-2023-02-11 23:15:04,895 [INFO ] com.lms.pages.LMSHolidayListPage [main] Saturday  
-2023-02-11 23:15:04,896 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:2
-2023-02-11 23:15:04,922 [INFO ] com.lms.pages.LMSHolidayListPage [main] Vishu  
-2023-02-11 23:15:04,922 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:2
-2023-02-11 23:15:04,952 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:15:04,952 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:2
-2023-02-11 23:15:04,979 [INFO ] com.lms.pages.LMSHolidayListPage [main] 18-Apr-2023  
-2023-02-11 23:15:04,979 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:2
-2023-02-11 23:15:05,009 [INFO ] com.lms.pages.LMSHolidayListPage [main] Tuesday  
-2023-02-11 23:15:05,009 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:2
-2023-02-11 23:15:05,036 [INFO ] com.lms.pages.LMSHolidayListPage [main] Shab-e-Quadar  
-2023-02-11 23:15:05,036 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:2
-2023-02-11 23:15:05,065 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:15:05,065 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:2
-2023-02-11 23:15:05,092 [INFO ] com.lms.pages.LMSHolidayListPage [main] 21-Apr-2023  
-2023-02-11 23:15:05,092 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:2
-2023-02-11 23:15:05,118 [INFO ] com.lms.pages.LMSHolidayListPage [main] Friday  
-2023-02-11 23:15:05,118 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:2
-2023-02-11 23:15:05,144 [INFO ] com.lms.pages.LMSHolidayListPage [main] Id-Ul-Fitr* (Ramzan)  
-2023-02-11 23:15:05,144 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:2
-2023-02-11 23:15:05,172 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
-2023-02-11 23:15:05,172 [INFO ] com.lms.pages.LMSHolidayListPage [main] Counter3
-2023-02-11 23:15:05,172 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:3
-2023-02-11 23:15:05,199 [INFO ] com.lms.pages.LMSHolidayListPage [main] 21-Apr-2023  
-2023-02-11 23:15:05,199 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:3
-2023-02-11 23:15:05,227 [INFO ] com.lms.pages.LMSHolidayListPage [main] Friday  
-2023-02-11 23:15:05,227 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:3
-2023-02-11 23:15:05,253 [INFO ] com.lms.pages.LMSHolidayListPage [main] Jumat-ul-Vida  
-2023-02-11 23:15:05,253 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:3
-2023-02-11 23:15:05,281 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:15:05,281 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:3
-2023-02-11 23:15:05,308 [INFO ] com.lms.pages.LMSHolidayListPage [main] 01-May-2023  
-2023-02-11 23:15:05,308 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:3
-2023-02-11 23:15:05,336 [INFO ] com.lms.pages.LMSHolidayListPage [main] Monday  
-2023-02-11 23:15:05,336 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:3
-2023-02-11 23:15:05,367 [INFO ] com.lms.pages.LMSHolidayListPage [main] May Day/Maharastra Day  
-2023-02-11 23:15:05,367 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:3
-2023-02-11 23:15:05,399 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
-2023-02-11 23:15:05,399 [INFO ] com.lms.pages.LMSHolidayListPage [main] Counter4
-2023-02-11 23:15:05,400 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:4
-2023-02-11 23:15:05,431 [INFO ] com.lms.pages.LMSHolidayListPage [main] 05-May-2023  
-2023-02-11 23:15:05,432 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:4
-2023-02-11 23:15:05,458 [INFO ] com.lms.pages.LMSHolidayListPage [main] Friday  
-2023-02-11 23:15:05,458 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:4
-2023-02-11 23:15:05,487 [INFO ] com.lms.pages.LMSHolidayListPage [main] Budh Purnima  
-2023-02-11 23:15:05,487 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:4
-2023-02-11 23:15:05,514 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:15:05,514 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:4
-2023-02-11 23:15:05,540 [INFO ] com.lms.pages.LMSHolidayListPage [main] 28-Jun-2023  
-2023-02-11 23:15:05,541 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:4
-2023-02-11 23:15:05,567 [INFO ] com.lms.pages.LMSHolidayListPage [main] Wednesday  
-2023-02-11 23:15:05,567 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:4
-2023-02-11 23:15:05,595 [INFO ] com.lms.pages.LMSHolidayListPage [main] Id-Ul-Ad’ha (Bakrid)*  
-2023-02-11 23:15:05,595 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:4
-2023-02-11 23:15:05,626 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
-2023-02-11 23:15:05,626 [INFO ] com.lms.pages.LMSHolidayListPage [main] Counter5
-2023-02-11 23:15:05,626 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:5
-2023-02-11 23:15:05,655 [INFO ] com.lms.pages.LMSHolidayListPage [main] 28-Jul-2023  
-2023-02-11 23:15:05,656 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:5
-2023-02-11 23:15:05,685 [INFO ] com.lms.pages.LMSHolidayListPage [main] Friday  
-2023-02-11 23:15:05,686 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:5
-2023-02-11 23:15:05,724 [INFO ] com.lms.pages.LMSHolidayListPage [main] Muharram  
-2023-02-11 23:15:05,725 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:5
-2023-02-11 23:15:05,760 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:15:05,760 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:5
-2023-02-11 23:15:05,786 [INFO ] com.lms.pages.LMSHolidayListPage [main] 15-Aug-2023  
-2023-02-11 23:15:05,786 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:5
-2023-02-11 23:15:05,814 [INFO ] com.lms.pages.LMSHolidayListPage [main] Tuesday  
-2023-02-11 23:15:05,814 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:5
-2023-02-11 23:15:05,841 [INFO ] com.lms.pages.LMSHolidayListPage [main] Independence Day  
-2023-02-11 23:15:05,842 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:5
-2023-02-11 23:15:05,869 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
-2023-02-11 23:15:05,870 [INFO ] com.lms.pages.LMSHolidayListPage [main] Counter6
-2023-02-11 23:15:05,870 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:6
-2023-02-11 23:15:05,896 [INFO ] com.lms.pages.LMSHolidayListPage [main] 25-Aug-2023  
-2023-02-11 23:15:05,896 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:6
-2023-02-11 23:15:05,923 [INFO ] com.lms.pages.LMSHolidayListPage [main] Friday  
-2023-02-11 23:15:05,923 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:6
-2023-02-11 23:15:05,950 [INFO ] com.lms.pages.LMSHolidayListPage [main] Varamahalakshmi Brata  
-2023-02-11 23:15:05,950 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:6
-2023-02-11 23:15:05,978 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:15:05,978 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:6
-2023-02-11 23:15:06,004 [INFO ] com.lms.pages.LMSHolidayListPage [main] 28-Aug-2023  
-2023-02-11 23:15:06,004 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:6
-2023-02-11 23:15:06,037 [INFO ] com.lms.pages.LMSHolidayListPage [main] Monday  
-2023-02-11 23:15:06,037 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:6
-2023-02-11 23:15:06,065 [INFO ] com.lms.pages.LMSHolidayListPage [main] First Onam  
-2023-02-11 23:15:06,065 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:6
-2023-02-11 23:15:06,098 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
-2023-02-11 23:15:06,098 [INFO ] com.lms.pages.LMSHolidayListPage [main] Counter7
-2023-02-11 23:15:06,099 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:7
-2023-02-11 23:15:06,126 [INFO ] com.lms.pages.LMSHolidayListPage [main] 29-Aug-2023  
-2023-02-11 23:15:06,126 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:7
-2023-02-11 23:15:06,157 [INFO ] com.lms.pages.LMSHolidayListPage [main] Tuesday  
-2023-02-11 23:15:06,157 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:7
-2023-02-11 23:15:06,185 [INFO ] com.lms.pages.LMSHolidayListPage [main] Thiruvonam  
-2023-02-11 23:15:06,185 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:7
-2023-02-11 23:15:06,213 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
-2023-02-11 23:15:06,213 [INFO ] com.lms.pages.LMSHolidayListPage [main] Counter8
-2023-02-11 23:15:06,213 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:8
-2023-02-11 23:15:06,239 [INFO ] com.lms.pages.LMSHolidayListPage [main] 31-Aug-2023  
-2023-02-11 23:15:06,239 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:8
-2023-02-11 23:15:06,268 [INFO ] com.lms.pages.LMSHolidayListPage [main] Thursday  
-2023-02-11 23:15:06,268 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:8
-2023-02-11 23:15:06,296 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sree Narayana Guru Jayanthi / Rakhi Bandhan  
-2023-02-11 23:15:06,296 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:8
-2023-02-11 23:15:06,322 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:15:06,323 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:8
-2023-02-11 23:15:06,348 [INFO ] com.lms.pages.LMSHolidayListPage [main] 06-Sep-2023  
-2023-02-11 23:15:06,349 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:8
-2023-02-11 23:15:06,376 [INFO ] com.lms.pages.LMSHolidayListPage [main] Wednesday  
-2023-02-11 23:15:06,377 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:8
-2023-02-11 23:15:06,402 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sri Krishna Asthami / Janmastami  
-2023-02-11 23:15:06,402 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:8
-2023-02-11 23:15:06,427 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:15:06,427 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:8
-2023-02-11 23:15:06,458 [INFO ] com.lms.pages.LMSHolidayListPage [main] 19-Sep-2023  
-2023-02-11 23:15:06,459 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:8
-2023-02-11 23:15:06,487 [INFO ] com.lms.pages.LMSHolidayListPage [main] Tuesday  
-2023-02-11 23:15:06,487 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:8
-2023-02-11 23:15:06,515 [INFO ] com.lms.pages.LMSHolidayListPage [main] Ganesh Chaturthi  
-2023-02-11 23:15:06,515 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:8
-2023-02-11 23:15:06,545 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:15:06,545 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:8
-2023-02-11 23:15:06,574 [INFO ] com.lms.pages.LMSHolidayListPage [main] 22-Sep-2023  
-2023-02-11 23:15:06,576 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:8
-2023-02-11 23:15:06,612 [INFO ] com.lms.pages.LMSHolidayListPage [main] Friday  
-2023-02-11 23:15:06,612 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:8
-2023-02-11 23:15:06,652 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sree Narayana Guru Samadhi Day  
-2023-02-11 23:15:06,652 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:8
-2023-02-11 23:15:06,680 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:15:06,680 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:8
-2023-02-11 23:15:06,707 [INFO ] com.lms.pages.LMSHolidayListPage [main] 27-Sep-2023  
-2023-02-11 23:15:06,707 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:8
-2023-02-11 23:15:06,739 [INFO ] com.lms.pages.LMSHolidayListPage [main] Wednesday  
-2023-02-11 23:15:06,739 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:8
-2023-02-11 23:15:06,768 [INFO ] com.lms.pages.LMSHolidayListPage [main] Milad-i-Sherif* (Birthday of Prophet Muhammed)  
-2023-02-11 23:15:06,768 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:8
-2023-02-11 23:15:06,793 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:15:06,794 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:8
-2023-02-11 23:15:06,824 [INFO ] com.lms.pages.LMSHolidayListPage [main] 28-Sep-2023  
-2023-02-11 23:15:06,824 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:8
-2023-02-11 23:15:06,849 [INFO ] com.lms.pages.LMSHolidayListPage [main] Thursday  
-2023-02-11 23:15:06,849 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:8
-2023-02-11 23:15:06,874 [INFO ] com.lms.pages.LMSHolidayListPage [main] Eid Miladun Nabi  
-2023-02-11 23:15:06,874 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:8
-2023-02-11 23:15:06,902 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:15:06,903 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:8
-2023-02-11 23:15:06,927 [INFO ] com.lms.pages.LMSHolidayListPage [main] 02-Oct-2023  
-2023-02-11 23:15:06,928 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:8
-2023-02-11 23:15:06,955 [INFO ] com.lms.pages.LMSHolidayListPage [main] Monday  
-2023-02-11 23:15:06,955 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:8
-2023-02-11 23:15:06,980 [INFO ] com.lms.pages.LMSHolidayListPage [main] Gandhi Jayanthi  
-2023-02-11 23:15:06,980 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:8
-2023-02-11 23:15:07,005 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
-2023-02-11 23:15:07,005 [INFO ] com.lms.pages.LMSHolidayListPage [main] Counter9
-2023-02-11 23:15:07,005 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:9
-2023-02-11 23:15:07,030 [INFO ] com.lms.pages.LMSHolidayListPage [main] 23-Oct-2023  
-2023-02-11 23:15:07,031 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:9
-2023-02-11 23:15:07,056 [INFO ] com.lms.pages.LMSHolidayListPage [main] Monday  
-2023-02-11 23:15:07,056 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:9
-2023-02-11 23:15:07,082 [INFO ] com.lms.pages.LMSHolidayListPage [main] Ayutha puja / Durga Puja/ Navami  
-2023-02-11 23:15:07,082 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:9
-2023-02-11 23:15:07,115 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
-2023-02-11 23:15:07,116 [INFO ] com.lms.pages.LMSHolidayListPage [main] Counter10
-2023-02-11 23:15:07,116 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:10
-2023-02-11 23:15:07,143 [INFO ] com.lms.pages.LMSHolidayListPage [main] 24-Oct-2023  
-2023-02-11 23:15:07,143 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:10
-2023-02-11 23:15:07,171 [INFO ] com.lms.pages.LMSHolidayListPage [main] Tuesday  
-2023-02-11 23:15:07,171 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:10
-2023-02-11 23:15:07,200 [INFO ] com.lms.pages.LMSHolidayListPage [main] Durga Puja Dasami /Bijay Dasami /Vijayadasami  
-2023-02-11 23:15:07,200 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:10
-2023-02-11 23:15:07,229 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:15:07,229 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:10
-2023-02-11 23:15:07,256 [INFO ] com.lms.pages.LMSHolidayListPage [main] 12-Nov-2023  
-2023-02-11 23:15:07,256 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:10
-2023-02-11 23:15:07,282 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sunday  
-2023-02-11 23:15:07,282 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:10
-2023-02-11 23:15:07,307 [INFO ] com.lms.pages.LMSHolidayListPage [main] Deepavali/ Naraka Chaturdashi  
-2023-02-11 23:15:07,307 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:10
-2023-02-11 23:15:07,332 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:15:07,332 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:10
-2023-02-11 23:15:07,358 [INFO ] com.lms.pages.LMSHolidayListPage [main] 13-Nov-2023  
-2023-02-11 23:15:07,359 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:10
-2023-02-11 23:15:07,388 [INFO ] com.lms.pages.LMSHolidayListPage [main] Monday  
-2023-02-11 23:15:07,388 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:10
-2023-02-11 23:15:07,415 [INFO ] com.lms.pages.LMSHolidayListPage [main] Gowardhan Puja  
-2023-02-11 23:15:07,415 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:10
-2023-02-11 23:15:07,451 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:15:07,451 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:10
-2023-02-11 23:15:07,485 [INFO ] com.lms.pages.LMSHolidayListPage [main] 14-Nov-2023  
-2023-02-11 23:15:07,485 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:10
-2023-02-11 23:15:07,513 [INFO ] com.lms.pages.LMSHolidayListPage [main] Tuesday  
-2023-02-11 23:15:07,513 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:10
-2023-02-11 23:15:07,540 [INFO ] com.lms.pages.LMSHolidayListPage [main] Balipadyami, Deepavali  
-2023-02-11 23:15:07,540 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:10
-2023-02-11 23:15:07,569 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:15:07,569 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:10
-2023-02-11 23:15:07,601 [INFO ] com.lms.pages.LMSHolidayListPage [main] 15-Nov-2023  
-2023-02-11 23:15:07,601 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:10
-2023-02-11 23:15:07,627 [INFO ] com.lms.pages.LMSHolidayListPage [main] Wednesday  
-2023-02-11 23:15:07,627 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:10
-2023-02-11 23:15:07,655 [INFO ] com.lms.pages.LMSHolidayListPage [main] Bhratridwitiya /Bhai Duj  
-2023-02-11 23:15:07,656 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:10
-2023-02-11 23:15:07,682 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:15:07,683 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:10
-2023-02-11 23:15:07,711 [INFO ] com.lms.pages.LMSHolidayListPage [main] 27-Nov-2023  
-2023-02-11 23:15:07,711 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:10
-2023-02-11 23:15:07,739 [INFO ] com.lms.pages.LMSHolidayListPage [main] Monday  
-2023-02-11 23:15:07,739 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:10
-2023-02-11 23:15:07,765 [INFO ] com.lms.pages.LMSHolidayListPage [main] Kartik Purnima/ Gurunanak Jayanti  
-2023-02-11 23:15:07,766 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:10
-2023-02-11 23:15:07,791 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:15:07,792 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:10
-2023-02-11 23:15:07,820 [INFO ] com.lms.pages.LMSHolidayListPage [main] 25-Dec-2023  
-2023-02-11 23:15:07,820 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:10
-2023-02-11 23:15:07,850 [INFO ] com.lms.pages.LMSHolidayListPage [main] Monday  
-2023-02-11 23:15:07,850 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:10
-2023-02-11 23:15:07,879 [INFO ] com.lms.pages.LMSHolidayListPage [main] Christmas  
-2023-02-11 23:15:07,879 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:10
-2023-02-11 23:15:07,910 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
-2023-02-11 23:15:07,910 [INFO ] com.lms.pages.LMSHolidayListPage [main] Counter11
-2023-02-11 23:15:07,910 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] Count of Public Holdiays is less than ten- Test Case Passed
-2023-02-11 23:15:08,511 [INFO ] com.lms.common.ApplicationHooks [main] Closing the browser after test execution
-2023-02-11 23:15:08,511 [INFO ] com.lms.common.ApplicationHooks [main] *************************************************
-2023-02-11 23:18:11,309 [INFO ] com.lms.common.DriverProperties [main] Initiated Edge driver
-2023-02-11 23:18:11,453 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] *********************************
-2023-02-11 23:18:11,453 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] TestCase 1 : Execution started
-2023-02-11 23:18:25,865 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] Entered the url for LMS :https://lms.ey.net/
-2023-02-11 23:18:25,882 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] LMS HomePage title is :LMS | Leave Management System- Home
-2023-02-11 23:18:25,882 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] LMS HomePage is displayed -Test Case Pass
-2023-02-11 23:18:26,466 [INFO ] com.lms.common.ApplicationHooks [main] Closing the browser after test execution
-2023-02-11 23:18:26,467 [INFO ] com.lms.common.ApplicationHooks [main] *************************************************
-2023-02-11 23:18:29,775 [INFO ] com.lms.common.DriverProperties [main] Initiated Edge driver
-2023-02-11 23:18:29,915 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] TestCase 2 : Execution started
-2023-02-11 23:18:45,182 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] Entered the url for LMS :https://lms.ey.net/
-2023-02-11 23:18:45,278 [INFO ] com.lms.pages.LMSHomePage [main] User clicks on the Holiday link
-2023-02-11 23:18:50,313 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] LMS Holiday List is displayed
-2023-02-11 23:18:50,314 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] LMS Holiday List page title is :Office Holiday list
-2023-02-11 23:18:50,315 [INFO ] com.lms.pages.LMSHolidayListPage [main] Validate whether the count of public holidays is less than 10
-2023-02-11 23:18:50,338 [INFO ] com.lms.pages.LMSHolidayListPage [main] No of rows in the table is: 39
-2023-02-11 23:18:50,355 [INFO ] com.lms.pages.LMSHolidayListPage [main] No of columns in the table is: 4
-2023-02-11 23:18:50,441 [INFO ] com.lms.pages.LMSHolidayListPage [main] 15-Jan-2023  
-2023-02-11 23:18:50,520 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sunday  
-2023-02-11 23:18:50,593 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sankranti /Pongal  
-2023-02-11 23:18:50,677 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:18:50,749 [INFO ] com.lms.pages.LMSHolidayListPage [main] 26-Jan-2023  
-2023-02-11 23:18:50,811 [INFO ] com.lms.pages.LMSHolidayListPage [main] Thursday  
-2023-02-11 23:18:50,862 [INFO ] com.lms.pages.LMSHolidayListPage [main] Republic Day  
-2023-02-11 23:18:50,914 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
-2023-02-11 23:18:50,914 [INFO ] com.lms.pages.LMSHolidayListPage [main] Counter1
-2023-02-11 23:18:50,958 [INFO ] com.lms.pages.LMSHolidayListPage [main] 18-Feb-2023  
-2023-02-11 23:18:51,009 [INFO ] com.lms.pages.LMSHolidayListPage [main] Saturday  
-2023-02-11 23:18:51,056 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sivarathri  
-2023-02-11 23:18:51,107 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:18:51,158 [INFO ] com.lms.pages.LMSHolidayListPage [main] 07-Mar-2023  
-2023-02-11 23:18:51,203 [INFO ] com.lms.pages.LMSHolidayListPage [main] Tuesday  
-2023-02-11 23:18:51,251 [INFO ] com.lms.pages.LMSHolidayListPage [main] Holi/ Shab-e-Barat  
-2023-02-11 23:18:51,298 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:18:51,347 [INFO ] com.lms.pages.LMSHolidayListPage [main] 22-Mar-2023  
-2023-02-11 23:18:51,394 [INFO ] com.lms.pages.LMSHolidayListPage [main] Wednesday  
-2023-02-11 23:18:51,445 [INFO ] com.lms.pages.LMSHolidayListPage [main] Ugadi  
-2023-02-11 23:18:51,508 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:18:51,567 [INFO ] com.lms.pages.LMSHolidayListPage [main] 30-Mar-2023  
-2023-02-11 23:18:51,632 [INFO ] com.lms.pages.LMSHolidayListPage [main] Thursday  
-2023-02-11 23:18:51,695 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sri Rama Navami  
-2023-02-11 23:18:51,738 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:18:51,793 [INFO ] com.lms.pages.LMSHolidayListPage [main] 03-Apr-2023  
-2023-02-11 23:18:51,833 [INFO ] com.lms.pages.LMSHolidayListPage [main] Monday  
-2023-02-11 23:18:51,878 [INFO ] com.lms.pages.LMSHolidayListPage [main] Mahaveer Jayanti (Karnataka)  
-2023-02-11 23:18:51,920 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:18:51,966 [INFO ] com.lms.pages.LMSHolidayListPage [main] 04-Apr-2023  
-2023-02-11 23:18:52,004 [INFO ] com.lms.pages.LMSHolidayListPage [main] Tuesday  
-2023-02-11 23:18:52,046 [INFO ] com.lms.pages.LMSHolidayListPage [main] Mahavir Jayanti (Tamil Nadu, Kolkata & UP)  
-2023-02-11 23:18:52,090 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:18:52,134 [INFO ] com.lms.pages.LMSHolidayListPage [main] 05-Apr-2023  
-2023-02-11 23:18:52,178 [INFO ] com.lms.pages.LMSHolidayListPage [main] Wednesday  
-2023-02-11 23:18:52,224 [INFO ] com.lms.pages.LMSHolidayListPage [main] Babu Jajivan Ram's Birthday  
-2023-02-11 23:18:52,269 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:18:52,320 [INFO ] com.lms.pages.LMSHolidayListPage [main] 07-Apr-2023  
-2023-02-11 23:18:52,372 [INFO ] com.lms.pages.LMSHolidayListPage [main] Friday  
-2023-02-11 23:18:52,432 [INFO ] com.lms.pages.LMSHolidayListPage [main] Good Friday  
-2023-02-11 23:18:52,503 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
-2023-02-11 23:18:52,504 [INFO ] com.lms.pages.LMSHolidayListPage [main] Counter2
-2023-02-11 23:18:52,555 [INFO ] com.lms.pages.LMSHolidayListPage [main] 09-Apr-2023  
-2023-02-11 23:18:52,604 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sunday  
-2023-02-11 23:18:52,646 [INFO ] com.lms.pages.LMSHolidayListPage [main] Easter  
-2023-02-11 23:18:52,689 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:18:52,729 [INFO ] com.lms.pages.LMSHolidayListPage [main] 14-Apr-2023  
-2023-02-11 23:18:52,771 [INFO ] com.lms.pages.LMSHolidayListPage [main] Friday  
-2023-02-11 23:18:52,809 [INFO ] com.lms.pages.LMSHolidayListPage [main] Vaisakhi / Tamil New Year / Dr. B. R. Ambedkar Jayanthi  
-2023-02-11 23:18:52,847 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:18:52,888 [INFO ] com.lms.pages.LMSHolidayListPage [main] 15-Apr-2023  
-2023-02-11 23:18:52,925 [INFO ] com.lms.pages.LMSHolidayListPage [main] Saturday  
-2023-02-11 23:18:52,962 [INFO ] com.lms.pages.LMSHolidayListPage [main] Vishu  
-2023-02-11 23:18:53,001 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:18:53,039 [INFO ] com.lms.pages.LMSHolidayListPage [main] 18-Apr-2023  
-2023-02-11 23:18:53,077 [INFO ] com.lms.pages.LMSHolidayListPage [main] Tuesday  
-2023-02-11 23:18:53,113 [INFO ] com.lms.pages.LMSHolidayListPage [main] Shab-e-Quadar  
-2023-02-11 23:18:53,155 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:18:53,193 [INFO ] com.lms.pages.LMSHolidayListPage [main] 21-Apr-2023  
-2023-02-11 23:18:53,235 [INFO ] com.lms.pages.LMSHolidayListPage [main] Friday  
-2023-02-11 23:18:53,274 [INFO ] com.lms.pages.LMSHolidayListPage [main] Id-Ul-Fitr* (Ramzan)  
-2023-02-11 23:18:53,315 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
-2023-02-11 23:18:53,315 [INFO ] com.lms.pages.LMSHolidayListPage [main] Counter3
-2023-02-11 23:18:53,355 [INFO ] com.lms.pages.LMSHolidayListPage [main] 21-Apr-2023  
-2023-02-11 23:18:53,396 [INFO ] com.lms.pages.LMSHolidayListPage [main] Friday  
-2023-02-11 23:18:53,437 [INFO ] com.lms.pages.LMSHolidayListPage [main] Jumat-ul-Vida  
-2023-02-11 23:18:53,477 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:18:53,517 [INFO ] com.lms.pages.LMSHolidayListPage [main] 01-May-2023  
-2023-02-11 23:18:53,555 [INFO ] com.lms.pages.LMSHolidayListPage [main] Monday  
-2023-02-11 23:18:53,591 [INFO ] com.lms.pages.LMSHolidayListPage [main] May Day/Maharastra Day  
-2023-02-11 23:18:53,629 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
-2023-02-11 23:18:53,629 [INFO ] com.lms.pages.LMSHolidayListPage [main] Counter4
-2023-02-11 23:18:53,670 [INFO ] com.lms.pages.LMSHolidayListPage [main] 05-May-2023  
-2023-02-11 23:18:53,709 [INFO ] com.lms.pages.LMSHolidayListPage [main] Friday  
-2023-02-11 23:18:53,754 [INFO ] com.lms.pages.LMSHolidayListPage [main] Budh Purnima  
-2023-02-11 23:18:53,792 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:18:53,832 [INFO ] com.lms.pages.LMSHolidayListPage [main] 28-Jun-2023  
-2023-02-11 23:18:53,870 [INFO ] com.lms.pages.LMSHolidayListPage [main] Wednesday  
-2023-02-11 23:18:53,910 [INFO ] com.lms.pages.LMSHolidayListPage [main] Id-Ul-Ad’ha (Bakrid)*  
-2023-02-11 23:18:53,950 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
-2023-02-11 23:18:53,950 [INFO ] com.lms.pages.LMSHolidayListPage [main] Counter5
-2023-02-11 23:18:53,989 [INFO ] com.lms.pages.LMSHolidayListPage [main] 28-Jul-2023  
-2023-02-11 23:18:54,027 [INFO ] com.lms.pages.LMSHolidayListPage [main] Friday  
-2023-02-11 23:18:54,066 [INFO ] com.lms.pages.LMSHolidayListPage [main] Muharram  
-2023-02-11 23:18:54,107 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:18:54,149 [INFO ] com.lms.pages.LMSHolidayListPage [main] 15-Aug-2023  
-2023-02-11 23:18:54,189 [INFO ] com.lms.pages.LMSHolidayListPage [main] Tuesday  
-2023-02-11 23:18:54,230 [INFO ] com.lms.pages.LMSHolidayListPage [main] Independence Day  
-2023-02-11 23:18:54,277 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
-2023-02-11 23:18:54,277 [INFO ] com.lms.pages.LMSHolidayListPage [main] Counter6
-2023-02-11 23:18:54,319 [INFO ] com.lms.pages.LMSHolidayListPage [main] 25-Aug-2023  
-2023-02-11 23:18:54,358 [INFO ] com.lms.pages.LMSHolidayListPage [main] Friday  
-2023-02-11 23:18:54,398 [INFO ] com.lms.pages.LMSHolidayListPage [main] Varamahalakshmi Brata  
-2023-02-11 23:18:54,434 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:18:54,471 [INFO ] com.lms.pages.LMSHolidayListPage [main] 28-Aug-2023  
-2023-02-11 23:18:54,512 [INFO ] com.lms.pages.LMSHolidayListPage [main] Monday  
-2023-02-11 23:18:54,553 [INFO ] com.lms.pages.LMSHolidayListPage [main] First Onam  
-2023-02-11 23:18:54,593 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
-2023-02-11 23:18:54,594 [INFO ] com.lms.pages.LMSHolidayListPage [main] Counter7
-2023-02-11 23:18:54,642 [INFO ] com.lms.pages.LMSHolidayListPage [main] 29-Aug-2023  
-2023-02-11 23:18:54,682 [INFO ] com.lms.pages.LMSHolidayListPage [main] Tuesday  
-2023-02-11 23:18:54,722 [INFO ] com.lms.pages.LMSHolidayListPage [main] Thiruvonam  
-2023-02-11 23:18:54,762 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
-2023-02-11 23:18:54,762 [INFO ] com.lms.pages.LMSHolidayListPage [main] Counter8
-2023-02-11 23:18:54,805 [INFO ] com.lms.pages.LMSHolidayListPage [main] 31-Aug-2023  
-2023-02-11 23:18:54,844 [INFO ] com.lms.pages.LMSHolidayListPage [main] Thursday  
-2023-02-11 23:18:54,884 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sree Narayana Guru Jayanthi / Rakhi Bandhan  
-2023-02-11 23:18:54,926 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:18:54,974 [INFO ] com.lms.pages.LMSHolidayListPage [main] 06-Sep-2023  
-2023-02-11 23:18:55,027 [INFO ] com.lms.pages.LMSHolidayListPage [main] Wednesday  
-2023-02-11 23:18:55,100 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sri Krishna Asthami / Janmastami  
-2023-02-11 23:18:55,180 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:18:55,233 [INFO ] com.lms.pages.LMSHolidayListPage [main] 19-Sep-2023  
-2023-02-11 23:18:55,293 [INFO ] com.lms.pages.LMSHolidayListPage [main] Tuesday  
-2023-02-11 23:18:55,348 [INFO ] com.lms.pages.LMSHolidayListPage [main] Ganesh Chaturthi  
-2023-02-11 23:18:55,410 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:18:55,476 [INFO ] com.lms.pages.LMSHolidayListPage [main] 22-Sep-2023  
-2023-02-11 23:18:55,541 [INFO ] com.lms.pages.LMSHolidayListPage [main] Friday  
-2023-02-11 23:18:55,598 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sree Narayana Guru Samadhi Day  
-2023-02-11 23:18:55,650 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:18:55,703 [INFO ] com.lms.pages.LMSHolidayListPage [main] 27-Sep-2023  
-2023-02-11 23:18:55,761 [INFO ] com.lms.pages.LMSHolidayListPage [main] Wednesday  
-2023-02-11 23:18:55,815 [INFO ] com.lms.pages.LMSHolidayListPage [main] Milad-i-Sherif* (Birthday of Prophet Muhammed)  
-2023-02-11 23:18:55,867 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:18:55,914 [INFO ] com.lms.pages.LMSHolidayListPage [main] 28-Sep-2023  
-2023-02-11 23:18:55,965 [INFO ] com.lms.pages.LMSHolidayListPage [main] Thursday  
-2023-02-11 23:18:56,019 [INFO ] com.lms.pages.LMSHolidayListPage [main] Eid Miladun Nabi  
-2023-02-11 23:18:56,074 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:18:56,126 [INFO ] com.lms.pages.LMSHolidayListPage [main] 02-Oct-2023  
-2023-02-11 23:18:56,177 [INFO ] com.lms.pages.LMSHolidayListPage [main] Monday  
-2023-02-11 23:18:56,229 [INFO ] com.lms.pages.LMSHolidayListPage [main] Gandhi Jayanthi  
-2023-02-11 23:18:56,278 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
-2023-02-11 23:18:56,278 [INFO ] com.lms.pages.LMSHolidayListPage [main] Counter9
-2023-02-11 23:18:56,327 [INFO ] com.lms.pages.LMSHolidayListPage [main] 23-Oct-2023  
-2023-02-11 23:18:56,376 [INFO ] com.lms.pages.LMSHolidayListPage [main] Monday  
-2023-02-11 23:18:56,425 [INFO ] com.lms.pages.LMSHolidayListPage [main] Ayutha puja / Durga Puja/ Navami  
-2023-02-11 23:18:56,476 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
-2023-02-11 23:18:56,477 [INFO ] com.lms.pages.LMSHolidayListPage [main] Counter10
-2023-02-11 23:18:56,525 [INFO ] com.lms.pages.LMSHolidayListPage [main] 24-Oct-2023  
-2023-02-11 23:18:56,580 [INFO ] com.lms.pages.LMSHolidayListPage [main] Tuesday  
-2023-02-11 23:18:56,629 [INFO ] com.lms.pages.LMSHolidayListPage [main] Durga Puja Dasami /Bijay Dasami /Vijayadasami  
-2023-02-11 23:18:56,675 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:18:56,727 [INFO ] com.lms.pages.LMSHolidayListPage [main] 12-Nov-2023  
-2023-02-11 23:18:56,786 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sunday  
-2023-02-11 23:18:56,864 [INFO ] com.lms.pages.LMSHolidayListPage [main] Deepavali/ Naraka Chaturdashi  
-2023-02-11 23:18:56,927 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:18:56,988 [INFO ] com.lms.pages.LMSHolidayListPage [main] 13-Nov-2023  
-2023-02-11 23:18:57,054 [INFO ] com.lms.pages.LMSHolidayListPage [main] Monday  
-2023-02-11 23:18:57,111 [INFO ] com.lms.pages.LMSHolidayListPage [main] Gowardhan Puja  
-2023-02-11 23:18:57,164 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:18:57,217 [INFO ] com.lms.pages.LMSHolidayListPage [main] 14-Nov-2023  
-2023-02-11 23:18:57,276 [INFO ] com.lms.pages.LMSHolidayListPage [main] Tuesday  
-2023-02-11 23:18:57,362 [INFO ] com.lms.pages.LMSHolidayListPage [main] Balipadyami, Deepavali  
-2023-02-11 23:18:57,418 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:18:57,467 [INFO ] com.lms.pages.LMSHolidayListPage [main] 15-Nov-2023  
-2023-02-11 23:18:57,521 [INFO ] com.lms.pages.LMSHolidayListPage [main] Wednesday  
-2023-02-11 23:18:57,570 [INFO ] com.lms.pages.LMSHolidayListPage [main] Bhratridwitiya /Bhai Duj  
-2023-02-11 23:18:57,622 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:18:57,674 [INFO ] com.lms.pages.LMSHolidayListPage [main] 27-Nov-2023  
-2023-02-11 23:18:57,724 [INFO ] com.lms.pages.LMSHolidayListPage [main] Monday  
-2023-02-11 23:18:57,773 [INFO ] com.lms.pages.LMSHolidayListPage [main] Kartik Purnima/ Gurunanak Jayanti  
-2023-02-11 23:18:57,825 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
-2023-02-11 23:18:57,876 [INFO ] com.lms.pages.LMSHolidayListPage [main] 25-Dec-2023  
-2023-02-11 23:18:57,924 [INFO ] com.lms.pages.LMSHolidayListPage [main] Monday  
-2023-02-11 23:18:57,975 [INFO ] com.lms.pages.LMSHolidayListPage [main] Christmas  
-2023-02-11 23:18:58,038 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
-2023-02-11 23:18:58,038 [INFO ] com.lms.pages.LMSHolidayListPage [main] Counter11
-2023-02-11 23:18:58,039 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] Count of Public Holdiays is less than ten- Test Case Passed
-2023-02-11 23:18:58,914 [INFO ] com.lms.common.ApplicationHooks [main] Closing the browser after test execution
-2023-02-11 23:18:58,915 [INFO ] com.lms.common.ApplicationHooks [main] *************************************************
+2023-02-12 00:53:40,258 [INFO ] com.lms.common.DriverProperties [main] Initiated Edge driver
+2023-02-12 00:53:40,430 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] TestCase 2 : Execution started
+2023-02-12 00:53:53,013 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] Entered the url for LMS :https://lms.ey.net/
+2023-02-12 00:53:53,085 [INFO ] com.lms.pages.LMSHomePage [main] User clicks on the Holiday link
+2023-02-12 00:53:58,135 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] LMS Holiday List is displayed
+2023-02-12 00:53:58,136 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] LMS Holiday List page title is :Office Holiday list
+2023-02-12 00:53:58,136 [INFO ] com.lms.pages.LMSHolidayListPage [main] Validate whether the count of public holidays is less than 10
+2023-02-12 00:53:58,168 [INFO ] com.lms.pages.LMSHolidayListPage [main] No of rows in the table is: 39
+2023-02-12 00:53:58,187 [INFO ] com.lms.pages.LMSHolidayListPage [main] No of columns in the table is: 4
+2023-02-12 00:53:58,221 [INFO ] com.lms.pages.LMSHolidayListPage [main] 15-Jan-2023  
+2023-02-12 00:53:58,252 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sunday  
+2023-02-12 00:53:58,283 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sankranti /Pongal  
+2023-02-12 00:53:58,311 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 00:53:58,338 [INFO ] com.lms.pages.LMSHolidayListPage [main] 26-Jan-2023  
+2023-02-12 00:53:58,366 [INFO ] com.lms.pages.LMSHolidayListPage [main] Thursday  
+2023-02-12 00:53:58,395 [INFO ] com.lms.pages.LMSHolidayListPage [main] Republic Day  
+2023-02-12 00:53:58,423 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
+2023-02-12 00:53:58,461 [INFO ] com.lms.pages.LMSHolidayListPage [main] 18-Feb-2023  
+2023-02-12 00:53:58,492 [INFO ] com.lms.pages.LMSHolidayListPage [main] Saturday  
+2023-02-12 00:53:58,521 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sivarathri  
+2023-02-12 00:53:58,558 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 00:53:58,587 [INFO ] com.lms.pages.LMSHolidayListPage [main] 07-Mar-2023  
+2023-02-12 00:53:58,616 [INFO ] com.lms.pages.LMSHolidayListPage [main] Tuesday  
+2023-02-12 00:53:58,646 [INFO ] com.lms.pages.LMSHolidayListPage [main] Holi/ Shab-e-Barat  
+2023-02-12 00:53:58,675 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 00:53:58,706 [INFO ] com.lms.pages.LMSHolidayListPage [main] 22-Mar-2023  
+2023-02-12 00:53:58,738 [INFO ] com.lms.pages.LMSHolidayListPage [main] Wednesday  
+2023-02-12 00:53:58,772 [INFO ] com.lms.pages.LMSHolidayListPage [main] Ugadi  
+2023-02-12 00:53:58,820 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 00:53:58,852 [INFO ] com.lms.pages.LMSHolidayListPage [main] 30-Mar-2023  
+2023-02-12 00:53:58,881 [INFO ] com.lms.pages.LMSHolidayListPage [main] Thursday  
+2023-02-12 00:53:58,909 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sri Rama Navami  
+2023-02-12 00:53:58,941 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 00:53:58,970 [INFO ] com.lms.pages.LMSHolidayListPage [main] 03-Apr-2023  
+2023-02-12 00:53:58,996 [INFO ] com.lms.pages.LMSHolidayListPage [main] Monday  
+2023-02-12 00:53:59,022 [INFO ] com.lms.pages.LMSHolidayListPage [main] Mahaveer Jayanti (Karnataka)  
+2023-02-12 00:53:59,047 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 00:53:59,078 [INFO ] com.lms.pages.LMSHolidayListPage [main] 04-Apr-2023  
+2023-02-12 00:53:59,107 [INFO ] com.lms.pages.LMSHolidayListPage [main] Tuesday  
+2023-02-12 00:53:59,131 [INFO ] com.lms.pages.LMSHolidayListPage [main] Mahavir Jayanti (Tamil Nadu, Kolkata & UP)  
+2023-02-12 00:53:59,156 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 00:53:59,183 [INFO ] com.lms.pages.LMSHolidayListPage [main] 05-Apr-2023  
+2023-02-12 00:53:59,210 [INFO ] com.lms.pages.LMSHolidayListPage [main] Wednesday  
+2023-02-12 00:53:59,236 [INFO ] com.lms.pages.LMSHolidayListPage [main] Babu Jajivan Ram's Birthday  
+2023-02-12 00:53:59,263 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 00:53:59,288 [INFO ] com.lms.pages.LMSHolidayListPage [main] 07-Apr-2023  
+2023-02-12 00:53:59,316 [INFO ] com.lms.pages.LMSHolidayListPage [main] Friday  
+2023-02-12 00:53:59,342 [INFO ] com.lms.pages.LMSHolidayListPage [main] Good Friday  
+2023-02-12 00:53:59,371 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
+2023-02-12 00:53:59,402 [INFO ] com.lms.pages.LMSHolidayListPage [main] 09-Apr-2023  
+2023-02-12 00:53:59,431 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sunday  
+2023-02-12 00:53:59,462 [INFO ] com.lms.pages.LMSHolidayListPage [main] Easter  
+2023-02-12 00:53:59,493 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 00:53:59,518 [INFO ] com.lms.pages.LMSHolidayListPage [main] 14-Apr-2023  
+2023-02-12 00:53:59,546 [INFO ] com.lms.pages.LMSHolidayListPage [main] Friday  
+2023-02-12 00:53:59,572 [INFO ] com.lms.pages.LMSHolidayListPage [main] Vaisakhi / Tamil New Year / Dr. B. R. Ambedkar Jayanthi  
+2023-02-12 00:53:59,599 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 00:53:59,625 [INFO ] com.lms.pages.LMSHolidayListPage [main] 15-Apr-2023  
+2023-02-12 00:53:59,653 [INFO ] com.lms.pages.LMSHolidayListPage [main] Saturday  
+2023-02-12 00:53:59,680 [INFO ] com.lms.pages.LMSHolidayListPage [main] Vishu  
+2023-02-12 00:53:59,706 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 00:53:59,732 [INFO ] com.lms.pages.LMSHolidayListPage [main] 18-Apr-2023  
+2023-02-12 00:53:59,760 [INFO ] com.lms.pages.LMSHolidayListPage [main] Tuesday  
+2023-02-12 00:53:59,787 [INFO ] com.lms.pages.LMSHolidayListPage [main] Shab-e-Quadar  
+2023-02-12 00:53:59,815 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 00:53:59,844 [INFO ] com.lms.pages.LMSHolidayListPage [main] 21-Apr-2023  
+2023-02-12 00:53:59,881 [INFO ] com.lms.pages.LMSHolidayListPage [main] Friday  
+2023-02-12 00:53:59,909 [INFO ] com.lms.pages.LMSHolidayListPage [main] Id-Ul-Fitr* (Ramzan)  
+2023-02-12 00:53:59,934 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
+2023-02-12 00:53:59,960 [INFO ] com.lms.pages.LMSHolidayListPage [main] 21-Apr-2023  
+2023-02-12 00:53:59,988 [INFO ] com.lms.pages.LMSHolidayListPage [main] Friday  
+2023-02-12 00:54:00,016 [INFO ] com.lms.pages.LMSHolidayListPage [main] Jumat-ul-Vida  
+2023-02-12 00:54:00,045 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 00:54:00,079 [INFO ] com.lms.pages.LMSHolidayListPage [main] 01-May-2023  
+2023-02-12 00:54:00,114 [INFO ] com.lms.pages.LMSHolidayListPage [main] Monday  
+2023-02-12 00:54:00,141 [INFO ] com.lms.pages.LMSHolidayListPage [main] May Day/Maharastra Day  
+2023-02-12 00:54:00,168 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
+2023-02-12 00:54:00,193 [INFO ] com.lms.pages.LMSHolidayListPage [main] 05-May-2023  
+2023-02-12 00:54:00,219 [INFO ] com.lms.pages.LMSHolidayListPage [main] Friday  
+2023-02-12 00:54:00,243 [INFO ] com.lms.pages.LMSHolidayListPage [main] Budh Purnima  
+2023-02-12 00:54:00,267 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 00:54:00,292 [INFO ] com.lms.pages.LMSHolidayListPage [main] 28-Jun-2023  
+2023-02-12 00:54:00,317 [INFO ] com.lms.pages.LMSHolidayListPage [main] Wednesday  
+2023-02-12 00:54:00,347 [INFO ] com.lms.pages.LMSHolidayListPage [main] Id-Ul-Ad’ha (Bakrid)*  
+2023-02-12 00:54:00,376 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
+2023-02-12 00:54:00,403 [INFO ] com.lms.pages.LMSHolidayListPage [main] 28-Jul-2023  
+2023-02-12 00:54:00,433 [INFO ] com.lms.pages.LMSHolidayListPage [main] Friday  
+2023-02-12 00:54:00,461 [INFO ] com.lms.pages.LMSHolidayListPage [main] Muharram  
+2023-02-12 00:54:00,487 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 00:54:00,512 [INFO ] com.lms.pages.LMSHolidayListPage [main] 15-Aug-2023  
+2023-02-12 00:54:00,539 [INFO ] com.lms.pages.LMSHolidayListPage [main] Tuesday  
+2023-02-12 00:54:00,565 [INFO ] com.lms.pages.LMSHolidayListPage [main] Independence Day  
+2023-02-12 00:54:00,592 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
+2023-02-12 00:54:00,617 [INFO ] com.lms.pages.LMSHolidayListPage [main] 25-Aug-2023  
+2023-02-12 00:54:00,643 [INFO ] com.lms.pages.LMSHolidayListPage [main] Friday  
+2023-02-12 00:54:00,672 [INFO ] com.lms.pages.LMSHolidayListPage [main] Varamahalakshmi Brata  
+2023-02-12 00:54:00,699 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 00:54:00,728 [INFO ] com.lms.pages.LMSHolidayListPage [main] 28-Aug-2023  
+2023-02-12 00:54:00,757 [INFO ] com.lms.pages.LMSHolidayListPage [main] Monday  
+2023-02-12 00:54:00,784 [INFO ] com.lms.pages.LMSHolidayListPage [main] First Onam  
+2023-02-12 00:54:00,811 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
+2023-02-12 00:54:00,840 [INFO ] com.lms.pages.LMSHolidayListPage [main] 29-Aug-2023  
+2023-02-12 00:54:00,868 [INFO ] com.lms.pages.LMSHolidayListPage [main] Tuesday  
+2023-02-12 00:54:00,897 [INFO ] com.lms.pages.LMSHolidayListPage [main] Thiruvonam  
+2023-02-12 00:54:00,926 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
+2023-02-12 00:54:00,952 [INFO ] com.lms.pages.LMSHolidayListPage [main] 31-Aug-2023  
+2023-02-12 00:54:00,981 [INFO ] com.lms.pages.LMSHolidayListPage [main] Thursday  
+2023-02-12 00:54:01,017 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sree Narayana Guru Jayanthi / Rakhi Bandhan  
+2023-02-12 00:54:01,046 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 00:54:01,090 [INFO ] com.lms.pages.LMSHolidayListPage [main] 06-Sep-2023  
+2023-02-12 00:54:01,116 [INFO ] com.lms.pages.LMSHolidayListPage [main] Wednesday  
+2023-02-12 00:54:01,144 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sri Krishna Asthami / Janmastami  
+2023-02-12 00:54:01,168 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 00:54:01,194 [INFO ] com.lms.pages.LMSHolidayListPage [main] 19-Sep-2023  
+2023-02-12 00:54:01,218 [INFO ] com.lms.pages.LMSHolidayListPage [main] Tuesday  
+2023-02-12 00:54:01,244 [INFO ] com.lms.pages.LMSHolidayListPage [main] Ganesh Chaturthi  
+2023-02-12 00:54:01,271 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 00:54:01,297 [INFO ] com.lms.pages.LMSHolidayListPage [main] 22-Sep-2023  
+2023-02-12 00:54:01,321 [INFO ] com.lms.pages.LMSHolidayListPage [main] Friday  
+2023-02-12 00:54:01,346 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sree Narayana Guru Samadhi Day  
+2023-02-12 00:54:01,377 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 00:54:01,409 [INFO ] com.lms.pages.LMSHolidayListPage [main] 27-Sep-2023  
+2023-02-12 00:54:01,441 [INFO ] com.lms.pages.LMSHolidayListPage [main] Wednesday  
+2023-02-12 00:54:01,473 [INFO ] com.lms.pages.LMSHolidayListPage [main] Milad-i-Sherif* (Birthday of Prophet Muhammed)  
+2023-02-12 00:54:01,506 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 00:54:01,536 [INFO ] com.lms.pages.LMSHolidayListPage [main] 28-Sep-2023  
+2023-02-12 00:54:01,575 [INFO ] com.lms.pages.LMSHolidayListPage [main] Thursday  
+2023-02-12 00:54:01,607 [INFO ] com.lms.pages.LMSHolidayListPage [main] Eid Miladun Nabi  
+2023-02-12 00:54:01,633 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 00:54:01,659 [INFO ] com.lms.pages.LMSHolidayListPage [main] 02-Oct-2023  
+2023-02-12 00:54:01,686 [INFO ] com.lms.pages.LMSHolidayListPage [main] Monday  
+2023-02-12 00:54:01,717 [INFO ] com.lms.pages.LMSHolidayListPage [main] Gandhi Jayanthi  
+2023-02-12 00:54:01,743 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
+2023-02-12 00:54:01,770 [INFO ] com.lms.pages.LMSHolidayListPage [main] 23-Oct-2023  
+2023-02-12 00:54:01,798 [INFO ] com.lms.pages.LMSHolidayListPage [main] Monday  
+2023-02-12 00:54:01,832 [INFO ] com.lms.pages.LMSHolidayListPage [main] Ayutha puja / Durga Puja/ Navami  
+2023-02-12 00:54:01,859 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
+2023-02-12 00:54:01,890 [INFO ] com.lms.pages.LMSHolidayListPage [main] 24-Oct-2023  
+2023-02-12 00:54:01,916 [INFO ] com.lms.pages.LMSHolidayListPage [main] Tuesday  
+2023-02-12 00:54:01,945 [INFO ] com.lms.pages.LMSHolidayListPage [main] Durga Puja Dasami /Bijay Dasami /Vijayadasami  
+2023-02-12 00:54:01,973 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 00:54:02,000 [INFO ] com.lms.pages.LMSHolidayListPage [main] 12-Nov-2023  
+2023-02-12 00:54:02,030 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sunday  
+2023-02-12 00:54:02,060 [INFO ] com.lms.pages.LMSHolidayListPage [main] Deepavali/ Naraka Chaturdashi  
+2023-02-12 00:54:02,086 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 00:54:02,110 [INFO ] com.lms.pages.LMSHolidayListPage [main] 13-Nov-2023  
+2023-02-12 00:54:02,134 [INFO ] com.lms.pages.LMSHolidayListPage [main] Monday  
+2023-02-12 00:54:02,161 [INFO ] com.lms.pages.LMSHolidayListPage [main] Gowardhan Puja  
+2023-02-12 00:54:02,185 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 00:54:02,212 [INFO ] com.lms.pages.LMSHolidayListPage [main] 14-Nov-2023  
+2023-02-12 00:54:02,239 [INFO ] com.lms.pages.LMSHolidayListPage [main] Tuesday  
+2023-02-12 00:54:02,267 [INFO ] com.lms.pages.LMSHolidayListPage [main] Balipadyami, Deepavali  
+2023-02-12 00:54:02,304 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 00:54:02,336 [INFO ] com.lms.pages.LMSHolidayListPage [main] 15-Nov-2023  
+2023-02-12 00:54:02,371 [INFO ] com.lms.pages.LMSHolidayListPage [main] Wednesday  
+2023-02-12 00:54:02,399 [INFO ] com.lms.pages.LMSHolidayListPage [main] Bhratridwitiya /Bhai Duj  
+2023-02-12 00:54:02,428 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 00:54:02,453 [INFO ] com.lms.pages.LMSHolidayListPage [main] 27-Nov-2023  
+2023-02-12 00:54:02,480 [INFO ] com.lms.pages.LMSHolidayListPage [main] Monday  
+2023-02-12 00:54:02,507 [INFO ] com.lms.pages.LMSHolidayListPage [main] Kartik Purnima/ Gurunanak Jayanti  
+2023-02-12 00:54:02,535 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 00:54:02,564 [INFO ] com.lms.pages.LMSHolidayListPage [main] 25-Dec-2023  
+2023-02-12 00:54:02,594 [INFO ] com.lms.pages.LMSHolidayListPage [main] Monday  
+2023-02-12 00:54:02,621 [INFO ] com.lms.pages.LMSHolidayListPage [main] Christmas  
+2023-02-12 00:54:02,658 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
+2023-02-12 00:54:02,658 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:11
+2023-02-12 00:54:02,658 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] Count of Public Holdiays is greater than or equal to ten- Test Case Passed
+2023-02-12 00:54:03,384 [INFO ] com.lms.common.ApplicationHooks [main] Closing the browser after test execution
+2023-02-12 00:54:03,384 [INFO ] com.lms.common.ApplicationHooks [main] *************************************************
+2023-02-12 00:54:06,922 [INFO ] com.lms.common.DriverProperties [main] Initiated Edge driver
+2023-02-12 00:54:07,071 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] TestCase 2 : Execution started
+2023-02-12 00:54:22,212 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] Entered the url for LMS :https://lms.ey.net/
+2023-02-12 00:54:22,723 [INFO ] com.lms.common.ApplicationHooks [main] Closing the browser after test execution
+2023-02-12 00:54:22,724 [INFO ] com.lms.common.ApplicationHooks [main] *************************************************
+2023-02-12 00:55:49,279 [INFO ] com.lms.common.DriverProperties [main] Initiated Edge driver
+2023-02-12 00:55:52,025 [INFO ] com.lms.common.ApplicationHooks [main] Closing the browser after test execution
+2023-02-12 00:55:52,025 [INFO ] com.lms.common.ApplicationHooks [main] *************************************************
+2023-02-12 01:12:42,457 [INFO ] com.lms.common.DriverProperties [main] Initiated Edge driver
+2023-02-12 01:12:42,645 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] *********************************
+2023-02-12 01:12:42,646 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] TestCase 1 : Execution started
+2023-02-12 01:12:57,011 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] Entered the url for LMS :https://lms.ey.net/
+2023-02-12 01:12:57,030 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] LMS HomePage title is :LMS | Leave Management System- Home
+2023-02-12 01:12:57,030 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] LMS HomePage is displayed -Test Case Pass
+2023-02-12 01:12:57,625 [INFO ] com.lms.common.ApplicationHooks [main] Closing the browser after test execution
+2023-02-12 01:12:57,625 [INFO ] com.lms.common.ApplicationHooks [main] *************************************************
+2023-02-12 01:13:01,076 [INFO ] com.lms.common.DriverProperties [main] Initiated Edge driver
+2023-02-12 01:13:01,227 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] TestCase 2 : Execution started
+2023-02-12 01:13:17,156 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] Entered the url for LMS :https://lms.ey.net/
+2023-02-12 01:13:17,246 [INFO ] com.lms.pages.LMSHomePage [main] User clicks on the Holiday link
+2023-02-12 01:13:22,304 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] LMS Holiday List is displayed
+2023-02-12 01:13:22,304 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] LMS Holiday List page title is :Office Holiday list
+2023-02-12 01:13:22,305 [INFO ] com.lms.pages.LMSHolidayListPage [main] Validate whether the count of public holidays is less than 10
+2023-02-12 01:13:22,331 [INFO ] com.lms.pages.LMSHolidayListPage [main] No of rows in the table is: 39
+2023-02-12 01:13:22,352 [INFO ] com.lms.pages.LMSHolidayListPage [main] No of columns in the table is: 4
+2023-02-12 01:13:22,394 [INFO ] com.lms.pages.LMSHolidayListPage [main] 15-Jan-2023  
+2023-02-12 01:13:22,433 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sunday  
+2023-02-12 01:13:22,468 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sankranti /Pongal  
+2023-02-12 01:13:22,501 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 01:13:22,528 [INFO ] com.lms.pages.LMSHolidayListPage [main] 26-Jan-2023  
+2023-02-12 01:13:22,555 [INFO ] com.lms.pages.LMSHolidayListPage [main] Thursday  
+2023-02-12 01:13:22,585 [INFO ] com.lms.pages.LMSHolidayListPage [main] Republic Day  
+2023-02-12 01:13:22,613 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
+2023-02-12 01:13:22,642 [INFO ] com.lms.pages.LMSHolidayListPage [main] 18-Feb-2023  
+2023-02-12 01:13:22,671 [INFO ] com.lms.pages.LMSHolidayListPage [main] Saturday  
+2023-02-12 01:13:22,700 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sivarathri  
+2023-02-12 01:13:22,727 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 01:13:22,758 [INFO ] com.lms.pages.LMSHolidayListPage [main] 07-Mar-2023  
+2023-02-12 01:13:22,787 [INFO ] com.lms.pages.LMSHolidayListPage [main] Tuesday  
+2023-02-12 01:13:22,814 [INFO ] com.lms.pages.LMSHolidayListPage [main] Holi/ Shab-e-Barat  
+2023-02-12 01:13:22,847 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 01:13:22,876 [INFO ] com.lms.pages.LMSHolidayListPage [main] 22-Mar-2023  
+2023-02-12 01:13:22,904 [INFO ] com.lms.pages.LMSHolidayListPage [main] Wednesday  
+2023-02-12 01:13:22,931 [INFO ] com.lms.pages.LMSHolidayListPage [main] Ugadi  
+2023-02-12 01:13:22,960 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 01:13:22,986 [INFO ] com.lms.pages.LMSHolidayListPage [main] 30-Mar-2023  
+2023-02-12 01:13:23,013 [INFO ] com.lms.pages.LMSHolidayListPage [main] Thursday  
+2023-02-12 01:13:23,039 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sri Rama Navami  
+2023-02-12 01:13:23,068 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 01:13:23,095 [INFO ] com.lms.pages.LMSHolidayListPage [main] 03-Apr-2023  
+2023-02-12 01:13:23,122 [INFO ] com.lms.pages.LMSHolidayListPage [main] Monday  
+2023-02-12 01:13:23,148 [INFO ] com.lms.pages.LMSHolidayListPage [main] Mahaveer Jayanti (Karnataka)  
+2023-02-12 01:13:23,176 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 01:13:23,202 [INFO ] com.lms.pages.LMSHolidayListPage [main] 04-Apr-2023  
+2023-02-12 01:13:23,229 [INFO ] com.lms.pages.LMSHolidayListPage [main] Tuesday  
+2023-02-12 01:13:23,255 [INFO ] com.lms.pages.LMSHolidayListPage [main] Mahavir Jayanti (Tamil Nadu, Kolkata & UP)  
+2023-02-12 01:13:23,285 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 01:13:23,314 [INFO ] com.lms.pages.LMSHolidayListPage [main] 05-Apr-2023  
+2023-02-12 01:13:23,340 [INFO ] com.lms.pages.LMSHolidayListPage [main] Wednesday  
+2023-02-12 01:13:23,368 [INFO ] com.lms.pages.LMSHolidayListPage [main] Babu Jajivan Ram's Birthday  
+2023-02-12 01:13:23,398 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 01:13:23,427 [INFO ] com.lms.pages.LMSHolidayListPage [main] 07-Apr-2023  
+2023-02-12 01:13:23,454 [INFO ] com.lms.pages.LMSHolidayListPage [main] Friday  
+2023-02-12 01:13:23,481 [INFO ] com.lms.pages.LMSHolidayListPage [main] Good Friday  
+2023-02-12 01:13:23,508 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
+2023-02-12 01:13:23,541 [INFO ] com.lms.pages.LMSHolidayListPage [main] 09-Apr-2023  
+2023-02-12 01:13:23,569 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sunday  
+2023-02-12 01:13:23,596 [INFO ] com.lms.pages.LMSHolidayListPage [main] Easter  
+2023-02-12 01:13:23,628 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 01:13:23,660 [INFO ] com.lms.pages.LMSHolidayListPage [main] 14-Apr-2023  
+2023-02-12 01:13:23,689 [INFO ] com.lms.pages.LMSHolidayListPage [main] Friday  
+2023-02-12 01:13:23,718 [INFO ] com.lms.pages.LMSHolidayListPage [main] Vaisakhi / Tamil New Year / Dr. B. R. Ambedkar Jayanthi  
+2023-02-12 01:13:23,751 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 01:13:23,782 [INFO ] com.lms.pages.LMSHolidayListPage [main] 15-Apr-2023  
+2023-02-12 01:13:23,812 [INFO ] com.lms.pages.LMSHolidayListPage [main] Saturday  
+2023-02-12 01:13:23,842 [INFO ] com.lms.pages.LMSHolidayListPage [main] Vishu  
+2023-02-12 01:13:23,876 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 01:13:23,907 [INFO ] com.lms.pages.LMSHolidayListPage [main] 18-Apr-2023  
+2023-02-12 01:13:23,936 [INFO ] com.lms.pages.LMSHolidayListPage [main] Tuesday  
+2023-02-12 01:13:23,966 [INFO ] com.lms.pages.LMSHolidayListPage [main] Shab-e-Quadar  
+2023-02-12 01:13:24,000 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 01:13:24,031 [INFO ] com.lms.pages.LMSHolidayListPage [main] 21-Apr-2023  
+2023-02-12 01:13:24,061 [INFO ] com.lms.pages.LMSHolidayListPage [main] Friday  
+2023-02-12 01:13:24,090 [INFO ] com.lms.pages.LMSHolidayListPage [main] Id-Ul-Fitr* (Ramzan)  
+2023-02-12 01:13:24,124 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
+2023-02-12 01:13:24,161 [INFO ] com.lms.pages.LMSHolidayListPage [main] 21-Apr-2023  
+2023-02-12 01:13:24,191 [INFO ] com.lms.pages.LMSHolidayListPage [main] Friday  
+2023-02-12 01:13:24,221 [INFO ] com.lms.pages.LMSHolidayListPage [main] Jumat-ul-Vida  
+2023-02-12 01:13:24,254 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 01:13:24,283 [INFO ] com.lms.pages.LMSHolidayListPage [main] 01-May-2023  
+2023-02-12 01:13:24,315 [INFO ] com.lms.pages.LMSHolidayListPage [main] Monday  
+2023-02-12 01:13:24,346 [INFO ] com.lms.pages.LMSHolidayListPage [main] May Day/Maharastra Day  
+2023-02-12 01:13:24,378 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
+2023-02-12 01:13:24,408 [INFO ] com.lms.pages.LMSHolidayListPage [main] 05-May-2023  
+2023-02-12 01:13:24,440 [INFO ] com.lms.pages.LMSHolidayListPage [main] Friday  
+2023-02-12 01:13:24,469 [INFO ] com.lms.pages.LMSHolidayListPage [main] Budh Purnima  
+2023-02-12 01:13:24,500 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 01:13:24,532 [INFO ] com.lms.pages.LMSHolidayListPage [main] 28-Jun-2023  
+2023-02-12 01:13:24,563 [INFO ] com.lms.pages.LMSHolidayListPage [main] Wednesday  
+2023-02-12 01:13:24,595 [INFO ] com.lms.pages.LMSHolidayListPage [main] Id-Ul-Ad’ha (Bakrid)*  
+2023-02-12 01:13:24,625 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
+2023-02-12 01:13:24,656 [INFO ] com.lms.pages.LMSHolidayListPage [main] 28-Jul-2023  
+2023-02-12 01:13:24,690 [INFO ] com.lms.pages.LMSHolidayListPage [main] Friday  
+2023-02-12 01:13:24,725 [INFO ] com.lms.pages.LMSHolidayListPage [main] Muharram  
+2023-02-12 01:13:24,757 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 01:13:24,790 [INFO ] com.lms.pages.LMSHolidayListPage [main] 15-Aug-2023  
+2023-02-12 01:13:24,824 [INFO ] com.lms.pages.LMSHolidayListPage [main] Tuesday  
+2023-02-12 01:13:24,854 [INFO ] com.lms.pages.LMSHolidayListPage [main] Independence Day  
+2023-02-12 01:13:24,888 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
+2023-02-12 01:13:24,921 [INFO ] com.lms.pages.LMSHolidayListPage [main] 25-Aug-2023  
+2023-02-12 01:13:24,954 [INFO ] com.lms.pages.LMSHolidayListPage [main] Friday  
+2023-02-12 01:13:24,988 [INFO ] com.lms.pages.LMSHolidayListPage [main] Varamahalakshmi Brata  
+2023-02-12 01:13:25,021 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 01:13:25,059 [INFO ] com.lms.pages.LMSHolidayListPage [main] 28-Aug-2023  
+2023-02-12 01:13:25,091 [INFO ] com.lms.pages.LMSHolidayListPage [main] Monday  
+2023-02-12 01:13:25,123 [INFO ] com.lms.pages.LMSHolidayListPage [main] First Onam  
+2023-02-12 01:13:25,155 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
+2023-02-12 01:13:25,186 [INFO ] com.lms.pages.LMSHolidayListPage [main] 29-Aug-2023  
+2023-02-12 01:13:25,216 [INFO ] com.lms.pages.LMSHolidayListPage [main] Tuesday  
+2023-02-12 01:13:25,252 [INFO ] com.lms.pages.LMSHolidayListPage [main] Thiruvonam  
+2023-02-12 01:13:25,291 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
+2023-02-12 01:13:25,322 [INFO ] com.lms.pages.LMSHolidayListPage [main] 31-Aug-2023  
+2023-02-12 01:13:25,354 [INFO ] com.lms.pages.LMSHolidayListPage [main] Thursday  
+2023-02-12 01:13:25,386 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sree Narayana Guru Jayanthi / Rakhi Bandhan  
+2023-02-12 01:13:25,416 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 01:13:25,445 [INFO ] com.lms.pages.LMSHolidayListPage [main] 06-Sep-2023  
+2023-02-12 01:13:25,477 [INFO ] com.lms.pages.LMSHolidayListPage [main] Wednesday  
+2023-02-12 01:13:25,507 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sri Krishna Asthami / Janmastami  
+2023-02-12 01:13:25,538 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 01:13:25,568 [INFO ] com.lms.pages.LMSHolidayListPage [main] 19-Sep-2023  
+2023-02-12 01:13:25,599 [INFO ] com.lms.pages.LMSHolidayListPage [main] Tuesday  
+2023-02-12 01:13:25,632 [INFO ] com.lms.pages.LMSHolidayListPage [main] Ganesh Chaturthi  
+2023-02-12 01:13:25,662 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 01:13:25,693 [INFO ] com.lms.pages.LMSHolidayListPage [main] 22-Sep-2023  
+2023-02-12 01:13:25,727 [INFO ] com.lms.pages.LMSHolidayListPage [main] Friday  
+2023-02-12 01:13:25,758 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sree Narayana Guru Samadhi Day  
+2023-02-12 01:13:25,788 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 01:13:25,821 [INFO ] com.lms.pages.LMSHolidayListPage [main] 27-Sep-2023  
+2023-02-12 01:13:25,852 [INFO ] com.lms.pages.LMSHolidayListPage [main] Wednesday  
+2023-02-12 01:13:25,884 [INFO ] com.lms.pages.LMSHolidayListPage [main] Milad-i-Sherif* (Birthday of Prophet Muhammed)  
+2023-02-12 01:13:25,915 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 01:13:25,947 [INFO ] com.lms.pages.LMSHolidayListPage [main] 28-Sep-2023  
+2023-02-12 01:13:25,980 [INFO ] com.lms.pages.LMSHolidayListPage [main] Thursday  
+2023-02-12 01:13:26,011 [INFO ] com.lms.pages.LMSHolidayListPage [main] Eid Miladun Nabi  
+2023-02-12 01:13:26,043 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 01:13:26,075 [INFO ] com.lms.pages.LMSHolidayListPage [main] 02-Oct-2023  
+2023-02-12 01:13:26,109 [INFO ] com.lms.pages.LMSHolidayListPage [main] Monday  
+2023-02-12 01:13:26,142 [INFO ] com.lms.pages.LMSHolidayListPage [main] Gandhi Jayanthi  
+2023-02-12 01:13:26,172 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
+2023-02-12 01:13:26,203 [INFO ] com.lms.pages.LMSHolidayListPage [main] 23-Oct-2023  
+2023-02-12 01:13:26,236 [INFO ] com.lms.pages.LMSHolidayListPage [main] Monday  
+2023-02-12 01:13:26,267 [INFO ] com.lms.pages.LMSHolidayListPage [main] Ayutha puja / Durga Puja/ Navami  
+2023-02-12 01:13:26,297 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
+2023-02-12 01:13:26,329 [INFO ] com.lms.pages.LMSHolidayListPage [main] 24-Oct-2023  
+2023-02-12 01:13:26,363 [INFO ] com.lms.pages.LMSHolidayListPage [main] Tuesday  
+2023-02-12 01:13:26,394 [INFO ] com.lms.pages.LMSHolidayListPage [main] Durga Puja Dasami /Bijay Dasami /Vijayadasami  
+2023-02-12 01:13:26,423 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 01:13:26,453 [INFO ] com.lms.pages.LMSHolidayListPage [main] 12-Nov-2023  
+2023-02-12 01:13:26,484 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sunday  
+2023-02-12 01:13:26,515 [INFO ] com.lms.pages.LMSHolidayListPage [main] Deepavali/ Naraka Chaturdashi  
+2023-02-12 01:13:26,545 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 01:13:26,574 [INFO ] com.lms.pages.LMSHolidayListPage [main] 13-Nov-2023  
+2023-02-12 01:13:26,605 [INFO ] com.lms.pages.LMSHolidayListPage [main] Monday  
+2023-02-12 01:13:26,636 [INFO ] com.lms.pages.LMSHolidayListPage [main] Gowardhan Puja  
+2023-02-12 01:13:26,675 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 01:13:26,713 [INFO ] com.lms.pages.LMSHolidayListPage [main] 14-Nov-2023  
+2023-02-12 01:13:26,747 [INFO ] com.lms.pages.LMSHolidayListPage [main] Tuesday  
+2023-02-12 01:13:26,781 [INFO ] com.lms.pages.LMSHolidayListPage [main] Balipadyami, Deepavali  
+2023-02-12 01:13:26,814 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 01:13:26,845 [INFO ] com.lms.pages.LMSHolidayListPage [main] 15-Nov-2023  
+2023-02-12 01:13:26,875 [INFO ] com.lms.pages.LMSHolidayListPage [main] Wednesday  
+2023-02-12 01:13:26,913 [INFO ] com.lms.pages.LMSHolidayListPage [main] Bhratridwitiya /Bhai Duj  
+2023-02-12 01:13:26,953 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 01:13:26,989 [INFO ] com.lms.pages.LMSHolidayListPage [main] 27-Nov-2023  
+2023-02-12 01:13:27,027 [INFO ] com.lms.pages.LMSHolidayListPage [main] Monday  
+2023-02-12 01:13:27,060 [INFO ] com.lms.pages.LMSHolidayListPage [main] Kartik Purnima/ Gurunanak Jayanti  
+2023-02-12 01:13:27,091 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 01:13:27,124 [INFO ] com.lms.pages.LMSHolidayListPage [main] 25-Dec-2023  
+2023-02-12 01:13:27,155 [INFO ] com.lms.pages.LMSHolidayListPage [main] Monday  
+2023-02-12 01:13:27,188 [INFO ] com.lms.pages.LMSHolidayListPage [main] Christmas  
+2023-02-12 01:13:27,220 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
+2023-02-12 01:13:27,220 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:11
+2023-02-12 01:13:27,220 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] Count of Public Holdiays is greater than or equal to ten- Test Case Passed
+2023-02-12 01:13:27,221 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-12 01:13:27,309 [INFO ] com.lms.pages.LMSHolidayListPage [main] Holiday date
+2023-02-12 01:13:27,331 [INFO ] com.lms.pages.LMSHolidayListPage [main] Holiday date
+2023-02-12 01:13:27,350 [INFO ] com.lms.pages.LMSHolidayListPage [main] Holiday date
+2023-02-12 01:13:27,371 [INFO ] com.lms.pages.LMSHolidayListPage [main] Holiday date
+2023-02-12 01:13:27,389 [INFO ] com.lms.pages.LMSHolidayListPage [main] Holiday date
+2023-02-12 01:13:28,148 [INFO ] com.lms.common.ApplicationHooks [main] Closing the browser after test execution
+2023-02-12 01:13:28,148 [INFO ] com.lms.common.ApplicationHooks [main] *************************************************
+2023-02-12 01:15:53,417 [INFO ] com.lms.common.DriverProperties [main] Initiated Edge driver
+2023-02-12 01:15:53,600 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] *********************************
+2023-02-12 01:15:53,600 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] TestCase 1 : Execution started
+2023-02-12 01:16:08,156 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] Entered the url for LMS :https://lms.ey.net/
+2023-02-12 01:16:08,173 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] LMS HomePage title is :LMS | Leave Management System- Home
+2023-02-12 01:16:08,173 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] LMS HomePage is displayed -Test Case Pass
+2023-02-12 01:16:08,785 [INFO ] com.lms.common.ApplicationHooks [main] Closing the browser after test execution
+2023-02-12 01:16:08,785 [INFO ] com.lms.common.ApplicationHooks [main] *************************************************
+2023-02-12 01:16:12,664 [INFO ] com.lms.common.DriverProperties [main] Initiated Edge driver
+2023-02-12 01:16:12,819 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] TestCase 2 : Execution started
+2023-02-12 01:16:27,953 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] Entered the url for LMS :https://lms.ey.net/
+2023-02-12 01:16:28,020 [INFO ] com.lms.pages.LMSHomePage [main] User clicks on the Holiday link
+2023-02-12 01:16:33,057 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] LMS Holiday List is displayed
+2023-02-12 01:16:33,057 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] LMS Holiday List page title is :Office Holiday list
+2023-02-12 01:16:33,058 [INFO ] com.lms.pages.LMSHolidayListPage [main] Validate whether the count of public holidays is less than 10
+2023-02-12 01:16:33,081 [INFO ] com.lms.pages.LMSHolidayListPage [main] No of rows in the table is: 39
+2023-02-12 01:16:33,096 [INFO ] com.lms.pages.LMSHolidayListPage [main] No of columns in the table is: 4
+2023-02-12 01:16:33,130 [INFO ] com.lms.pages.LMSHolidayListPage [main] 15-Jan-2023  
+2023-02-12 01:16:33,164 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sunday  
+2023-02-12 01:16:33,196 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sankranti /Pongal  
+2023-02-12 01:16:33,228 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 01:16:33,266 [INFO ] com.lms.pages.LMSHolidayListPage [main] 26-Jan-2023  
+2023-02-12 01:16:33,295 [INFO ] com.lms.pages.LMSHolidayListPage [main] Thursday  
+2023-02-12 01:16:33,324 [INFO ] com.lms.pages.LMSHolidayListPage [main] Republic Day  
+2023-02-12 01:16:33,354 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
+2023-02-12 01:16:33,384 [INFO ] com.lms.pages.LMSHolidayListPage [main] 18-Feb-2023  
+2023-02-12 01:16:33,414 [INFO ] com.lms.pages.LMSHolidayListPage [main] Saturday  
+2023-02-12 01:16:33,442 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sivarathri  
+2023-02-12 01:16:33,476 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 01:16:33,513 [INFO ] com.lms.pages.LMSHolidayListPage [main] 07-Mar-2023  
+2023-02-12 01:16:33,548 [INFO ] com.lms.pages.LMSHolidayListPage [main] Tuesday  
+2023-02-12 01:16:33,584 [INFO ] com.lms.pages.LMSHolidayListPage [main] Holi/ Shab-e-Barat  
+2023-02-12 01:16:33,616 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 01:16:33,646 [INFO ] com.lms.pages.LMSHolidayListPage [main] 22-Mar-2023  
+2023-02-12 01:16:33,677 [INFO ] com.lms.pages.LMSHolidayListPage [main] Wednesday  
+2023-02-12 01:16:33,711 [INFO ] com.lms.pages.LMSHolidayListPage [main] Ugadi  
+2023-02-12 01:16:33,744 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 01:16:33,775 [INFO ] com.lms.pages.LMSHolidayListPage [main] 30-Mar-2023  
+2023-02-12 01:16:33,809 [INFO ] com.lms.pages.LMSHolidayListPage [main] Thursday  
+2023-02-12 01:16:33,843 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sri Rama Navami  
+2023-02-12 01:16:33,877 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 01:16:33,911 [INFO ] com.lms.pages.LMSHolidayListPage [main] 03-Apr-2023  
+2023-02-12 01:16:33,944 [INFO ] com.lms.pages.LMSHolidayListPage [main] Monday  
+2023-02-12 01:16:33,975 [INFO ] com.lms.pages.LMSHolidayListPage [main] Mahaveer Jayanti (Karnataka)  
+2023-02-12 01:16:34,009 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 01:16:34,041 [INFO ] com.lms.pages.LMSHolidayListPage [main] 04-Apr-2023  
+2023-02-12 01:16:34,076 [INFO ] com.lms.pages.LMSHolidayListPage [main] Tuesday  
+2023-02-12 01:16:34,108 [INFO ] com.lms.pages.LMSHolidayListPage [main] Mahavir Jayanti (Tamil Nadu, Kolkata & UP)  
+2023-02-12 01:16:34,139 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 01:16:34,171 [INFO ] com.lms.pages.LMSHolidayListPage [main] 05-Apr-2023  
+2023-02-12 01:16:34,202 [INFO ] com.lms.pages.LMSHolidayListPage [main] Wednesday  
+2023-02-12 01:16:34,239 [INFO ] com.lms.pages.LMSHolidayListPage [main] Babu Jajivan Ram's Birthday  
+2023-02-12 01:16:34,277 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 01:16:34,315 [INFO ] com.lms.pages.LMSHolidayListPage [main] 07-Apr-2023  
+2023-02-12 01:16:34,347 [INFO ] com.lms.pages.LMSHolidayListPage [main] Friday  
+2023-02-12 01:16:34,378 [INFO ] com.lms.pages.LMSHolidayListPage [main] Good Friday  
+2023-02-12 01:16:34,413 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
+2023-02-12 01:16:34,444 [INFO ] com.lms.pages.LMSHolidayListPage [main] 09-Apr-2023  
+2023-02-12 01:16:34,475 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sunday  
+2023-02-12 01:16:34,506 [INFO ] com.lms.pages.LMSHolidayListPage [main] Easter  
+2023-02-12 01:16:34,539 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 01:16:34,571 [INFO ] com.lms.pages.LMSHolidayListPage [main] 14-Apr-2023  
+2023-02-12 01:16:34,607 [INFO ] com.lms.pages.LMSHolidayListPage [main] Friday  
+2023-02-12 01:16:34,647 [INFO ] com.lms.pages.LMSHolidayListPage [main] Vaisakhi / Tamil New Year / Dr. B. R. Ambedkar Jayanthi  
+2023-02-12 01:16:34,689 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 01:16:34,724 [INFO ] com.lms.pages.LMSHolidayListPage [main] 15-Apr-2023  
+2023-02-12 01:16:34,760 [INFO ] com.lms.pages.LMSHolidayListPage [main] Saturday  
+2023-02-12 01:16:34,791 [INFO ] com.lms.pages.LMSHolidayListPage [main] Vishu  
+2023-02-12 01:16:34,826 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 01:16:34,861 [INFO ] com.lms.pages.LMSHolidayListPage [main] 18-Apr-2023  
+2023-02-12 01:16:34,902 [INFO ] com.lms.pages.LMSHolidayListPage [main] Tuesday  
+2023-02-12 01:16:34,934 [INFO ] com.lms.pages.LMSHolidayListPage [main] Shab-e-Quadar  
+2023-02-12 01:16:34,970 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 01:16:35,005 [INFO ] com.lms.pages.LMSHolidayListPage [main] 21-Apr-2023  
+2023-02-12 01:16:35,037 [INFO ] com.lms.pages.LMSHolidayListPage [main] Friday  
+2023-02-12 01:16:35,072 [INFO ] com.lms.pages.LMSHolidayListPage [main] Id-Ul-Fitr* (Ramzan)  
+2023-02-12 01:16:35,109 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
+2023-02-12 01:16:35,146 [INFO ] com.lms.pages.LMSHolidayListPage [main] 21-Apr-2023  
+2023-02-12 01:16:35,184 [INFO ] com.lms.pages.LMSHolidayListPage [main] Friday  
+2023-02-12 01:16:35,219 [INFO ] com.lms.pages.LMSHolidayListPage [main] Jumat-ul-Vida  
+2023-02-12 01:16:35,257 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 01:16:35,291 [INFO ] com.lms.pages.LMSHolidayListPage [main] 01-May-2023  
+2023-02-12 01:16:35,328 [INFO ] com.lms.pages.LMSHolidayListPage [main] Monday  
+2023-02-12 01:16:35,359 [INFO ] com.lms.pages.LMSHolidayListPage [main] May Day/Maharastra Day  
+2023-02-12 01:16:35,392 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
+2023-02-12 01:16:35,429 [INFO ] com.lms.pages.LMSHolidayListPage [main] 05-May-2023  
+2023-02-12 01:16:35,465 [INFO ] com.lms.pages.LMSHolidayListPage [main] Friday  
+2023-02-12 01:16:35,500 [INFO ] com.lms.pages.LMSHolidayListPage [main] Budh Purnima  
+2023-02-12 01:16:35,542 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 01:16:35,588 [INFO ] com.lms.pages.LMSHolidayListPage [main] 28-Jun-2023  
+2023-02-12 01:16:35,625 [INFO ] com.lms.pages.LMSHolidayListPage [main] Wednesday  
+2023-02-12 01:16:35,669 [INFO ] com.lms.pages.LMSHolidayListPage [main] Id-Ul-Ad’ha (Bakrid)*  
+2023-02-12 01:16:35,707 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
+2023-02-12 01:16:35,747 [INFO ] com.lms.pages.LMSHolidayListPage [main] 28-Jul-2023  
+2023-02-12 01:16:35,796 [INFO ] com.lms.pages.LMSHolidayListPage [main] Friday  
+2023-02-12 01:16:35,839 [INFO ] com.lms.pages.LMSHolidayListPage [main] Muharram  
+2023-02-12 01:16:35,873 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 01:16:35,922 [INFO ] com.lms.pages.LMSHolidayListPage [main] 15-Aug-2023  
+2023-02-12 01:16:35,968 [INFO ] com.lms.pages.LMSHolidayListPage [main] Tuesday  
+2023-02-12 01:16:36,029 [INFO ] com.lms.pages.LMSHolidayListPage [main] Independence Day  
+2023-02-12 01:16:36,088 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
+2023-02-12 01:16:36,149 [INFO ] com.lms.pages.LMSHolidayListPage [main] 25-Aug-2023  
+2023-02-12 01:16:36,197 [INFO ] com.lms.pages.LMSHolidayListPage [main] Friday  
+2023-02-12 01:16:36,243 [INFO ] com.lms.pages.LMSHolidayListPage [main] Varamahalakshmi Brata  
+2023-02-12 01:16:36,293 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 01:16:36,353 [INFO ] com.lms.pages.LMSHolidayListPage [main] 28-Aug-2023  
+2023-02-12 01:16:36,416 [INFO ] com.lms.pages.LMSHolidayListPage [main] Monday  
+2023-02-12 01:16:36,463 [INFO ] com.lms.pages.LMSHolidayListPage [main] First Onam  
+2023-02-12 01:16:36,509 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
+2023-02-12 01:16:36,555 [INFO ] com.lms.pages.LMSHolidayListPage [main] 29-Aug-2023  
+2023-02-12 01:16:36,596 [INFO ] com.lms.pages.LMSHolidayListPage [main] Tuesday  
+2023-02-12 01:16:36,642 [INFO ] com.lms.pages.LMSHolidayListPage [main] Thiruvonam  
+2023-02-12 01:16:36,687 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
+2023-02-12 01:16:36,744 [INFO ] com.lms.pages.LMSHolidayListPage [main] 31-Aug-2023  
+2023-02-12 01:16:36,794 [INFO ] com.lms.pages.LMSHolidayListPage [main] Thursday  
+2023-02-12 01:16:36,844 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sree Narayana Guru Jayanthi / Rakhi Bandhan  
+2023-02-12 01:16:36,888 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 01:16:36,925 [INFO ] com.lms.pages.LMSHolidayListPage [main] 06-Sep-2023  
+2023-02-12 01:16:36,961 [INFO ] com.lms.pages.LMSHolidayListPage [main] Wednesday  
+2023-02-12 01:16:36,998 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sri Krishna Asthami / Janmastami  
+2023-02-12 01:16:37,033 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 01:16:37,079 [INFO ] com.lms.pages.LMSHolidayListPage [main] 19-Sep-2023  
+2023-02-12 01:16:37,122 [INFO ] com.lms.pages.LMSHolidayListPage [main] Tuesday  
+2023-02-12 01:16:37,199 [INFO ] com.lms.pages.LMSHolidayListPage [main] Ganesh Chaturthi  
+2023-02-12 01:16:37,243 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 01:16:37,281 [INFO ] com.lms.pages.LMSHolidayListPage [main] 22-Sep-2023  
+2023-02-12 01:16:37,315 [INFO ] com.lms.pages.LMSHolidayListPage [main] Friday  
+2023-02-12 01:16:37,353 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sree Narayana Guru Samadhi Day  
+2023-02-12 01:16:37,389 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 01:16:37,428 [INFO ] com.lms.pages.LMSHolidayListPage [main] 27-Sep-2023  
+2023-02-12 01:16:37,470 [INFO ] com.lms.pages.LMSHolidayListPage [main] Wednesday  
+2023-02-12 01:16:37,504 [INFO ] com.lms.pages.LMSHolidayListPage [main] Milad-i-Sherif* (Birthday of Prophet Muhammed)  
+2023-02-12 01:16:37,542 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 01:16:37,583 [INFO ] com.lms.pages.LMSHolidayListPage [main] 28-Sep-2023  
+2023-02-12 01:16:37,618 [INFO ] com.lms.pages.LMSHolidayListPage [main] Thursday  
+2023-02-12 01:16:37,656 [INFO ] com.lms.pages.LMSHolidayListPage [main] Eid Miladun Nabi  
+2023-02-12 01:16:37,691 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 01:16:37,726 [INFO ] com.lms.pages.LMSHolidayListPage [main] 02-Oct-2023  
+2023-02-12 01:16:37,761 [INFO ] com.lms.pages.LMSHolidayListPage [main] Monday  
+2023-02-12 01:16:37,798 [INFO ] com.lms.pages.LMSHolidayListPage [main] Gandhi Jayanthi  
+2023-02-12 01:16:37,832 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
+2023-02-12 01:16:37,871 [INFO ] com.lms.pages.LMSHolidayListPage [main] 23-Oct-2023  
+2023-02-12 01:16:37,924 [INFO ] com.lms.pages.LMSHolidayListPage [main] Monday  
+2023-02-12 01:16:37,965 [INFO ] com.lms.pages.LMSHolidayListPage [main] Ayutha puja / Durga Puja/ Navami  
+2023-02-12 01:16:38,010 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
+2023-02-12 01:16:38,065 [INFO ] com.lms.pages.LMSHolidayListPage [main] 24-Oct-2023  
+2023-02-12 01:16:38,112 [INFO ] com.lms.pages.LMSHolidayListPage [main] Tuesday  
+2023-02-12 01:16:38,155 [INFO ] com.lms.pages.LMSHolidayListPage [main] Durga Puja Dasami /Bijay Dasami /Vijayadasami  
+2023-02-12 01:16:38,192 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 01:16:38,229 [INFO ] com.lms.pages.LMSHolidayListPage [main] 12-Nov-2023  
+2023-02-12 01:16:38,266 [INFO ] com.lms.pages.LMSHolidayListPage [main] Sunday  
+2023-02-12 01:16:38,301 [INFO ] com.lms.pages.LMSHolidayListPage [main] Deepavali/ Naraka Chaturdashi  
+2023-02-12 01:16:38,342 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 01:16:38,377 [INFO ] com.lms.pages.LMSHolidayListPage [main] 13-Nov-2023  
+2023-02-12 01:16:38,412 [INFO ] com.lms.pages.LMSHolidayListPage [main] Monday  
+2023-02-12 01:16:38,452 [INFO ] com.lms.pages.LMSHolidayListPage [main] Gowardhan Puja  
+2023-02-12 01:16:38,486 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 01:16:38,528 [INFO ] com.lms.pages.LMSHolidayListPage [main] 14-Nov-2023  
+2023-02-12 01:16:38,565 [INFO ] com.lms.pages.LMSHolidayListPage [main] Tuesday  
+2023-02-12 01:16:38,605 [INFO ] com.lms.pages.LMSHolidayListPage [main] Balipadyami, Deepavali  
+2023-02-12 01:16:38,640 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 01:16:38,677 [INFO ] com.lms.pages.LMSHolidayListPage [main] 15-Nov-2023  
+2023-02-12 01:16:38,711 [INFO ] com.lms.pages.LMSHolidayListPage [main] Wednesday  
+2023-02-12 01:16:38,744 [INFO ] com.lms.pages.LMSHolidayListPage [main] Bhratridwitiya /Bhai Duj  
+2023-02-12 01:16:38,781 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 01:16:38,817 [INFO ] com.lms.pages.LMSHolidayListPage [main] 27-Nov-2023  
+2023-02-12 01:16:38,858 [INFO ] com.lms.pages.LMSHolidayListPage [main] Monday  
+2023-02-12 01:16:38,897 [INFO ] com.lms.pages.LMSHolidayListPage [main] Kartik Purnima/ Gurunanak Jayanti  
+2023-02-12 01:16:38,932 [INFO ] com.lms.pages.LMSHolidayListPage [main] Optional Holiday  
+2023-02-12 01:16:38,967 [INFO ] com.lms.pages.LMSHolidayListPage [main] 25-Dec-2023  
+2023-02-12 01:16:39,011 [INFO ] com.lms.pages.LMSHolidayListPage [main] Monday  
+2023-02-12 01:16:39,049 [INFO ] com.lms.pages.LMSHolidayListPage [main] Christmas  
+2023-02-12 01:16:39,087 [INFO ] com.lms.pages.LMSHolidayListPage [main] Public Holiday  
+2023-02-12 01:16:39,087 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:11
+2023-02-12 01:16:39,088 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] Count of Public Holdiays is greater than or equal to ten- Test Case Passed
+2023-02-12 01:16:39,089 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-12 01:16:39,162 [INFO ] com.lms.pages.LMSHolidayListPage [main] Holiday date
+2023-02-12 01:16:39,197 [INFO ] com.lms.pages.LMSHolidayListPage [main] Holiday Day
+2023-02-12 01:16:39,229 [INFO ] com.lms.pages.LMSHolidayListPage [main] Holiday description
+2023-02-12 01:16:39,262 [INFO ] com.lms.pages.LMSHolidayListPage [main] Holiday type
+2023-02-12 01:16:40,084 [INFO ] com.lms.common.ApplicationHooks [main] Closing the browser after test execution
+2023-02-12 01:16:40,086 [INFO ] com.lms.common.ApplicationHooks [main] *************************************************
+2023-02-12 03:04:34,095 [INFO ] com.lms.common.DriverProperties [main] Initiated Edge driver
+2023-02-12 03:04:34,297 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] *********************************
+2023-02-12 03:04:34,298 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] TestCase 1 : Execution started
+2023-02-12 03:04:49,989 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] Entered the url for LMS :https://lms.ey.net/
+2023-02-12 03:04:50,006 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] LMS HomePage title is :LMS | Leave Management System- Home
+2023-02-12 03:04:50,006 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] LMS HomePage is displayed -Test Case Pass
+2023-02-12 03:04:50,538 [INFO ] com.lms.common.ApplicationHooks [main] Closing the browser after test execution
+2023-02-12 03:04:50,538 [INFO ] com.lms.common.ApplicationHooks [main] *************************************************
+2023-02-12 03:04:53,578 [INFO ] com.lms.common.DriverProperties [main] Initiated Edge driver
+2023-02-12 03:04:54,010 [INFO ] com.lms.common.ApplicationHooks [main] Screenshot captured for failed test case
+2023-02-12 03:04:54,010 [INFO ] com.lms.common.ApplicationHooks [main] *************************************************
+2023-02-12 03:04:55,284 [INFO ] com.lms.common.ApplicationHooks [main] Closing the browser after test execution
+2023-02-12 03:04:55,285 [INFO ] com.lms.common.ApplicationHooks [main] *************************************************
+2023-02-12 03:06:40,568 [INFO ] com.lms.common.DriverProperties [main] Initiated Edge driver
+2023-02-12 03:06:40,759 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] *********************************
+2023-02-12 03:06:40,759 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] TestCase 1 : Execution started
+2023-02-12 03:06:55,524 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] Entered the url for LMS :https://lms.ey.net/
+2023-02-12 03:06:55,543 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] LMS HomePage title is :LMS | Leave Management System- Home
+2023-02-12 03:06:55,543 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] LMS HomePage is displayed -Test Case Pass
+2023-02-12 03:06:56,126 [INFO ] com.lms.common.ApplicationHooks [main] Closing the browser after test execution
+2023-02-12 03:06:56,127 [INFO ] com.lms.common.ApplicationHooks [main] *************************************************
+2023-02-12 03:06:59,649 [INFO ] com.lms.common.DriverProperties [main] Initiated Edge driver
+2023-02-12 03:06:59,813 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] TestCase 2 : Execution started
+2023-02-12 03:07:16,309 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] Entered the url for LMS :https://lms.ey.net/
+2023-02-12 03:07:16,387 [INFO ] com.lms.pages.LMSHomePage [main] User clicks on the Holiday link
+2023-02-12 03:07:21,433 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] LMS Holiday List is displayed
+2023-02-12 03:07:21,434 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] LMS Holiday List page title is :Office Holiday list
+2023-02-12 03:07:21,435 [INFO ] com.lms.pages.LMSHolidayListPage [main] Validate whether the count of public holidays is less than 10
+2023-02-12 03:07:21,458 [INFO ] com.lms.pages.LMSHolidayListPage [main] No of rows in the table is: 39
+2023-02-12 03:07:21,474 [INFO ] com.lms.pages.LMSHolidayListPage [main] No of columns in the table is: 4
+2023-02-12 03:07:26,517 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:11
+2023-02-12 03:07:26,518 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] Count of Public Holdiays is greater than or equal to ten- Test Case Passed
+2023-02-12 03:07:27,326 [INFO ] com.lms.common.ApplicationHooks [main] Closing the browser after test execution
+2023-02-12 03:07:27,327 [INFO ] com.lms.common.ApplicationHooks [main] *************************************************
+2023-02-12 03:09:42,559 [INFO ] com.lms.common.DriverProperties [main] Initiated Edge driver
+2023-02-12 03:09:42,738 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] *********************************
+2023-02-12 03:09:42,738 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] TestCase 1 : Execution started
+2023-02-12 03:09:58,663 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] Entered the url for LMS :https://lms.ey.net/
+2023-02-12 03:09:58,681 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] LMS HomePage title is :LMS | Leave Management System- Home
+2023-02-12 03:09:58,681 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] LMS HomePage is displayed -Test Case Pass
+2023-02-12 03:10:03,376 [INFO ] com.lms.common.ApplicationHooks [main] Closing the browser after test execution
+2023-02-12 03:10:03,379 [INFO ] com.lms.common.ApplicationHooks [main] *************************************************
+2023-02-12 03:10:06,982 [INFO ] com.lms.common.DriverProperties [main] Initiated Edge driver
+2023-02-12 03:10:07,168 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] TestCase 2 : Execution started
+2023-02-12 03:10:23,187 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] Entered the url for LMS :https://lms.ey.net/
+2023-02-12 03:10:23,293 [INFO ] com.lms.pages.LMSHomePage [main] User clicks on the Holiday link
+2023-02-12 03:10:28,347 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] LMS Holiday List is displayed
+2023-02-12 03:10:28,347 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] LMS Holiday List page title is :Office Holiday list
+2023-02-12 03:10:28,349 [INFO ] com.lms.pages.LMSHolidayListPage [main] Validate whether the count of public holidays is less than 10
+2023-02-12 03:10:28,374 [INFO ] com.lms.pages.LMSHolidayListPage [main] No of rows in the table is: 39
+2023-02-12 03:10:28,391 [INFO ] com.lms.pages.LMSHolidayListPage [main] No of columns in the table is: 4
+2023-02-12 03:10:33,917 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:11
+2023-02-12 03:10:33,918 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] Count of Public Holdiays is greater than or equal to ten- Test Case Passed
+2023-02-12 03:10:34,828 [INFO ] com.lms.common.ApplicationHooks [main] Closing the browser after test execution
+2023-02-12 03:10:34,828 [INFO ] com.lms.common.ApplicationHooks [main] *************************************************
+2023-02-12 03:12:22,574 [INFO ] com.lms.common.DriverProperties [main] Initiated Edge driver
+2023-02-12 03:12:22,766 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] *********************************
+2023-02-12 03:12:22,766 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] TestCase 1 : Execution started
+2023-02-12 03:12:38,256 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] Entered the url for LMS :https://lms.ey.net/
+2023-02-12 03:12:38,284 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] LMS HomePage title is :LMS | Leave Management System- Home
+2023-02-12 03:12:38,285 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] LMS HomePage is displayed -Test Case Pass
+2023-02-12 03:12:38,791 [INFO ] com.lms.common.ApplicationHooks [main] Closing the browser after test execution
+2023-02-12 03:12:38,791 [INFO ] com.lms.common.ApplicationHooks [main] *************************************************
+2023-02-12 03:12:42,845 [INFO ] com.lms.common.DriverProperties [main] Initiated Edge driver
+2023-02-12 03:12:43,000 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] TestCase 2 : Execution started
+2023-02-12 03:12:58,770 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] Entered the url for LMS :https://lms.ey.net/
+2023-02-12 03:12:58,865 [INFO ] com.lms.pages.LMSHomePage [main] User clicks on the Holiday link
+2023-02-12 03:13:03,899 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] LMS Holiday List is displayed
+2023-02-12 03:13:03,899 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] LMS Holiday List page title is :Office Holiday list
+2023-02-12 03:13:03,900 [INFO ] com.lms.pages.LMSHolidayListPage [main] Validate whether the count of public holidays is less than 10
+2023-02-12 03:13:03,921 [INFO ] com.lms.pages.LMSHolidayListPage [main] No of rows in the table is: 39
+2023-02-12 03:13:03,934 [INFO ] com.lms.pages.LMSHolidayListPage [main] No of columns in the table is: 4
+2023-02-12 03:13:08,704 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:11
+2023-02-12 03:13:08,705 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] Count of Public Holdiays is greater than or equal to ten- Test Case Passed
+2023-02-12 03:13:08,705 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-12 03:13:10,023 [INFO ] com.lms.common.ExcelReportGenerator [main] Generate report based on the holiday type
+2023-02-12 03:13:11,397 [INFO ] com.lms.common.ExcelReportGenerator [main] Report generated successfully
+2023-02-12 03:13:12,219 [INFO ] com.lms.common.ApplicationHooks [main] Closing the browser after test execution
+2023-02-12 03:13:12,219 [INFO ] com.lms.common.ApplicationHooks [main] *************************************************
+2023-02-12 03:17:13,332 [INFO ] com.lms.common.DriverProperties [main] Initiated Edge driver
+2023-02-12 03:17:13,497 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] *********************************
+2023-02-12 03:17:13,497 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] TestCase 1 : Execution started
+2023-02-12 03:17:29,096 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] Entered the url for LMS :https://lms.ey.net/
+2023-02-12 03:17:29,112 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] LMS HomePage title is :LMS | Leave Management System- Home
+2023-02-12 03:17:29,113 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] LMS HomePage is displayed -Test Case Pass
+2023-02-12 03:17:29,629 [INFO ] com.lms.common.ApplicationHooks [main] Closing the browser after test execution
+2023-02-12 03:17:29,629 [INFO ] com.lms.common.ApplicationHooks [main] *************************************************
+2023-02-12 03:17:32,622 [INFO ] com.lms.common.DriverProperties [main] Initiated Edge driver
+2023-02-12 03:17:32,782 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] TestCase 2 : Execution started
+2023-02-12 03:17:48,426 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] Entered the url for LMS :https://lms.ey.net/
+2023-02-12 03:17:48,533 [INFO ] com.lms.pages.LMSHomePage [main] User clicks on the Holiday link
+2023-02-12 03:17:53,592 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] LMS Holiday List is displayed
+2023-02-12 03:17:53,592 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] LMS Holiday List page title is :Office Holiday list
+2023-02-12 03:17:53,594 [INFO ] com.lms.pages.LMSHolidayListPage [main] Validate whether the count of public holidays is less than 10
+2023-02-12 03:17:53,618 [INFO ] com.lms.pages.LMSHolidayListPage [main] No of rows in the table is: 39
+2023-02-12 03:17:53,636 [INFO ] com.lms.pages.LMSHolidayListPage [main] No of columns in the table is: 4
+2023-02-12 03:17:58,823 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:11
+2023-02-12 03:17:58,823 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] Count of Public Holdiays is greater than or equal to ten- Test Case Passed
+2023-02-12 03:18:04,023 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
