@@ -53,7 +53,7 @@ public class LMSHolidayListSteps {
 	}
 
 	@Then("user validates count of Public Holidays is greater than or equal to ten")
-	public void user_validates_count_of_public_holidays_is_less_than_or_equal_to_ten() {
+	public void user_validates_count_of_public_holidays_is_less_than_or_equal_to_ten() throws IOException {
 		holidayList.countOfPublicHolidays();
 		logger.info("Count of Public Holdiays is greater than or equal to ten- Test Case Passed");
 
@@ -63,7 +63,7 @@ public class LMSHolidayListSteps {
 	public void user_can_generate_a_report_based_on_the_holiday_type() throws IOException{
 	try {
 		{
-			holidayList.generateHolidayReport();
+			holidayList.generateHoldiayExcelReport();
 		}
 	} catch (IOException e) {
 		e.printStackTrace();
