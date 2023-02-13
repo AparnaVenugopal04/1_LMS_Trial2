@@ -1086,3 +1086,770 @@
 2023-02-13 03:13:27,379 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
 2023-02-13 03:13:28,042 [INFO ] com.lms.common.ApplicationHooks [main] Closing the browser after test execution
 2023-02-13 03:13:28,043 [INFO ] com.lms.common.ApplicationHooks [main] *************************************************
+2023-02-13 10:06:40,069 [INFO ] com.lms.common.DriverProperties [main] Initiated Edge driver
+2023-02-13 10:06:40,263 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] *********************************
+2023-02-13 10:06:40,263 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] TestCase 1 : Execution started
+2023-02-13 10:06:53,594 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] Entered the url for LMS :https://lms.ey.net/
+2023-02-13 10:06:53,615 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] LMS HomePage title is :LMS | Leave Management System- Home
+2023-02-13 10:06:53,615 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] LMS HomePage is displayed -Test Case Pass
+2023-02-13 10:06:54,313 [INFO ] com.lms.common.ApplicationHooks [main] Closing the browser after test execution
+2023-02-13 10:06:54,313 [INFO ] com.lms.common.ApplicationHooks [main] *************************************************
+2023-02-13 10:06:58,181 [INFO ] com.lms.common.DriverProperties [main] Initiated Edge driver
+2023-02-13 10:06:58,332 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] TestCase 2 : Execution started
+2023-02-13 10:07:11,222 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] Entered the url for LMS :https://lms.ey.net/
+2023-02-13 10:07:11,319 [INFO ] com.lms.pages.LMSHomePage [main] User clicks on the Holiday link
+2023-02-13 10:07:16,363 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] LMS Holiday List is displayed
+2023-02-13 10:07:16,363 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] LMS Holiday List page title is :Office Holiday list
+2023-02-13 10:07:16,365 [INFO ] com.lms.pages.LMSHolidayListPage [main] Validate whether the count of public holidays is less than 10
+2023-02-13 10:07:16,411 [INFO ] com.lms.pages.LMSHolidayListPage [main] No of rows in the table is: 39
+2023-02-13 10:07:16,438 [INFO ] com.lms.pages.LMSHolidayListPage [main] No of columns in the table is: 4
+2023-02-13 10:07:21,694 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:11
+2023-02-13 10:07:21,694 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] Count of Public Holdiays is greater than or equal to ten- Test Case Passed
+2023-02-13 10:07:21,725 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 10:07:21,725 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 10:07:26,141 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 10:07:26,168 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 10:07:26,168 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 10:07:29,469 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 10:07:29,487 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 10:07:29,487 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 10:07:32,588 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 10:07:32,605 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 10:07:32,605 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 10:07:35,530 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 10:07:35,548 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 10:07:35,548 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 10:07:38,566 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 10:07:38,586 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 10:07:38,586 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 10:07:41,647 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 10:07:41,666 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 10:07:41,666 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 10:07:44,600 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 10:07:44,618 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 10:07:44,618 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 10:07:47,633 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 10:07:47,655 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 10:07:47,656 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 10:07:50,718 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 10:07:50,736 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 10:07:50,736 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 10:07:53,873 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 10:07:53,888 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 10:07:53,888 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 10:07:56,828 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 10:07:56,852 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 10:07:56,853 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 10:08:00,375 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 10:08:00,395 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 10:08:00,395 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 10:08:03,556 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 10:08:03,575 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 10:08:03,575 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 10:08:06,467 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 10:08:06,488 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 10:08:06,488 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 10:08:09,369 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 10:08:09,388 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 10:08:09,388 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 10:08:12,939 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 10:08:12,959 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 10:08:12,959 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 10:08:16,095 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 10:08:16,111 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 10:08:16,112 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 10:08:19,223 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 10:08:19,254 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 10:08:19,254 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 10:08:22,180 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 10:08:22,198 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 10:08:22,198 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 10:08:25,275 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 10:08:25,293 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 10:08:25,293 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 10:08:28,292 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 10:08:28,314 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 10:08:28,314 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 10:08:31,768 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 10:08:31,796 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 10:08:31,797 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 10:08:35,228 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 10:08:35,254 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 10:08:35,254 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 10:08:38,188 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 10:08:38,207 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 10:08:38,207 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 10:08:41,105 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 10:08:41,125 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 10:08:41,126 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 10:08:44,627 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 10:08:44,664 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 10:08:44,664 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 10:08:47,605 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 10:08:47,622 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 10:08:47,622 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 10:08:50,619 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 10:08:50,638 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 10:08:50,638 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 10:08:53,706 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 10:08:53,723 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 10:08:53,723 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 10:08:55,615 [INFO ] com.lms.common.ApplicationHooks [main] Closing the browser after test execution
+2023-02-13 10:08:55,616 [INFO ] com.lms.common.ApplicationHooks [main] *************************************************
+2023-02-13 11:34:08,979 [INFO ] com.lms.common.DriverProperties [main] Initiated Edge driver
+2023-02-13 11:34:09,180 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] *********************************
+2023-02-13 11:34:09,181 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] TestCase 1 : Execution started
+2023-02-13 11:34:22,353 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] Entered the url for LMS :https://lms.ey.net/
+2023-02-13 11:34:22,369 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] LMS HomePage title is :LMS | Leave Management System- Home
+2023-02-13 11:34:22,369 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] LMS HomePage is displayed -Test Case Pass
+2023-02-13 11:34:22,980 [INFO ] com.lms.common.ApplicationHooks [main] Closing the browser after test execution
+2023-02-13 11:34:22,980 [INFO ] com.lms.common.ApplicationHooks [main] *************************************************
+2023-02-13 11:34:25,933 [INFO ] com.lms.common.DriverProperties [main] Initiated Edge driver
+2023-02-13 11:34:26,077 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] TestCase 2 : Execution started
+2023-02-13 11:34:38,850 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] Entered the url for LMS :https://lms.ey.net/
+2023-02-13 11:34:38,940 [INFO ] com.lms.pages.LMSHomePage [main] User clicks on the Holiday link
+2023-02-13 11:34:43,981 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] LMS Holiday List is displayed
+2023-02-13 11:34:43,981 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] LMS Holiday List page title is :Office Holiday list
+2023-02-13 11:34:43,982 [INFO ] com.lms.pages.LMSHolidayListPage [main] Validate whether the count of public holidays is less than 10
+2023-02-13 11:34:44,006 [INFO ] com.lms.pages.LMSHolidayListPage [main] No of rows in the table is: 39
+2023-02-13 11:34:44,021 [INFO ] com.lms.pages.LMSHolidayListPage [main] No of columns in the table is: 4
+2023-02-13 11:34:48,305 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:11
+2023-02-13 11:34:48,305 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] Count of Public Holdiays is greater than or equal to ten- Test Case Passed
+2023-02-13 11:34:48,334 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 11:34:48,928 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 11:34:49,091 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 11:34:51,969 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 11:34:51,984 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 11:34:52,000 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 11:34:52,071 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 11:34:54,984 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 11:34:55,000 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 11:34:55,018 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 11:34:55,093 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 11:34:57,876 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 11:34:57,894 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 11:34:57,912 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 11:34:57,991 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 11:35:00,909 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 11:35:00,926 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 11:35:00,945 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 11:35:01,018 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 11:35:03,838 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 11:35:03,859 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 11:35:03,879 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 11:35:03,957 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 11:35:06,633 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 11:35:06,651 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 11:35:06,671 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 11:35:06,756 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 11:35:09,576 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 11:35:09,594 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 11:35:09,615 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 11:35:09,707 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 11:35:12,434 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 11:35:12,451 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 11:35:12,469 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 11:35:12,548 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 11:35:15,161 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 11:35:15,178 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 11:35:15,197 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 11:35:15,275 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 11:35:17,984 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 11:35:18,006 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 11:35:18,026 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 11:35:18,132 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 11:35:19,537 [INFO ] com.lms.common.ApplicationHooks [main] Closing the browser after test execution
+2023-02-13 11:35:19,537 [INFO ] com.lms.common.ApplicationHooks [main] *************************************************
+2023-02-13 11:39:01,070 [INFO ] com.lms.common.DriverProperties [main] Initiated Edge driver
+2023-02-13 11:39:01,260 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] *********************************
+2023-02-13 11:39:01,260 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] TestCase 1 : Execution started
+2023-02-13 11:39:13,388 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] Entered the url for LMS :https://lms.ey.net/
+2023-02-13 11:39:13,408 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] LMS HomePage title is :LMS | Leave Management System- Home
+2023-02-13 11:39:13,409 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] LMS HomePage is displayed -Test Case Pass
+2023-02-13 11:39:14,226 [INFO ] com.lms.common.ApplicationHooks [main] Closing the browser after test execution
+2023-02-13 11:39:14,227 [INFO ] com.lms.common.ApplicationHooks [main] *************************************************
+2023-02-13 11:39:19,586 [INFO ] com.lms.common.DriverProperties [main] Initiated Edge driver
+2023-02-13 11:39:19,764 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] TestCase 2 : Execution started
+2023-02-13 11:39:32,314 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] Entered the url for LMS :https://lms.ey.net/
+2023-02-13 11:39:32,432 [INFO ] com.lms.pages.LMSHomePage [main] User clicks on the Holiday link
+2023-02-13 11:39:37,477 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] LMS Holiday List is displayed
+2023-02-13 11:39:37,478 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] LMS Holiday List page title is :Office Holiday list
+2023-02-13 11:39:37,479 [INFO ] com.lms.pages.LMSHolidayListPage [main] Validate whether the count of public holidays is less than 10
+2023-02-13 11:39:37,510 [INFO ] com.lms.pages.LMSHolidayListPage [main] No of rows in the table is: 39
+2023-02-13 11:39:37,528 [INFO ] com.lms.pages.LMSHolidayListPage [main] No of columns in the table is: 4
+2023-02-13 11:39:43,260 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:11
+2023-02-13 11:39:43,260 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] Count of Public Holdiays is greater than or equal to ten- Test Case Passed
+2023-02-13 11:40:01,838 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 11:40:02,796 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 11:40:36,453 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 11:40:45,187 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 11:40:57,205 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 11:40:57,236 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 12:41:13,492 [INFO ] com.lms.common.DriverProperties [main] Initiated Edge driver
+2023-02-13 12:41:13,675 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] *********************************
+2023-02-13 12:41:13,676 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] TestCase 1 : Execution started
+2023-02-13 12:41:28,012 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] Entered the url for LMS :https://lms.ey.net/
+2023-02-13 12:41:28,033 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] LMS HomePage title is :LMS | Leave Management System- Home
+2023-02-13 12:41:28,034 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] LMS HomePage is displayed -Test Case Pass
+2023-02-13 12:41:28,655 [INFO ] com.lms.common.ApplicationHooks [main] Closing the browser after test execution
+2023-02-13 12:41:28,655 [INFO ] com.lms.common.ApplicationHooks [main] *************************************************
+2023-02-13 12:41:33,433 [INFO ] com.lms.common.DriverProperties [main] Initiated Edge driver
+2023-02-13 12:41:33,628 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] TestCase 2 : Execution started
+2023-02-13 12:41:49,031 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] Entered the url for LMS :https://lms.ey.net/
+2023-02-13 12:41:49,125 [INFO ] com.lms.pages.LMSHomePage [main] User clicks on the Holiday link
+2023-02-13 12:41:54,558 [INFO ] com.lms.common.ApplicationHooks [main] Screenshot captured for failed test case
+2023-02-13 12:41:54,559 [INFO ] com.lms.common.ApplicationHooks [main] *************************************************
+2023-02-13 12:41:55,384 [INFO ] com.lms.common.ApplicationHooks [main] Closing the browser after test execution
+2023-02-13 12:41:55,385 [INFO ] com.lms.common.ApplicationHooks [main] *************************************************
+2023-02-13 12:42:57,869 [INFO ] com.lms.common.DriverProperties [main] Initiated Edge driver
+2023-02-13 12:42:58,064 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] *********************************
+2023-02-13 12:42:58,065 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] TestCase 1 : Execution started
+2023-02-13 12:43:12,312 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] Entered the url for LMS :https://lms.ey.net/
+2023-02-13 12:43:12,348 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] LMS HomePage title is :LMS | Leave Management System- Home
+2023-02-13 12:43:12,349 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] LMS HomePage is displayed -Test Case Pass
+2023-02-13 12:43:13,116 [INFO ] com.lms.common.ApplicationHooks [main] Closing the browser after test execution
+2023-02-13 12:43:13,116 [INFO ] com.lms.common.ApplicationHooks [main] *************************************************
+2023-02-13 12:43:17,228 [INFO ] com.lms.common.DriverProperties [main] Initiated Edge driver
+2023-02-13 12:43:17,375 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] TestCase 2 : Execution started
+2023-02-13 12:43:30,740 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] Entered the url for LMS :https://lms.ey.net/
+2023-02-13 12:43:30,950 [INFO ] com.lms.pages.LMSHomePage [main] User clicks on the Holiday link
+2023-02-13 12:43:36,009 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] LMS Holiday List is displayed
+2023-02-13 12:43:36,009 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] LMS Holiday List page title is :Office Holiday list
+2023-02-13 12:43:36,011 [INFO ] com.lms.pages.LMSHolidayListPage [main] Validate whether the count of public holidays is less than 10
+2023-02-13 12:43:36,037 [INFO ] com.lms.pages.LMSHolidayListPage [main] No of rows in the table is: 39
+2023-02-13 12:43:36,057 [INFO ] com.lms.pages.LMSHolidayListPage [main] No of columns in the table is: 4
+2023-02-13 12:43:43,140 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:11
+2023-02-13 12:43:43,140 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] Count of Public Holdiays is greater than or equal to ten- Test Case Passed
+2023-02-13 12:43:43,157 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 12:43:44,949 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 12:43:44,949 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 12:43:45,131 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 12:43:45,155 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 12:43:45,190 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 12:43:48,985 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 12:43:49,006 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 12:43:49,027 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 12:43:52,261 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 12:43:52,278 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 12:43:52,300 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 12:43:55,598 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 12:43:55,616 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 12:43:55,637 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 12:43:58,648 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 12:43:58,665 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 12:43:58,689 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 12:44:02,091 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 12:44:02,110 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 12:44:02,132 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 12:44:05,261 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 12:44:05,283 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 12:44:05,308 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 12:44:08,318 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 12:44:08,337 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 12:44:08,357 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 12:44:11,557 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 12:44:11,574 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 12:44:11,596 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 12:44:15,009 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 12:44:15,032 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 12:44:15,055 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 12:44:19,522 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 12:44:19,544 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 12:44:19,564 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 12:44:22,720 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 12:44:22,739 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 12:44:22,759 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 12:44:25,712 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 12:44:25,735 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 12:44:25,763 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 12:44:28,905 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 12:44:28,928 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 12:44:28,959 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 12:44:32,214 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 12:44:32,234 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 12:44:32,256 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 12:44:35,442 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 12:44:35,460 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 12:44:35,480 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 12:44:38,522 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 12:44:38,545 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 12:44:38,565 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 12:44:41,788 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 12:44:41,810 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 12:44:41,830 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 12:44:44,866 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 12:44:44,883 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 12:44:44,904 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 12:44:46,465 [INFO ] com.lms.common.ApplicationHooks [main] Closing the browser after test execution
+2023-02-13 12:44:46,465 [INFO ] com.lms.common.ApplicationHooks [main] *************************************************
+2023-02-13 13:02:40,482 [INFO ] com.lms.common.DriverProperties [main] Initiated Edge driver
+2023-02-13 13:02:40,648 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] *********************************
+2023-02-13 13:02:40,648 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] TestCase 1 : Execution started
+2023-02-13 13:02:53,036 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] Entered the url for LMS :https://lms.ey.net/
+2023-02-13 13:02:53,056 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] LMS HomePage title is :LMS | Leave Management System- Home
+2023-02-13 13:02:53,056 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] LMS HomePage is displayed -Test Case Pass
+2023-02-13 13:02:53,584 [INFO ] com.lms.common.ApplicationHooks [main] Closing the browser after test execution
+2023-02-13 13:02:53,585 [INFO ] com.lms.common.ApplicationHooks [main] *************************************************
+2023-02-13 13:02:56,452 [INFO ] com.lms.common.DriverProperties [main] Initiated Edge driver
+2023-02-13 13:02:56,602 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] TestCase 2 : Execution started
+2023-02-13 13:03:09,047 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] Entered the url for LMS :https://lms.ey.net/
+2023-02-13 13:03:09,138 [INFO ] com.lms.pages.LMSHomePage [main] User clicks on the Holiday link
+2023-02-13 13:03:14,182 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] LMS Holiday List is displayed
+2023-02-13 13:03:14,182 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] LMS Holiday List page title is :Office Holiday list
+2023-02-13 13:03:14,184 [INFO ] com.lms.pages.LMSHolidayListPage [main] Validate whether the count of public holidays is less than 10
+2023-02-13 13:03:14,205 [INFO ] com.lms.pages.LMSHolidayListPage [main] No of rows in the table is: 39
+2023-02-13 13:03:14,219 [INFO ] com.lms.pages.LMSHolidayListPage [main] No of columns in the table is: 4
+2023-02-13 13:03:18,452 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:11
+2023-02-13 13:03:18,452 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] Count of Public Holdiays is greater than or equal to ten- Test Case Passed
+2023-02-13 13:03:18,464 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:03:19,482 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:03:19,483 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:03:19,596 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:03:19,610 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:03:19,626 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:03:22,193 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:03:22,211 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:03:22,229 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:03:24,723 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:03:24,739 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:03:24,756 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:03:27,202 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:03:27,218 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:03:27,233 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:03:29,625 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:03:29,643 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:03:29,661 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:03:32,324 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:03:32,342 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:03:32,363 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:03:34,935 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:03:34,951 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:03:34,968 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:03:37,536 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:03:37,554 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:03:37,575 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:03:40,518 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:03:40,537 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:03:40,555 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:03:43,236 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:03:43,256 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:03:43,274 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:03:45,947 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:03:45,963 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:03:45,984 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:03:48,590 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:03:48,606 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:03:48,625 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:03:51,124 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:03:51,139 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:03:51,157 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:03:53,789 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:03:53,805 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:03:53,829 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:03:56,740 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:03:56,761 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:03:56,782 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:03:59,530 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:03:59,546 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:03:59,564 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:04:02,526 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:04:02,543 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:04:02,561 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:04:05,584 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:04:05,600 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:04:05,618 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:04:08,497 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:04:08,516 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:04:08,537 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:04:11,220 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:04:11,236 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:04:11,253 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:04:14,166 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:04:14,183 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:04:14,201 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:04:16,855 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:04:16,871 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:04:16,900 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:04:19,444 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:04:19,462 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:04:19,477 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:04:22,204 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:04:22,220 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:04:22,236 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:04:24,806 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:04:24,822 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:04:24,840 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:04:27,581 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:04:27,601 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:04:27,624 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:04:30,282 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:04:30,299 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:04:30,316 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:04:33,144 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:04:33,161 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:04:33,178 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:04:35,778 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:04:35,799 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:04:35,820 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:04:38,574 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:04:38,594 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:04:38,612 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:04:41,678 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:04:41,696 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:04:41,714 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:04:44,578 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:04:44,598 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:04:44,616 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:04:47,359 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:04:47,377 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:04:47,393 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:04:50,129 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:04:50,146 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:04:50,164 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:04:52,797 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:04:52,816 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:04:52,834 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:04:55,610 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:04:55,628 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:04:55,646 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:04:58,355 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:04:58,373 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:04:58,389 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:05:01,252 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:05:01,270 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:05:01,287 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:05:04,074 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:05:04,091 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:05:04,108 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:05:06,935 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:05:07,673 [INFO ] com.lms.common.ApplicationHooks [main] Closing the browser after test execution
+2023-02-13 13:05:07,673 [INFO ] com.lms.common.ApplicationHooks [main] *************************************************
+2023-02-13 13:14:54,774 [INFO ] com.lms.common.DriverProperties [main] Initiated Edge driver
+2023-02-13 13:14:54,930 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] *********************************
+2023-02-13 13:14:54,930 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] TestCase 1 : Execution started
+2023-02-13 13:15:07,870 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] Entered the url for LMS :https://lms.ey.net/
+2023-02-13 13:15:07,889 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] LMS HomePage title is :LMS | Leave Management System- Home
+2023-02-13 13:15:07,890 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] LMS HomePage is displayed -Test Case Pass
+2023-02-13 13:15:08,393 [INFO ] com.lms.common.ApplicationHooks [main] Closing the browser after test execution
+2023-02-13 13:15:08,393 [INFO ] com.lms.common.ApplicationHooks [main] *************************************************
+2023-02-13 13:15:11,282 [INFO ] com.lms.common.DriverProperties [main] Initiated Edge driver
+2023-02-13 13:15:11,417 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] TestCase 2 : Execution started
+2023-02-13 13:16:30,034 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] Entered the url for LMS :https://lms.ey.net/
+2023-02-13 13:16:30,655 [INFO ] com.lms.common.ApplicationHooks [main] Closing the browser after test execution
+2023-02-13 13:16:30,656 [INFO ] com.lms.common.ApplicationHooks [main] *************************************************
+2023-02-13 13:16:55,458 [INFO ] com.lms.common.DriverProperties [main] Initiated Edge driver
+2023-02-13 13:16:55,627 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] *********************************
+2023-02-13 13:16:55,627 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] TestCase 1 : Execution started
+2023-02-13 13:17:08,020 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] Entered the url for LMS :https://lms.ey.net/
+2023-02-13 13:17:08,038 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] LMS HomePage title is :LMS | Leave Management System- Home
+2023-02-13 13:17:08,038 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] LMS HomePage is displayed -Test Case Pass
+2023-02-13 13:17:08,610 [INFO ] com.lms.common.ApplicationHooks [main] Closing the browser after test execution
+2023-02-13 13:17:08,611 [INFO ] com.lms.common.ApplicationHooks [main] *************************************************
+2023-02-13 13:17:11,447 [INFO ] com.lms.common.DriverProperties [main] Initiated Edge driver
+2023-02-13 13:17:11,583 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] TestCase 2 : Execution started
+2023-02-13 13:17:25,902 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] Entered the url for LMS :https://lms.ey.net/
+2023-02-13 13:17:25,973 [INFO ] com.lms.pages.LMSHomePage [main] User clicks on the Holiday link
+2023-02-13 13:17:31,012 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] LMS Holiday List is displayed
+2023-02-13 13:17:31,012 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] LMS Holiday List page title is :Office Holiday list
+2023-02-13 13:17:31,013 [INFO ] com.lms.pages.LMSHolidayListPage [main] Validate whether the count of public holidays is less than 10
+2023-02-13 13:17:31,031 [INFO ] com.lms.pages.LMSHolidayListPage [main] No of rows in the table is: 39
+2023-02-13 13:17:31,046 [INFO ] com.lms.pages.LMSHolidayListPage [main] No of columns in the table is: 4
+2023-02-13 13:17:35,168 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:11
+2023-02-13 13:17:35,168 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] Count of Public Holdiays is greater than or equal to ten- Test Case Passed
+2023-02-13 13:17:35,194 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:17:35,195 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:17:38,546 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:17:38,563 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:17:38,563 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:17:41,107 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:17:41,129 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:17:41,129 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:17:43,678 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:17:43,693 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:17:43,693 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:17:46,115 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:17:46,131 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:17:46,131 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:17:48,706 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:17:48,721 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:17:48,722 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:17:51,341 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:17:51,357 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:17:51,357 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:17:54,093 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:17:54,110 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:17:54,110 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:17:56,780 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:17:56,796 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:17:56,796 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:17:59,445 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:17:59,460 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:17:59,460 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:18:02,130 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:18:02,144 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:18:02,145 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:18:04,740 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:18:04,754 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:18:04,754 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:18:07,430 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:18:07,447 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:18:07,447 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:18:10,235 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:18:10,258 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:18:10,258 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:18:13,191 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:18:13,208 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:18:13,208 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:18:16,009 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:18:16,027 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:18:16,027 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:18:18,673 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:18:18,689 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:18:18,689 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:18:21,302 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:18:21,320 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:18:21,321 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:18:24,070 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:18:24,087 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:18:24,088 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:18:26,835 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:18:26,852 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:18:26,852 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:18:29,688 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:18:29,704 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:18:29,704 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:18:32,365 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:18:32,383 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:18:32,383 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:18:34,947 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:18:34,963 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:18:34,963 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:18:37,954 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:18:37,973 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:18:37,973 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:18:40,584 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:18:40,601 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:18:40,601 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:18:43,332 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:18:43,354 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:18:43,354 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:18:46,061 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:18:46,080 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:18:46,080 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:18:49,001 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:18:49,020 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:18:49,021 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:18:51,744 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:18:51,761 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:18:51,761 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:18:54,430 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:18:54,447 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:18:54,448 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:18:57,197 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:18:57,214 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:18:57,214 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:19:00,323 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:19:00,342 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:19:00,342 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:19:03,051 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:19:03,068 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:19:03,068 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:19:05,831 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:19:05,849 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:19:05,850 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:19:08,504 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:19:08,523 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:19:08,523 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:19:11,350 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:19:11,368 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:19:11,368 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:19:14,063 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:19:14,082 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:19:14,083 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:19:17,162 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:19:17,183 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:19:17,183 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:19:20,634 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:19:20,661 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:19:20,661 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:19:23,845 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:19:24,895 [INFO ] com.lms.common.ApplicationHooks [main] Closing the browser after test execution
+2023-02-13 13:19:24,895 [INFO ] com.lms.common.ApplicationHooks [main] *************************************************
+2023-02-13 13:26:51,123 [INFO ] com.lms.common.DriverProperties [main] Initiated Edge driver
+2023-02-13 13:26:51,271 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] *********************************
+2023-02-13 13:26:51,271 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] TestCase 1 : Execution started
+2023-02-13 13:27:06,328 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] Entered the url for LMS :https://lms.ey.net/
+2023-02-13 13:27:06,348 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] LMS HomePage title is :LMS | Leave Management System- Home
+2023-02-13 13:27:06,348 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] LMS HomePage is displayed -Test Case Pass
+2023-02-13 13:27:06,837 [INFO ] com.lms.common.ApplicationHooks [main] Closing the browser after test execution
+2023-02-13 13:27:06,837 [INFO ] com.lms.common.ApplicationHooks [main] *************************************************
+2023-02-13 13:27:09,784 [INFO ] com.lms.common.DriverProperties [main] Initiated Edge driver
+2023-02-13 13:27:09,914 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] TestCase 2 : Execution started
+2023-02-13 13:27:24,223 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] Entered the url for LMS :https://lms.ey.net/
+2023-02-13 13:27:24,296 [INFO ] com.lms.pages.LMSHomePage [main] User clicks on the Holiday link
+2023-02-13 13:27:29,350 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] LMS Holiday List is displayed
+2023-02-13 13:27:29,350 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] LMS Holiday List page title is :Office Holiday list
+2023-02-13 13:27:29,351 [INFO ] com.lms.pages.LMSHolidayListPage [main] Validate whether the count of public holidays is less than 10
+2023-02-13 13:27:29,370 [INFO ] com.lms.pages.LMSHolidayListPage [main] No of rows in the table is: 39
+2023-02-13 13:27:29,385 [INFO ] com.lms.pages.LMSHolidayListPage [main] No of columns in the table is: 4
+2023-02-13 13:27:33,550 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:11
+2023-02-13 13:27:33,551 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] Count of Public Holdiays is greater than or equal to ten- Test Case Passed
+2023-02-13 13:27:33,551 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:27:33,551 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:27:35,738 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:27:36,342 [INFO ] com.lms.common.ApplicationHooks [main] Closing the browser after test execution
+2023-02-13 13:27:36,342 [INFO ] com.lms.common.ApplicationHooks [main] *************************************************
+2023-02-13 13:56:42,271 [INFO ] com.lms.common.DriverProperties [main] Initiated Edge driver
+2023-02-13 13:56:42,435 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] *********************************
+2023-02-13 13:56:42,436 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] TestCase 1 : Execution started
+2023-02-13 13:56:57,635 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] Entered the url for LMS :https://lms.ey.net/
+2023-02-13 13:56:57,650 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] LMS HomePage title is :LMS | Leave Management System- Home
+2023-02-13 13:56:57,651 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] LMS HomePage is displayed -Test Case Pass
+2023-02-13 13:56:58,147 [INFO ] com.lms.common.ApplicationHooks [main] Closing the browser after test execution
+2023-02-13 13:56:58,147 [INFO ] com.lms.common.ApplicationHooks [main] *************************************************
+2023-02-13 13:57:01,038 [INFO ] com.lms.common.DriverProperties [main] Initiated Edge driver
+2023-02-13 13:57:01,170 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] TestCase 2 : Execution started
+2023-02-13 13:57:15,477 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] Entered the url for LMS :https://lms.ey.net/
+2023-02-13 13:57:15,557 [INFO ] com.lms.pages.LMSHomePage [main] User clicks on the Holiday link
+2023-02-13 13:57:20,623 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] LMS Holiday List is displayed
+2023-02-13 13:57:20,623 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] LMS Holiday List page title is :Office Holiday list
+2023-02-13 13:57:20,624 [INFO ] com.lms.pages.LMSHolidayListPage [main] Validate whether the count of public holidays is less than 10
+2023-02-13 13:57:20,646 [INFO ] com.lms.pages.LMSHolidayListPage [main] No of rows in the table is: 39
+2023-02-13 13:57:20,663 [INFO ] com.lms.pages.LMSHolidayListPage [main] No of columns in the table is: 4
+2023-02-13 13:57:25,188 [INFO ] com.lms.pages.LMSHolidayListPage [main] Number of public holidays:11
+2023-02-13 13:57:25,188 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] Count of Public Holdiays is greater than or equal to ten- Test Case Passed
+2023-02-13 13:57:25,214 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:57:25,214 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:57:28,909 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:57:28,928 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:57:28,928 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:57:31,861 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:57:31,875 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:57:31,875 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:57:34,935 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:57:34,953 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:57:34,954 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:57:37,936 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:57:37,952 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:57:37,952 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:57:40,889 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:57:40,905 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:57:40,905 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:57:44,059 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:57:44,075 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:57:44,076 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:57:47,510 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:57:47,527 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:57:47,527 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:57:50,796 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:57:50,845 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:57:50,846 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:57:54,100 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:57:54,116 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:57:54,116 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:57:57,467 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:57:57,491 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:57:57,491 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:58:01,263 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:58:01,289 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:58:01,289 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:58:04,731 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:58:04,756 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:58:04,756 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:58:07,660 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:58:07,678 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:58:07,678 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:58:10,506 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:58:10,521 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:58:10,521 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:58:13,518 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:58:13,538 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:58:13,539 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:58:16,878 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:58:16,895 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:58:16,895 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:58:20,123 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:58:20,143 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:58:20,143 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:58:23,489 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:58:23,507 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:58:23,507 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:58:26,882 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:58:26,901 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:58:26,901 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:58:29,990 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:58:30,007 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:58:30,007 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:58:32,694 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:58:32,711 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:58:32,711 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:58:35,644 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:58:35,660 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:58:35,660 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:58:38,916 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:58:38,935 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:58:38,936 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:58:42,315 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:58:42,335 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:58:42,335 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:58:45,525 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:58:45,542 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:58:45,542 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:58:48,559 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:58:48,579 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:58:48,579 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:58:51,603 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:58:51,625 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:58:51,625 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:58:54,754 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:58:54,775 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:58:54,775 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:58:57,892 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:58:57,917 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:58:57,918 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:59:02,244 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:59:02,301 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:59:02,302 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:59:06,335 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:59:06,357 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:59:06,357 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:59:09,600 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:59:09,621 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:59:09,621 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:59:12,895 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:59:12,914 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:59:12,914 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:59:15,972 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:59:15,990 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:59:15,990 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:59:19,060 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:59:19,080 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:59:19,080 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:59:22,184 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:59:22,203 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:59:22,203 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:59:25,572 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:59:25,591 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:59:25,591 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:59:28,851 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:59:28,871 [INFO ] com.lms.pages.LMSHolidayListPage [main] Generate report based on the holiday type
+2023-02-13 13:59:28,871 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-13 13:59:32,313 [INFO ] com.lms.pages.LMSHolidayListPage [main] Report generated successfully
+2023-02-13 13:59:33,138 [INFO ] com.lms.common.ApplicationHooks [main] Closing the browser after test execution
+2023-02-13 13:59:33,139 [INFO ] com.lms.common.ApplicationHooks [main] *************************************************
+2023-02-13 14:29:11,965 [INFO ] com.lms.common.DriverProperties [main] Initiated Edge driver
+2023-02-13 14:29:12,187 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] *********************************
+2023-02-13 14:29:12,188 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] TestCase 1 : Execution started
+2023-02-13 14:29:25,028 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] Entered the url for LMS :https://lms.ey.net/
+2023-02-13 14:29:25,046 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] LMS HomePage title is :LMS | Leave Management System- Home
+2023-02-13 14:29:25,047 [INFO ] com.lms.stepdefinition.LMSHomePageSteps [main] LMS HomePage is displayed -Test Case Pass
+2023-02-13 14:29:25,694 [INFO ] com.lms.common.ApplicationHooks [main] Closing the browser after test execution
+2023-02-13 14:29:25,695 [INFO ] com.lms.common.ApplicationHooks [main] *************************************************
+2023-02-13 14:29:32,816 [INFO ] com.lms.common.DriverProperties [main] Initiated Edge driver
+2023-02-13 14:29:33,021 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] TestCase 2 : Execution started
+2023-02-13 14:29:47,389 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] Entered the url for LMS :https://lms.ey.net/
+2023-02-13 14:29:47,476 [INFO ] com.lms.pages.LMSHomePage [main] User clicks on the Holiday link
+2023-02-13 14:29:52,847 [INFO ] com.lms.common.ApplicationHooks [main] Screenshot captured for failed test case
+2023-02-13 14:29:52,847 [INFO ] com.lms.common.ApplicationHooks [main] *************************************************
+2023-02-13 14:29:53,873 [INFO ] com.lms.common.ApplicationHooks [main] Closing the browser after test execution
+2023-02-13 14:29:53,873 [INFO ] com.lms.common.ApplicationHooks [main] *************************************************
