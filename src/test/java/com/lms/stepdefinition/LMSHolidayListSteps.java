@@ -44,8 +44,8 @@ public class LMSHolidayListSteps {
 		String actualWinTitle = holidayList.getWindowTitle();
 		System.out.println("actualWinTitle");
 		// Compare the window title with the expected title
-		//String expectedWinTitle = "Office Holiday list"; // Test Case - Pass
-		 String expectedWinTitle = "Office Holiday"; //Test Case - Fail
+		String expectedWinTitle = "Office Holiday list"; // Test Case - Pass
+		 //String expectedWinTitle = "Office Holiday"; //Test Case - Fail
 		Assert.assertEquals(expectedWinTitle, actualWinTitle);
 		logger.info("LMS Holiday List is displayed");
 		logger.info("LMS Holiday List page title is :" + actualWinTitle);
@@ -63,7 +63,8 @@ public class LMSHolidayListSteps {
 	public void user_can_generate_a_report_based_on_the_holiday_type() throws IOException{
 	try {
 		{
-			holidayList.generateReport();
+			holidayList.getTableSize();
+			//holidayList.generateHolidayReport();
 		}
 	} catch (IOException e) {
 		e.printStackTrace();
