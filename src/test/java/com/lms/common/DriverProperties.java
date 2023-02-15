@@ -41,7 +41,7 @@ public class DriverProperties {
 			logger.info("Initiated Edge driver");
 		} else {
 			System.out.println("Please pass the correct browser value: " + browser);
-			logger.info("Invalid browser type");
+			logger.error("Invalid browser type");
 		}
 
 		getDriver().manage().window().maximize();

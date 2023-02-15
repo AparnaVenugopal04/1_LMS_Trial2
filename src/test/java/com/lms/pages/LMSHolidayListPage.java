@@ -1,8 +1,16 @@
 package com.lms.pages;
 
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.util.List;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.CellStyle;
+import org.apache.poi.ss.usermodel.FillPatternType;
+import org.apache.poi.ss.usermodel.Font;
+import org.apache.poi.ss.usermodel.IndexedColors;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
@@ -10,55 +18,63 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.util.Arrays;
-import java.util.List;
+
+import com.lms.common.CommonMethods;
 
 public class LMSHolidayListPage {
 
 	private WebDriver driver;
 	private static final Logger logger = LogManager.getLogger(LMSHolidayListPage.class);
+	CommonMethods common = new CommonMethods();
+
+	int rowCount, columnCount;
+	String holidayType;
+	FileOutputStream outputStream = null;
+	String reportPath = "C:\\Users\\Aparna.Venugopal\\eclipse\\1_LMS_Trial2\\HolidayReport.xlsx";
+	Workbook workbook = new XSSFWorkbook();
+	Sheet sheetPublicHoliday;
+	Sheet sheetOptionalHoliday;
+	Row headerPublic;
+	Row headerOptional;
+	Font headerfont = workbook.createFont();
+	CellStyle headerStyle = workbook.createCellStyle();
 
 	// Constructor of the page class
 	public LMSHolidayListPage(WebDriver driver) {
 		this.driver = driver;
 	}
 
-	String[][] tableVal1;
-	String[][] tableVal2;
-	int rowCount, columnCount;
-	String holidayType;
-	FileOutputStream outputStream;
-
-	private By windowTitle = By.xpath("//div/h4[contains(text(),\"Office Holiday list\")]");
+	 private By windowTitle = By.xpath("//div/h4[contains(text(),\"Office Holiday list\")]");
 
 	// Method to get the title of the LMS Holiday List window
 	public String getWindowTitle() throws InterruptedException {
 
 		// Title of the window
-		// WebDriverWait wait = new WebDriverWait(this.driver,Duration.ofSeconds(30));
 		Thread.sleep(5000);
-		return driver.findElement(windowTitle).getText();
+		String holidayListTitle = driver.findElement(windowTitle).getText();
+		common.Updatelog("Page title is displayed as :" + holidayListTitle);
 
+		return holidayListTitle;
 	}
 
 	// Method to count the Public Holidays
 	public void countOfPublicHolidays() throws IOException {
 
-		logger.info("Validate whether the count of public holidays is less than 10");
-
+		common.Updatelog("Validate whether the count of public holidays is greater than 10");
+		// Get the row count of the Holiday List table
 		int rowSize = getTableRows().size();
-		logger.info("No of rows in the table is: " + rowSize);
+		common.Updatelog("Number of rows in the Holiday list table is: " + rowSize);
 
+		// Get the column count of the Holiday List table
 		int colSize = getTableColumns().size();
-		logger.info("No of columns in the table is: " + colSize);
+		common.Updatelog("Number of columns in the Holiday list table is: " + colSize);
 
-		int counter = 0;
+		// Get the count of Public Holidays from the Holiday List table
+		int publicHolidaycounter = 0;
 		for (int i = 1; i <= rowSize; i++) {
 			for (int j = 1; j <= colSize; j++) {
 
+				// Get the content and check if the holiday type is Public Holiday
 				String cellContent = driver
 						.findElement(By
 								.xpath("//*[@id=\"display-holidaylist-form\"]/table/tbody/tr[" + i + "]/td[" + j + "]"))
@@ -66,130 +82,114 @@ public class LMSHolidayListPage {
 
 				if (cellContent.contains("Public Holiday")) {
 					// Increment the counter
-					counter++;
+					publicHolidaycounter++;
 				}
 
 			}
 		}
 		// Check if the count of public holidays is greater than or equal to 10
-		if (counter >= 10) {
-			logger.info("Number of public holidays:" + counter);
+		if (publicHolidaycounter >= 10) {
+			common.Updatelog("Number of public holidays is " + publicHolidaycounter);
+			common.Updatelog("The count of public holidays is greater than or equal to 10");
+		} else {
+			common.Updatelog("Number of public holidays:" + publicHolidaycounter);
+			common.Updatelog("The count of public holidays is not greater than or equal to 10");
+
 		}
 
 	}
 
-	public void getTableSize() throws IOException{
+	// Method to create the excel report
+	public void generateHoldiayExcelReport() throws IOException {
+		common.Updatelog("Verify that the user is able to generate a report based on the Holiday type");
 
-        //get Row size
-        List<WebElement> rowData =  getTableRows();
-        
-        //get Column size
-        List<WebElement> columnData = getTableColumns();
-        
-        rowCount = rowData.size();
-        columnCount = columnData.size();
-        
-        logger.info("Row :"+rowCount+" Clounm :"+columnCount);
-               
-        
-        tableVal1 = new String[rowCount][columnCount];
-        
-        tableVal2 = new String[rowCount][columnCount];
-        
-        for(int i =1 ; i <= rowCount ; i++ )
-        {
-          //Check if the record is a Public Holiday or not
-        	//List<WebElement> holidayType = driver.findElements(By.xpath("//*[@id=\"display-holidaylist-form\"]/table/tbody/tr["+i+"]"));
-        	System.out.println("I am i:" +i);
+		// Get the table headers and data
+		List<WebElement> headerData = getTableHeader();
+		List<WebElement> rowData = getTableRows();
+		List<WebElement> colData = getTableColumns();
 
-        	
-            for(int j =1 ; j <= columnCount ; j++ ) {
-            	System.out.println("I am j:" +j);
+		// Create sheets for Public Holidays and Optional Holidays
+		sheetPublicHoliday = workbook.createSheet("Public Holidays");
+		sheetOptionalHoliday = workbook.createSheet("Optional Holidays");
+		common.Updatelog("Sheets are created successully in the excel workbook");
 
-                if(i == 1) {
-                    //Get header value
-                    tableVal1[i - 1][j - 1] = driver.findElement
-                                 (By.xpath("//*[@id=\"display-holidaylist-form\"]/table/thead/tr["+i+"]/th["+j+"]")).getText();
-                  //Get header value
-                    tableVal2[i - 1][j - 1] = driver.findElement
-                                 (By.xpath("//*[@id=\"display-holidaylist-form\"]/table/thead/tr["+i+"]/th["+j+"]")).getText();
-                           }
-                else{
-                	String type = driver.findElement
-                			(By.xpath("//*[@id=\"display-holidaylist-form\"]/table/tbody/tr["+(i-1)+"]/td[4]"))
-                			.getText();
-                	if(type.equalsIgnoreCase("Public Holiday"))
-                	{
-                    //get table data values
-                	tableVal1[i-1][j-1] =driver.findElement
-                                 (By.xpath("//*[@id=\"display-holidaylist-form\"]/table/tbody/tr["+(i-1)+"]/td["+(j)+"]")).getText();
-                	}
-                	else if (type.equalsIgnoreCase("Optional Holiday"))
-                			{
-                        //get table data values
-                    	tableVal2[i-1][j-1] =driver.findElement
-                                     (By.xpath("//*[@id=\"display-holidaylist-form\"]/table/tbody/tr["+(i-1)+"]/td["+(j)+"]")).getText();
-                    	}
-                }
-            }
-        	}
-        
-        logger.info("Printing the array one");
-                logger.info((Arrays.deepToString(tableVal1)));
-                logger.info("Printing the array two");
+		headerPublic = sheetPublicHoliday.createRow(0);
+		headerOptional = sheetOptionalHoliday.createRow(0);
 
-        logger.info((Arrays.deepToString(tableVal2)));
+		// Set a font for the headings
+		headerfont.setBold(true);
+		headerfont.setFontHeightInPoints((short) 12);
+		headerfont.setColor(IndexedColors.BLACK.index);
 
-        
-        holidayType = "Public Holidays";
-        generateHolidayReport(tableVal1,holidayType);
-  
-        holidayType = "Optional Holidays";
-        generateHolidayReport(tableVal2,holidayType);
-   
-    }
+		// Create cell style for headers
+		headerStyle.setFont(headerfont);
+		headerStyle.setFillPattern(FillPatternType.SOLID_FOREGROUND);
+		headerStyle.setFillForegroundColor(IndexedColors.GREY_25_PERCENT.index);
 
-	public void generateHolidayReport(String[][] tableData, String holidayType) throws IOException {
+		// Set the headers in the sheet
+		for (int header = 1; header <= headerData.size(); header++) {
+			String headerText = driver
+					.findElement(By.xpath("//*[@id=\"display-holidaylist-form\"]/table/thead/tr[1]/th[" + header + "]"))
+					.getText();
 
-		// Create a workbook in xlsx format
-		Workbook workbook = new XSSFWorkbook();
-		// Create sheet
-		Sheet sheet = workbook.createSheet(holidayType);
+			Cell cell1 = headerPublic.createCell(header - 1);
+			cell1.setCellValue(headerText);
+			cell1.setCellStyle(headerStyle);
 
-		int rowNum = 0;
-		System.out.println("Creating excel");
+			Cell cell2 = headerOptional.createCell(header - 1);
+			cell2.setCellValue(headerText);
+			cell2.setCellStyle(headerStyle);
+		}
 
-		for (Object[] datatype : tableData) {
-			Row row = sheet.createRow(rowNum++);
-			int colNum = 0;
-			for (Object field : datatype) {
-				Cell cell = row.createCell(colNum++);
-				if (field instanceof String) {
-					cell.setCellValue((String) field);
-				} else if (field instanceof Integer) {
-					cell.setCellValue((Integer) field);
+		// Set the values for holiday type in both the sheets
+		String holidayType = null;
+		int publicHolidaycounter = 1;
+		for (int row = 1; row <= rowData.size(); row++) {
+			holidayType = driver
+					.findElement(By.xpath("//*[@id=\"display-holidaylist-form\"]/table/tbody/tr[" + row + "]/td[4]"))
+					.getText();
+			Row rowvalue = sheetPublicHoliday.createRow(publicHolidaycounter);
+
+			if (holidayType.equalsIgnoreCase("Public Holiday")) {
+				for (int col = 1; col <= colData.size(); col++) {
+					List<WebElement> cellcontent = driver.findElements(By.xpath(
+							"//*[@id=\"display-holidaylist-form\"]/table/tbody/tr[" + row + "]/td[" + col + "]"));
+
+					for (WebElement loop : cellcontent) {
+						String detail = loop.getText();
+						rowvalue.createCell(col - 1).setCellValue(detail);
+					}
+
 				}
+				publicHolidaycounter++;
+			}
+		}
+		int optionalHolidaycounter = 1;
+		for (int row = 1; row <= rowData.size(); row++) {
+			holidayType = driver
+					.findElement(By.xpath("//*[@id=\"display-holidaylist-form\"]/table/tbody/tr[" + row + "]/td[4]"))
+					.getText();
+			Row rowvalue = sheetOptionalHoliday.createRow(optionalHolidaycounter);
+			if (holidayType.equalsIgnoreCase("Optional Holiday")) {
+				for (int col = 1; col <= colData.size(); col++) {
+					List<WebElement> cellcontent = driver.findElements(By.xpath(
+							"//*[@id=\"display-holidaylist-form\"]/table/tbody/tr[" + row + "]/td[" + col + "]"));
+
+					for (WebElement loop : cellcontent) {
+						String detail = loop.getText();
+						rowvalue.createCell(col - 1).setCellValue(detail);
+					}
+
+				}
+				optionalHolidaycounter++;
 			}
 		}
 
-		try {
-			if (holidayType.equalsIgnoreCase("Public Holidays")) {
-				outputStream = new FileOutputStream(
-						"C:\\Users\\Aparna.Venugopal\\eclipse\\1_LMS_Trial2\\PublicHolidays_Report.xlsx");
-			} else if (holidayType.equalsIgnoreCase("Optional Holidays")) {
-				outputStream = new FileOutputStream(
-						"C:\\Users\\Aparna.Venugopal\\eclipse\\1_LMS_Trial2\\OptionalHolidays_Report.xlsx");
-			}
-			workbook.write(outputStream);
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} catch (IOException e) {
-			e.printStackTrace();
-		} finally {
-			workbook.close();
-		}
-
-		logger.info("Report generated");
+		outputStream = new FileOutputStream(reportPath);
+		workbook.write(outputStream);
+		outputStream.close();
+		workbook.close();
+		common.Updatelog("Excel report for holiday type is generated successfully");
 	}
 
 	// Method to get the table headers

@@ -28,54 +28,18 @@ import com.lms.pages.LMSHolidayListPage;
 
 public class ExcelReportGenerator 
 {
-	
 
-	private static WebDriver driver;
-	private static final Logger logger = LogManager.getLogger(LMSHolidayListPage.class);
 	
 	// Method to create the excel report
-	public static void generateHoldiayExcelReport
-	(List<WebElement> headers, List<WebElement> rows,List<WebElement> columns) 
-			throws IOException {
-
-	   logger.info("Generate report based on the holiday type");
-
-		// Create a workbook in xlsx format
-		Workbook workbook = new XSSFWorkbook();
-
-		// Create sheet
-		Sheet sheet1 = workbook.createSheet("Public Holiday");
-		Sheet sheet2 = workbook.createSheet("Optional Holiday");
-
-		for(int row=0;row<rows.size();row++)
-		{
-			for (int col=0;col<columns.size();col++)
-			{
-				String cellContent = driver
-						.findElement(By
-								.xpath("//*[@id=\"display-holidaylist-form\"]/table/tbody/tr[" + row + "]/td[" + col + "]"))
-						.getText() + "  ";
-
-				if (cellContent.contains("Public Holiday")) 
-				{
-					Row rowvalue = sheet1.createRow(row);
-					rowvalue.createCell(col).setCellValue(cellContent);
-				}
-				else if (cellContent.contains("Optional Holiday"))
-				{
-					Row rowvalue = sheet2.createRow(row);
-					rowvalue.createCell(col).setCellValue(cellContent);
-				}
-			}
-		}
-	
-	
-        FileOutputStream fileOut = new FileOutputStream("C:\\Users\\Aparna.Venugopal\\eclipse\\1_LMS_Trial2\\HolidayReport.xlsx");
-		workbook.write(fileOut);
-		fileOut.close();
-		workbook.close();
-		
-		logger.info("Report generated successfully");
+	public static void excelCreateWB()
+	{
+		//Create workbook
 	}
-
+	
+	public static void excelCreateSheets()
+	{
+		//Create workbook
+	}
+	
+	
 }
