@@ -6,11 +6,13 @@
  *  
  */
 
-package com.lms.common;
+package com.lms.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+
+import com.lms.common.CommonMethods;
 
 public class LMSHomePage {
 
