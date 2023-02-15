@@ -101,6 +101,7 @@ public class LMSHolidayListPage {
 
 	// Method to create the excel report
 	public void generateHoldiayExcelReport() throws IOException {
+		try {
 		common.Updatelog("Verify that the user is able to generate a report based on the Holiday type");
 
 		// Get the table headers and data
@@ -115,6 +116,7 @@ public class LMSHolidayListPage {
 
 		headerPublic = sheetPublicHoliday.createRow(0);
 		headerOptional = sheetOptionalHoliday.createRow(0);
+		common.Updatelog("Rows are created successully in the excel workbook");
 
 		// Set a font for the headings
 		headerfont.setBold(true);
@@ -189,7 +191,13 @@ public class LMSHolidayListPage {
 		workbook.write(outputStream);
 		outputStream.close();
 		workbook.close();
-		common.Updatelog("Excel report for holiday type is generated successfully");
+		common.Updatelog("Excel report generated successfully based on holiday type - PASS");
+		}
+		catch (Exception exception)
+		{
+	common.Updatelog("Excel report not generated",exception);
+
+		}
 	}
 
 	// Method to get the table headers

@@ -1,0 +1,27 @@
+2023-02-16 01:59:19,723 [INFO ] com.lms.common.DriverProperties [main] Initiated Edge driver
+2023-02-16 01:59:19,883 [INFO ] com.lms.common.CommonMethods [main] *******TestCase 1 : LMS Homepage vaidation*********
+2023-02-16 01:59:34,560 [INFO ] com.lms.common.CommonMethods [main] Verify that the user is able to enter the url for LMS :https://lms.ey.net/
+2023-02-16 01:59:34,579 [INFO ] com.lms.common.CommonMethods [main] Page title is displayed as :LMS | Leave Management System- Home
+2023-02-16 01:59:34,581 [INFO ] com.lms.common.CommonMethods [main] LMS HomePage title is matching as expected
+2023-02-16 01:59:34,581 [INFO ] com.lms.common.CommonMethods [main] TestCase 1 : LMS Homepage validation - PASS
+2023-02-16 01:59:35,084 [INFO ] com.lms.common.ApplicationHooks [main] Closing the browser after test execution
+2023-02-16 01:59:35,084 [INFO ] com.lms.common.ApplicationHooks [main] *************************************************
+2023-02-16 01:59:38,051 [INFO ] com.lms.common.DriverProperties [main] Initiated Edge driver
+2023-02-16 01:59:38,672 [INFO ] com.lms.common.CommonMethods [main] *******TestCase 2 : LMS Holiday List vaidation*********
+2023-02-16 01:59:53,172 [INFO ] com.lms.common.CommonMethods [main] Verify that the user is able to enter the url for LMS :https://lms.ey.net/
+2023-02-16 01:59:53,273 [INFO ] com.lms.common.CommonMethods [main] User is able to click on the Holidays link
+2023-02-16 01:59:58,326 [INFO ] com.lms.common.CommonMethods [main] Page title is displayed as :Office Holiday list
+2023-02-16 01:59:58,326 [INFO ] com.lms.common.CommonMethods [main] LMS Holiday List page title is matching
+2023-02-16 01:59:58,326 [INFO ] com.lms.common.CommonMethods [main] Validate whether the count of public holidays is greater than 10
+2023-02-16 01:59:58,350 [INFO ] com.lms.common.CommonMethods [main] Number of rows in the Holiday list table is: 39
+2023-02-16 01:59:58,365 [INFO ] com.lms.common.CommonMethods [main] Number of columns in the Holiday list table is: 4
+2023-02-16 02:00:02,709 [INFO ] com.lms.common.CommonMethods [main] Number of public holidays is 11
+2023-02-16 02:00:02,710 [INFO ] com.lms.common.CommonMethods [main] The count of public holidays is greater than or equal to 10
+2023-02-16 02:00:02,710 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] Count of Public Holdiays is greater than or equal to ten- PASS
+2023-02-16 02:00:02,710 [INFO ] com.lms.common.CommonMethods [main] Verify that the user is able to generate a report based on the Holiday type
+2023-02-16 02:00:02,710 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
+2023-02-16 02:00:02,773 [INFO ] com.lms.common.CommonMethods [main] Sheets are created successully in the excel workbook
+2023-02-16 02:00:02,777 [INFO ] com.lms.common.CommonMethods [main] Rows are created successully in the excel workbook
+2023-02-16 02:00:07,612 [INFO ] com.lms.common.CommonMethods [main] Excel report generated successfully based on holiday type - PASS
+2023-02-16 02:00:08,237 [INFO ] com.lms.common.ApplicationHooks [main] Closing the browser after test execution
+2023-02-16 02:00:08,238 [INFO ] com.lms.common.ApplicationHooks [main] *************************************************
