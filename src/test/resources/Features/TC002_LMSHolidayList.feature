@@ -2,7 +2,7 @@
 # Team :  <>
 
 @LMSHolidayList
-Feature: Navigate to Holiday List on LMS and validate the count of Public Holidays
+Feature: Navigate to Holiday List on LMS, validate the count of Public Holidays and generate report
 
    Background:
    Given user is already on the LMS homepage

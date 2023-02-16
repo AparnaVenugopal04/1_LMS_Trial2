@@ -16,8 +16,8 @@ import org.apache.logging.log4j.LogManager;
 
 public class DriverProperties {
 	
-	private static final Logger logger = LogManager.getLogger(DriverProperties.class);
 	public WebDriver driver;
+	LoggerHelper logger = new LoggerHelper();
 	
 	//public static DriverProperties seleniumDriver = new DriverProperties();
 	public static ThreadLocal<WebDriver> tlDriver = new ThreadLocal<WebDriver>();
@@ -30,18 +30,18 @@ public class DriverProperties {
 		if (browser.equals("chrome")) {
 			WebDriverManager.chromedriver().setup();
 			tlDriver.set(new ChromeDriver());
-			logger.info("Initiated Chrome driver");
+			logger.UpdateLog("Initiated Chrome driver");
 		} else if (browser.equals("firefox")) {
 			WebDriverManager.firefoxdriver().setup();
 			tlDriver.set(new FirefoxDriver());
-			logger.info("Initiated Firefox driver");
+			logger.UpdateLog("Initiated Firefox driver");
 		} else if (browser.equals("edge")) {
 			WebDriverManager.edgedriver().setup();
 			tlDriver.set(new EdgeDriver());
-			logger.info("Initiated Edge driver");
+			logger.UpdateLog("Initiated Edge driver");
 		} else {
 			System.out.println("Please pass the correct browser value: " + browser);
-			logger.error("Invalid browser type");
+			logger.UpdateLog("Invalid browser type");
 		}
 
 		getDriver().manage().window().maximize();

@@ -11,7 +11,7 @@ package com.lms.stepdefinition;
 
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
-import com.lms.common.CommonMethods;
+import com.lms.common.LoggerHelper;
 import com.lms.common.DriverProperties;
 import com.lms.pages.LMSHomePage;
 
@@ -24,7 +24,7 @@ public class LMSHomePageSteps
 	WebDriver driver;
 	//Instantiate the driver
 	private LMSHomePage homePage = new LMSHomePage(DriverProperties.getDriver());
-	CommonMethods common = new CommonMethods();
+	LoggerHelper logger = new LoggerHelper();
 	String expectedPageTitle = "LMS | Leave Management System- Home";
 
 	
@@ -33,9 +33,9 @@ public class LMSHomePageSteps
 	@Given("user enters valid {string}")
 	public void user_enters_valid(String url)
 	{
-		common.Updatelog("*******TestCase 1 : LMS Homepage vaidation*********");
+		logger.UpdateLog("*******TestCase 1 : LMS Homepage vaidation*********");
 		DriverProperties.getDriver().get(url);
-		common.Updatelog("Verify that the user is able to enter the url for LMS :" + url);
+		logger.UpdateLog("Verify that the user is able to enter the url for LMS :" + url);
        
 	}
 
@@ -48,10 +48,10 @@ public class LMSHomePageSteps
 		// Compare the page title with the expected Page title
 				try {
 					Assert.assertEquals(expectedPageTitle, actualPageTitle);
-					common.Updatelog("LMS HomePage title is matching as expected");
-					common.Updatelog("TestCase 1 : LMS Homepage validation - PASS");
+					logger.UpdateLog("LMS HomePage title is matching as expected");
+					logger.UpdateLog("TestCase 1 : LMS Homepage validation - PASS");
 				} catch (AssertionError error) {
-					common.Updatelog("TestCase 1 : LMS Homepage vaidation", error);
+					logger.UpdateLog("TestCase 1 : LMS Homepage vaidation", error);
 				}
 	}
 }

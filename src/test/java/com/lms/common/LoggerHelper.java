@@ -5,23 +5,23 @@ import org.apache.logging.log4j.Logger;
 
 import com.lms.stepdefinition.LMSHolidayListSteps;
 
-public class CommonMethods {
+public class LoggerHelper {
 
 	private static final Logger logger = LogManager.getLogger(LMSHolidayListSteps.class);
 
 	
 	
-	public void Updatelog(String message)
+	public void UpdateLog(String message)
     {
         logger.info(message);
     }
 	
-	public void Updatelog(String message,AssertionError e)
+	public void UpdateLog(String message,AssertionError e)
     {
         logger.error(message,e);
     }
 	
-	public void Updatelog(String message,Exception exception)
+	public void UpdateLog(String message,Exception exception)
     {
         logger.error(message,exception);
     }

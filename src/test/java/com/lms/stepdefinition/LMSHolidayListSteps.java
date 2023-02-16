@@ -9,7 +9,7 @@ import org.apache.logging.log4j.Logger;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 
-import com.lms.common.CommonMethods;
+import com.lms.common.LoggerHelper;
 import com.lms.common.DriverProperties;
 import com.lms.pages.*;
 
@@ -22,18 +22,17 @@ public class LMSHolidayListSteps {
 	WebDriver driver;
 	private LMSHomePage homePage = new LMSHomePage(DriverProperties.getDriver());
 	private LMSHolidayListPage holidayList = new LMSHolidayListPage(DriverProperties.getDriver());
-	private static final Logger logger = LogManager.getLogger(LMSHolidayListSteps.class);
-	CommonMethods common = new CommonMethods();
+	LoggerHelper logger = new LoggerHelper();
 
 	@Given("user is already on the LMS homepage")
 	public void user_is_already_on_the_lms_homepage(DataTable dataTable) {
 
-		common.Updatelog("*******TestCase 2 : LMS Holiday List vaidation*********");
+		logger.UpdateLog("*******TestCase 2 : LMS Holiday List vaidation*********");
 		List<Map<String, String>> credList = dataTable.asMaps();
 		String url = credList.get(0).get("url");
 
 		DriverProperties.getDriver().get(url);
-		common.Updatelog("Verify that the user is able to enter the url for LMS :" + url);
+		logger.UpdateLog("Verify that the user is able to enter the url for LMS :" + url);
 	}
 
 	@Given("user clicks on Holidays link on the page")
@@ -52,9 +51,9 @@ public class LMSHolidayListSteps {
 		// Compare the page title with the expected Page title
 		try {
 			Assert.assertEquals(expectedPageTitle, holidayListTitle);
-			common.Updatelog("LMS Holiday List page title is matching");
+			logger.UpdateLog("LMS Holiday List page title is matching");
 		} catch (AssertionError error) {
-			common.Updatelog("LMS Holiday List page title is not matching", error);
+			logger.UpdateLog("LMS Holiday List page title is not matching", error);
 		}
 
 	}
@@ -63,7 +62,6 @@ public class LMSHolidayListSteps {
 	public void user_validates_count_of_public_holidays_is_less_than_or_equal_to_ten() throws IOException {
 		// Verify whether the count of Public Holidays is greater than or equal to 10
 		holidayList.countOfPublicHolidays();
-		logger.info("Count of Public Holdiays is greater than or equal to ten- PASS");
 
 	}
 

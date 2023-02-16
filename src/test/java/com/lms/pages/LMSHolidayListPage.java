@@ -19,13 +19,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import com.lms.common.CommonMethods;
+import com.lms.common.LoggerHelper;
 
 public class LMSHolidayListPage {
 
 	private WebDriver driver;
-	private static final Logger logger = LogManager.getLogger(LMSHolidayListPage.class);
-	CommonMethods common = new CommonMethods();
+	LoggerHelper logger = new LoggerHelper();
 
 	int rowCount, columnCount;
 	String holidayType;
@@ -52,22 +51,51 @@ public class LMSHolidayListPage {
 		// Title of the window
 		Thread.sleep(5000);
 		String holidayListTitle = driver.findElement(windowTitle).getText();
-		common.Updatelog("Page title is displayed as :" + holidayListTitle);
+		logger.UpdateLog("Page title is displayed as :" + holidayListTitle);
 
 		return holidayListTitle;
 	}
+	
+	// Method to get the table headers
+		public List<WebElement> getTableHeader() {
+
+			// Get the headers
+			List<WebElement> tableHeaders = driver
+					.findElements(By.xpath("//*[@id=\"display-holidaylist-form\"]/table/thead/tr[1]/th"));
+
+			return tableHeaders;
+		}
+
+		// Method to get the table rows
+		public List<WebElement> getTableRows() {
+
+			// Get all the row elements
+			List<WebElement> rowElements = driver
+					.findElements(By.xpath("//*[@id=\"display-holidaylist-form\"]/table/tbody/tr"));
+			return rowElements;
+		}
+
+		// Method to get the table columns
+		public List<WebElement> getTableColumns() {
+
+			// Get all the row elements
+			List<WebElement> colElements = driver
+					.findElements(By.xpath("//*[@id=\"display-holidaylist-form\"]/table/tbody/tr[1]/td"));
+
+			return colElements;
+		}
 
 	// Method to count the Public Holidays
 	public void countOfPublicHolidays() throws IOException {
 
-		common.Updatelog("Validate whether the count of public holidays is greater than 10");
+		logger.UpdateLog("Validate whether the count of public holidays is greater than 10");
 		// Get the row count of the Holiday List table
 		int rowSize = getTableRows().size();
-		common.Updatelog("Number of rows in the Holiday list table is: " + rowSize);
+		logger.UpdateLog("Number of rows in the Holiday list table is: " + rowSize);
 
 		// Get the column count of the Holiday List table
 		int colSize = getTableColumns().size();
-		common.Updatelog("Number of columns in the Holiday list table is: " + colSize);
+		logger.UpdateLog("Number of columns in the Holiday list table is: " + colSize);
 
 		// Get the count of Public Holidays from the Holiday List table
 		int publicHolidaycounter = 0;
@@ -89,20 +117,20 @@ public class LMSHolidayListPage {
 		}
 		// Check if the count of public holidays is greater than or equal to 10
 		if (publicHolidaycounter >= 10) {
-			common.Updatelog("Number of public holidays is " + publicHolidaycounter);
-			common.Updatelog("The count of public holidays is greater than or equal to 10");
+			logger.UpdateLog("Number of public holidays is " + publicHolidaycounter);
+			logger.UpdateLog("Count of Public Holdiays is greater than or equal to ten- PASS");
 		} else {
-			common.Updatelog("Number of public holidays:" + publicHolidaycounter);
-			common.Updatelog("The count of public holidays is not greater than or equal to 10");
+			logger.UpdateLog("Number of public holidays:" + publicHolidaycounter);
+			logger.UpdateLog("Count of Public Holdiays is greater than or equal to ten- FAIL");
 
-		}
+	}
 
 	}
 
 	// Method to create the excel report
 	public void generateHoldiayExcelReport() throws IOException {
 		try {
-		common.Updatelog("Verify that the user is able to generate a report based on the Holiday type");
+			logger.UpdateLog("Verify that the user is able to generate a report based on the Holiday type");
 
 		// Get the table headers and data
 		List<WebElement> headerData = getTableHeader();
@@ -112,11 +140,11 @@ public class LMSHolidayListPage {
 		// Create sheets for Public Holidays and Optional Holidays
 		sheetPublicHoliday = workbook.createSheet("Public Holidays");
 		sheetOptionalHoliday = workbook.createSheet("Optional Holidays");
-		common.Updatelog("Sheets are created successully in the excel workbook");
+		logger.UpdateLog("Sheets are created successully in the excel workbook");
 
 		headerPublic = sheetPublicHoliday.createRow(0);
 		headerOptional = sheetOptionalHoliday.createRow(0);
-		common.Updatelog("Rows are created successully in the excel workbook");
+		logger.UpdateLog("Rows are created successully in the excel workbook");
 
 		// Set a font for the headings
 		headerfont.setBold(true);
@@ -191,42 +219,14 @@ public class LMSHolidayListPage {
 		workbook.write(outputStream);
 		outputStream.close();
 		workbook.close();
-		common.Updatelog("Excel report generated successfully based on holiday type - PASS");
+		logger.UpdateLog("Excel report generated successfully based on holiday type - PASS");
 		}
 		catch (Exception exception)
 		{
-	common.Updatelog("Excel report not generated",exception);
+			logger.UpdateLog("Excel report not generated",exception);
 
 		}
 	}
 
-	// Method to get the table headers
-	public List<WebElement> getTableHeader() {
-
-		logger.info("Get the values of the table header");
-		// Get the headers
-		List<WebElement> tableHeaders = driver
-				.findElements(By.xpath("//*[@id=\"display-holidaylist-form\"]/table/thead/tr[1]/th"));
-
-		return tableHeaders;
-	}
-
-	// Method to get the table rows
-	public List<WebElement> getTableRows() {
-
-		// Get all the row elements
-		List<WebElement> rowElements = driver
-				.findElements(By.xpath("//*[@id=\"display-holidaylist-form\"]/table/tbody/tr"));
-		return rowElements;
-	}
-
-	// Method to get the table columns
-	public List<WebElement> getTableColumns() {
-
-		// Get all the row elements
-		List<WebElement> colElements = driver
-				.findElements(By.xpath("//*[@id=\"display-holidaylist-form\"]/table/tbody/tr[1]/td"));
-
-		return colElements;
-	}
+	
 }

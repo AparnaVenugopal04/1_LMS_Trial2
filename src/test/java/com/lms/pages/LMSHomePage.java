@@ -12,12 +12,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import com.lms.common.CommonMethods;
+import com.lms.common.LoggerHelper;
 
 public class LMSHomePage {
 
 	private WebDriver driver;
-	CommonMethods common = new CommonMethods();
+	LoggerHelper logger = new LoggerHelper();
 	String expectedPageTitle = "LMS | Leave Management System- Home";
 
 	// Constructor of the page class
@@ -31,7 +31,7 @@ public class LMSHomePage {
 	public String validatePageHeading() {
 		// Get the title of the page
 		String actualPageTitle = driver.getTitle();
-		common.Updatelog("Page title is displayed as :" + actualPageTitle);
+		logger.UpdateLog("Page title is displayed as :" + actualPageTitle);
 
 		return actualPageTitle;
 
@@ -43,9 +43,9 @@ public class LMSHomePage {
 		try {
 			WebElement holidayList = driver.findElement(By.xpath("//a[@href='/Home/HolidayList']"));
 			holidayList.click();
-			common.Updatelog("User is able to click on the Holidays link");
+			logger.UpdateLog("User is able to click on the Holidays link");
 		} catch (Exception exception) {
-			common.Updatelog("User is not able to click on the Holidays link - FAIL", exception);
+			logger.UpdateLog("User is not able to click on the Holidays link - FAIL", exception);
 		}
 
 	}
