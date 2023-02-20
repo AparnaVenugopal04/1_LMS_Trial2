@@ -1,55 +1,81 @@
-2023-02-16 02:07:48,298 [INFO ] com.lms.common.DriverProperties [main] Initiated Edge driver
-2023-02-16 02:07:48,471 [INFO ] com.lms.common.CommonMethods [main] *******TestCase 1 : LMS Homepage vaidation*********
-2023-02-16 02:08:03,816 [INFO ] com.lms.common.CommonMethods [main] Verify that the user is able to enter the url for LMS :https://lms.ey.net/
-2023-02-16 02:08:03,833 [INFO ] com.lms.common.CommonMethods [main] Page title is displayed as :LMS | Leave Management System- Home
-2023-02-16 02:08:03,837 [INFO ] com.lms.common.CommonMethods [main] LMS HomePage title is matching as expected
-2023-02-16 02:08:03,838 [INFO ] com.lms.common.CommonMethods [main] TestCase 1 : LMS Homepage validation - PASS
-2023-02-16 02:08:04,388 [INFO ] com.lms.common.ApplicationHooks [main] Closing the browser after test execution
-2023-02-16 02:08:04,389 [INFO ] com.lms.common.ApplicationHooks [main] *************************************************
-2023-02-16 02:08:07,345 [INFO ] com.lms.common.DriverProperties [main] Initiated Edge driver
-2023-02-16 02:08:08,004 [INFO ] com.lms.common.CommonMethods [main] *******TestCase 2 : LMS Holiday List vaidation*********
-2023-02-16 02:08:22,981 [INFO ] com.lms.common.CommonMethods [main] Verify that the user is able to enter the url for LMS :https://lms.ey.net/
-2023-02-16 02:08:23,079 [INFO ] com.lms.common.CommonMethods [main] User is able to click on the Holidays link
-2023-02-16 02:08:28,126 [INFO ] com.lms.common.CommonMethods [main] Page title is displayed as :Office Holiday list
-2023-02-16 02:08:28,126 [INFO ] com.lms.common.CommonMethods [main] LMS Holiday List page title is matching
-2023-02-16 02:08:28,128 [INFO ] com.lms.common.CommonMethods [main] Validate whether the count of public holidays is greater than 10
-2023-02-16 02:08:28,152 [INFO ] com.lms.common.CommonMethods [main] Number of rows in the Holiday list table is: 39
-2023-02-16 02:08:28,168 [INFO ] com.lms.common.CommonMethods [main] Number of columns in the Holiday list table is: 4
-2023-02-16 02:08:32,403 [INFO ] com.lms.common.CommonMethods [main] Number of public holidays is 11
-2023-02-16 02:08:32,403 [INFO ] com.lms.common.CommonMethods [main] The count of public holidays is greater than or equal to 10
-2023-02-16 02:08:32,403 [INFO ] com.lms.stepdefinition.LMSHolidayListSteps [main] Count of Public Holdiays is greater than or equal to ten- PASS
-2023-02-16 02:08:32,403 [INFO ] com.lms.common.CommonMethods [main] Verify that the user is able to generate a report based on the Holiday type
-2023-02-16 02:08:32,404 [INFO ] com.lms.pages.LMSHolidayListPage [main] Get the values of the table header
-2023-02-16 02:08:32,481 [INFO ] com.lms.common.CommonMethods [main] Sheets are created successully in the excel workbook
-2023-02-16 02:08:32,488 [INFO ] com.lms.common.CommonMethods [main] Rows are created successully in the excel workbook
-2023-02-16 02:08:37,400 [INFO ] com.lms.common.CommonMethods [main] Excel report generated successfully based on holiday type - PASS
-2023-02-16 02:08:38,143 [INFO ] com.lms.common.ApplicationHooks [main] Closing the browser after test execution
-2023-02-16 02:08:38,143 [INFO ] com.lms.common.ApplicationHooks [main] *************************************************
-2023-02-16 10:22:02,809 [INFO ] com.lms.common.LoggerHelper [main] Initiated Edge driver
-2023-02-16 10:22:03,029 [INFO ] com.lms.common.LoggerHelper [main] *******TestCase 1 : LMS Homepage vaidation*********
-2023-02-16 10:22:15,585 [INFO ] com.lms.common.LoggerHelper [main] Verify that the user is able to enter the url for LMS :https://lms.ey.net/
-2023-02-16 10:22:15,616 [INFO ] com.lms.common.LoggerHelper [main] Page title is displayed as :LMS | Leave Management System- Home
-2023-02-16 10:22:15,620 [INFO ] com.lms.common.LoggerHelper [main] LMS HomePage title is matching as expected
-2023-02-16 10:22:15,621 [INFO ] com.lms.common.LoggerHelper [main] TestCase 1 : LMS Homepage validation - PASS
-2023-02-16 10:22:16,830 [INFO ] com.lms.common.LoggerHelper [main] Screenshot captured for failed test case
-2023-02-16 10:22:17,834 [INFO ] com.lms.common.LoggerHelper [main] Closing the browser after test execution
-2023-02-16 10:22:17,835 [INFO ] com.lms.common.LoggerHelper [main] *************************************************
-2023-02-16 10:22:24,019 [INFO ] com.lms.common.LoggerHelper [main] Initiated Edge driver
-2023-02-16 10:22:25,600 [INFO ] com.lms.common.LoggerHelper [main] *******TestCase 2 : LMS Holiday List vaidation*********
-2023-02-16 10:22:38,037 [INFO ] com.lms.common.LoggerHelper [main] Verify that the user is able to enter the url for LMS :https://lms.ey.net/
-2023-02-16 10:22:38,235 [INFO ] com.lms.common.LoggerHelper [main] User is able to click on the Holidays link
-2023-02-16 10:22:43,373 [INFO ] com.lms.common.LoggerHelper [main] Page title is displayed as :Office Holiday list
-2023-02-16 10:22:43,373 [INFO ] com.lms.common.LoggerHelper [main] LMS Holiday List page title is matching
-2023-02-16 10:22:43,376 [INFO ] com.lms.common.LoggerHelper [main] Validate whether the count of public holidays is greater than 10
-2023-02-16 10:22:43,469 [INFO ] com.lms.common.LoggerHelper [main] Number of rows in the Holiday list table is: 39
-2023-02-16 10:22:43,549 [INFO ] com.lms.common.LoggerHelper [main] Number of columns in the Holiday list table is: 4
-2023-02-16 10:22:56,269 [INFO ] com.lms.common.LoggerHelper [main] Number of public holidays is 11
-2023-02-16 10:22:56,269 [INFO ] com.lms.common.LoggerHelper [main] The count of public holidays is greater than or equal to 10
-2023-02-16 10:22:56,270 [INFO ] com.lms.common.LoggerHelper [main] Count of Public Holdiays is greater than or equal to ten- PASS
-2023-02-16 10:22:56,271 [INFO ] com.lms.common.LoggerHelper [main] Verify that the user is able to generate a report based on the Holiday type
-2023-02-16 10:22:56,524 [INFO ] com.lms.common.LoggerHelper [main] Sheets are created successully in the excel workbook
-2023-02-16 10:22:56,544 [INFO ] com.lms.common.LoggerHelper [main] Rows are created successully in the excel workbook
-2023-02-16 10:23:08,915 [INFO ] com.lms.common.LoggerHelper [main] Excel report generated successfully based on holiday type - PASS
-2023-02-16 10:23:09,439 [INFO ] com.lms.common.LoggerHelper [main] Screenshot captured for failed test case
-2023-02-16 10:23:10,923 [INFO ] com.lms.common.LoggerHelper [main] Closing the browser after test execution
-2023-02-16 10:23:10,924 [INFO ] com.lms.common.LoggerHelper [main] *************************************************
+2023-02-21 01:14:02,551 [INFO ] com.lms.common.LoggerHelper [main] Initiated Edge driver
+2023-02-21 01:14:02,713 [INFO ] com.lms.common.LoggerHelper [main] *******TestCase 1 : LMS Homepage vaidation*********
+2023-02-21 01:14:17,670 [INFO ] com.lms.common.LoggerHelper [main] Verify that the user is able to enter the url for LMS :https://lms.ey.net/
+2023-02-21 01:14:17,685 [INFO ] com.lms.common.LoggerHelper [main] Page title is displayed as :LMS | Leave Management System- Home
+2023-02-21 01:14:17,687 [INFO ] com.lms.common.LoggerHelper [main] LMS HomePage title is matching as expected
+2023-02-21 01:14:17,687 [INFO ] com.lms.common.LoggerHelper [main] TestCase 1 : LMS Homepage validation - PASS
+2023-02-21 01:14:18,025 [INFO ] com.lms.common.LoggerHelper [main] Screenshot captured for the test case
+2023-02-21 01:14:18,494 [INFO ] com.lms.common.LoggerHelper [main] Closing the browser after test execution
+2023-02-21 01:14:18,495 [INFO ] com.lms.common.LoggerHelper [main] *************************************************
+2023-02-21 01:14:21,280 [INFO ] com.lms.common.LoggerHelper [main] Initiated Edge driver
+2023-02-21 01:14:21,942 [INFO ] com.lms.common.LoggerHelper [main] *******TestCase 2 : LMS Holiday List vaidation*********
+2023-02-21 01:14:50,412 [INFO ] com.lms.common.LoggerHelper [main] Verify that the user is able to enter the url for LMS :https://lms.ey.net/
+2023-02-21 01:14:50,486 [INFO ] com.lms.common.LoggerHelper [main] User is able to click on the Holidays link
+2023-02-21 01:14:55,527 [INFO ] com.lms.common.LoggerHelper [main] Page title is displayed as :Office Holiday list
+2023-02-21 01:14:55,527 [INFO ] com.lms.common.LoggerHelper [main] LMS Holiday List page title is matching
+2023-02-21 01:14:55,528 [INFO ] com.lms.common.LoggerHelper [main] Validate whether the count of public holidays is greater than 10
+2023-02-21 01:14:55,550 [INFO ] com.lms.common.LoggerHelper [main] Number of rows in the Holiday list table is: 39
+2023-02-21 01:14:55,566 [INFO ] com.lms.common.LoggerHelper [main] Number of columns in the Holiday list table is: 4
+2023-02-21 01:14:59,943 [INFO ] com.lms.common.LoggerHelper [main] Number of public holidays is 11
+2023-02-21 01:14:59,943 [INFO ] com.lms.common.LoggerHelper [main] Count of Public Holdiays is greater than or equal to ten- PASS
+2023-02-21 01:14:59,944 [INFO ] com.lms.common.LoggerHelper [main] Verify that the user is able to generate a report based on the Holiday type
+2023-02-21 01:15:00,020 [INFO ] com.lms.common.LoggerHelper [main] Sheets are created successully in the excel workbook
+2023-02-21 01:15:00,028 [INFO ] com.lms.common.LoggerHelper [main] Rows are created successully in the excel workbook
+2023-02-21 01:15:04,803 [INFO ] com.lms.common.LoggerHelper [main] Excel report generated successfully based on holiday type - PASS
+2023-02-21 01:15:05,005 [INFO ] com.lms.common.LoggerHelper [main] Screenshot captured for the test case
+2023-02-21 01:15:05,576 [INFO ] com.lms.common.LoggerHelper [main] Closing the browser after test execution
+2023-02-21 01:15:05,576 [INFO ] com.lms.common.LoggerHelper [main] *************************************************
+2023-02-21 01:15:43,384 [INFO ] com.lms.common.LoggerHelper [pool-3-thread-2] Initiated Edge driver
+2023-02-21 01:15:44,863 [INFO ] com.lms.common.LoggerHelper [pool-3-thread-2] *******TestCase 2 : LMS Holiday List vaidation*********
+2023-02-21 01:15:46,156 [INFO ] com.lms.common.LoggerHelper [pool-3-thread-1] Initiated Edge driver
+2023-02-21 01:15:46,301 [INFO ] com.lms.common.LoggerHelper [pool-3-thread-1] *******TestCase 1 : LMS Homepage vaidation*********
+2023-02-21 01:15:58,412 [INFO ] com.lms.common.LoggerHelper [pool-3-thread-2] Verify that the user is able to enter the url for LMS :https://lms.ey.net/
+2023-02-21 01:15:58,502 [INFO ] com.lms.common.LoggerHelper [pool-3-thread-2] User is able to click on the Holidays link
+2023-02-21 01:16:01,652 [INFO ] com.lms.common.LoggerHelper [pool-3-thread-1] Verify that the user is able to enter the url for LMS :https://lms.ey.net/
+2023-02-21 01:16:01,668 [INFO ] com.lms.common.LoggerHelper [pool-3-thread-1] Page title is displayed as :LMS | Leave Management System- Home
+2023-02-21 01:16:01,671 [INFO ] com.lms.common.LoggerHelper [pool-3-thread-1] LMS HomePage title is matching as expected
+2023-02-21 01:16:01,671 [INFO ] com.lms.common.LoggerHelper [pool-3-thread-1] TestCase 1 : LMS Homepage validation - PASS
+2023-02-21 01:16:02,031 [INFO ] com.lms.common.LoggerHelper [pool-3-thread-1] Screenshot captured for the test case
+2023-02-21 01:16:02,751 [INFO ] com.lms.common.LoggerHelper [pool-3-thread-1] Closing the browser after test execution
+2023-02-21 01:16:02,752 [INFO ] com.lms.common.LoggerHelper [pool-3-thread-1] *************************************************
+2023-02-21 01:16:03,545 [INFO ] com.lms.common.LoggerHelper [pool-3-thread-2] Page title is displayed as :Office Holiday list
+2023-02-21 01:16:03,546 [INFO ] com.lms.common.LoggerHelper [pool-3-thread-2] LMS Holiday List page title is matching
+2023-02-21 01:16:03,547 [INFO ] com.lms.common.LoggerHelper [pool-3-thread-2] Validate whether the count of public holidays is greater than 10
+2023-02-21 01:16:03,568 [INFO ] com.lms.common.LoggerHelper [pool-3-thread-2] Number of rows in the Holiday list table is: 39
+2023-02-21 01:16:03,582 [INFO ] com.lms.common.LoggerHelper [pool-3-thread-2] Number of columns in the Holiday list table is: 4
+2023-02-21 01:16:08,885 [INFO ] com.lms.common.LoggerHelper [pool-3-thread-2] Number of public holidays is 11
+2023-02-21 01:16:08,886 [INFO ] com.lms.common.LoggerHelper [pool-3-thread-2] Count of Public Holdiays is greater than or equal to ten- PASS
+2023-02-21 01:16:08,886 [INFO ] com.lms.common.LoggerHelper [pool-3-thread-2] Verify that the user is able to generate a report based on the Holiday type
+2023-02-21 01:16:08,987 [INFO ] com.lms.common.LoggerHelper [pool-3-thread-2] Sheets are created successully in the excel workbook
+2023-02-21 01:16:08,997 [INFO ] com.lms.common.LoggerHelper [pool-3-thread-2] Rows are created successully in the excel workbook
+2023-02-21 01:16:14,189 [INFO ] com.lms.common.LoggerHelper [pool-3-thread-2] Excel report generated successfully based on holiday type - PASS
+2023-02-21 01:16:14,430 [INFO ] com.lms.common.LoggerHelper [pool-3-thread-2] Screenshot captured for the test case
+2023-02-21 01:16:15,137 [INFO ] com.lms.common.LoggerHelper [pool-3-thread-2] Closing the browser after test execution
+2023-02-21 01:16:15,138 [INFO ] com.lms.common.LoggerHelper [pool-3-thread-2] *************************************************
+2023-02-21 01:17:36,839 [INFO ] com.lms.common.LoggerHelper [pool-3-thread-2] Initiated Edge driver
+2023-02-21 01:17:38,258 [INFO ] com.lms.common.LoggerHelper [pool-3-thread-2] *******TestCase 2 : LMS Holiday List vaidation*********
+2023-02-21 01:17:39,618 [INFO ] com.lms.common.LoggerHelper [pool-3-thread-1] Initiated Edge driver
+2023-02-21 01:17:39,775 [INFO ] com.lms.common.LoggerHelper [pool-3-thread-1] *******TestCase 1 : LMS Homepage vaidation*********
+2023-02-21 01:17:53,508 [INFO ] com.lms.common.LoggerHelper [pool-3-thread-2] Verify that the user is able to enter the url for LMS :https://lms.ey.net/
+2023-02-21 01:17:53,606 [INFO ] com.lms.common.LoggerHelper [pool-3-thread-2] User is able to click on the Holidays link
+2023-02-21 01:17:54,447 [INFO ] com.lms.common.LoggerHelper [pool-3-thread-1] Verify that the user is able to enter the url for LMS :https://lms.ey.net/
+2023-02-21 01:17:54,460 [INFO ] com.lms.common.LoggerHelper [pool-3-thread-1] Page title is displayed as :LMS | Leave Management System- Home
+2023-02-21 01:17:54,461 [INFO ] com.lms.common.LoggerHelper [pool-3-thread-1] LMS HomePage title is matching as expected
+2023-02-21 01:17:54,462 [INFO ] com.lms.common.LoggerHelper [pool-3-thread-1] TestCase 1 : LMS Homepage validation - PASS
+2023-02-21 01:17:54,910 [INFO ] com.lms.common.LoggerHelper [pool-3-thread-1] Screenshot captured for the test case
+2023-02-21 01:17:55,577 [INFO ] com.lms.common.LoggerHelper [pool-3-thread-1] Closing the browser after test execution
+2023-02-21 01:17:55,578 [INFO ] com.lms.common.LoggerHelper [pool-3-thread-1] *************************************************
+2023-02-21 01:17:58,670 [INFO ] com.lms.common.LoggerHelper [pool-3-thread-2] Page title is displayed as :Office Holiday list
+2023-02-21 01:17:58,670 [INFO ] com.lms.common.LoggerHelper [pool-3-thread-2] LMS Holiday List page title is matching
+2023-02-21 01:17:58,671 [INFO ] com.lms.common.LoggerHelper [pool-3-thread-2] Validate whether the count of public holidays is greater than 10
+2023-02-21 01:17:58,693 [INFO ] com.lms.common.LoggerHelper [pool-3-thread-2] Number of rows in the Holiday list table is: 39
+2023-02-21 01:17:58,706 [INFO ] com.lms.common.LoggerHelper [pool-3-thread-2] Number of columns in the Holiday list table is: 4
+2023-02-21 01:18:02,754 [INFO ] com.lms.common.LoggerHelper [pool-3-thread-2] Number of public holidays is 11
+2023-02-21 01:18:02,754 [INFO ] com.lms.common.LoggerHelper [pool-3-thread-2] Count of Public Holdiays is greater than or equal to ten- PASS
+2023-02-21 01:18:02,755 [INFO ] com.lms.common.LoggerHelper [pool-3-thread-2] Verify that the user is able to generate a report based on the Holiday type
+2023-02-21 01:18:02,834 [INFO ] com.lms.common.LoggerHelper [pool-3-thread-2] Sheets are created successully in the excel workbook
+2023-02-21 01:18:02,845 [INFO ] com.lms.common.LoggerHelper [pool-3-thread-2] Rows are created successully in the excel workbook
+2023-02-21 01:18:07,887 [INFO ] com.lms.common.LoggerHelper [pool-3-thread-2] Excel report generated successfully based on holiday type - PASS
+2023-02-21 01:18:08,168 [INFO ] com.lms.common.LoggerHelper [pool-3-thread-2] Screenshot captured for the test case
+2023-02-21 01:18:09,045 [INFO ] com.lms.common.LoggerHelper [pool-3-thread-2] Closing the browser after test execution
+2023-02-21 01:18:09,046 [INFO ] com.lms.common.LoggerHelper [pool-3-thread-2] *************************************************

@@ -7,7 +7,7 @@ import com.lms.stepdefinition.LMSHolidayListSteps;
 
 public class LoggerHelper {
 
-	private static final Logger logger = LogManager.getLogger(LMSHolidayListSteps.class);
+	private static final Logger logger = LogManager.getLogger(LoggerHelper.class);
 
 	
 	

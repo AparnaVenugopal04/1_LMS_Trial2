@@ -1,8 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
+
 	<groupId>LMS_Trial2</groupId>
 	<artifactId>LMS_Trial2</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-core -->
 		<dependency>
@@ -43,11 +47,11 @@
 			<version>26.0.3</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
-		<dependency>
+		<!--<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-testng</artifactId>
 			<version>7.11.1</version>
-		</dependency>
+		</dependency>-->
 		<!-- https://mvnrepository.com/artifact/junit/junit -->
 		<dependency>
 			<groupId>junit</groupId>
@@ -82,12 +86,12 @@
 			<version>4.6.0</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
-		<dependency>
+	<!--	<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>7.7.1</version>
 			<scope>test</scope>
-		</dependency>
+		</dependency> -->
 		<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
 		<dependency>
 			<groupId>io.github.bonigarcia</groupId>
@@ -130,12 +134,6 @@
 			<artifactId>commons-io</artifactId>
 			<version>2.11.0</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/io.cucumber/gherkin -->
-		<dependency>
-			<groupId>io.cucumber</groupId>
-			<artifactId>gherkin</artifactId>
-			<version>26.0.3</version>
-		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
 		<dependency>
 			<groupId>org.apache.logging.log4j</groupId>
@@ -161,9 +159,59 @@
 			<version>5.2.3</version>
 		</dependency>
 		<dependency>
-			<groupId>commons-io</groupId>
-			<artifactId>commons-io</artifactId>
-			<version>2.11.0</version>
+			<groupId>org.apache.maven.surefire</groupId>
+			<artifactId>surefire-junit4</artifactId>
+			<version>3.0.0-M9</version>
+		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.22</version>
 		</dependency>
 	</dependencies>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.8.1</version>
+				<configuration>
+					<encoding>UTF-8</encoding>
+					<source>1.7</source>
+					<target>1.7</target>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-failsafe-plugin</artifactId>
+				<version>3.0.0-M9</version>
+				<executions>
+				<execution>
+				<goals>
+				<goal>integration-test</goal>
+				</goals>
+				<configuration>
+					<includes>
+						<include>**/LMSTestRunner.java</include>
+					</includes>
+					<parallel>methods</parallel>
+					<threadCount>4</threadCount>
+					<perCoreThreadCount>true</perCoreThreadCount>
+				</configuration>
+				</execution>
+				</executions>
+			</plugin>
+			<!-- <plugin> <groupId>org.apache.maven.plugins</groupId> <artifactId>maven-failsafe-plugin</artifactId> 
+				<version>3.0.0-M3</version> <executions> <execution> <goals> <goal>integration-test</goal> 
+				</goals> <configuration> UNCOMMENT - To add any exclusions if required <excludes> 
+				<exclude>**/*IT*.java</exclude> </excludes> <includes> UNCOMMENT BELOW LINE 
+				- To execute feature files with a single runner <include>**/MyTestRunner.java</include> 
+				UNCOMMENT BELOW LINE - To execute feature files with multiple runners <include>**/*Runner.java</include> 
+				</includes> UNCOMMENT BELOW 3 LINES - To execute using parallel or combination 
+				option <parallel>methods</parallel> <threadCount>4</threadCount> <perCoreThreadCount>true</perCoreThreadCount> 
+				UNCOMMENT BELOW 3 LINES - To execute using forking or combination option 
+				<forkCount>2</forkCount> <reuseForks>true</reuseForks> <reportsDirectory>${project.build.directory}/failsafe-reports_${surefire.forkNumber}</reportsDirectory> 
+				</configuration> </execution> </executions> </plugin> -->
+		</plugins>
+	</build>
 </project>
